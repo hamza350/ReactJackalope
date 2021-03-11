@@ -1,0 +1,23 @@
+.main_section {
+  //   border: 2px solid #e840bc;
+  width: 100%;
+  height: 80%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 3% 7%;
+  margin-bottom: 80px;
+}
+
+.head_background {
+  color: #fff !important;
+  background: #8426b0 !important;
+  background: -webkit-linear-gradient(
+    135deg,
+    #8426b0 3%,
+    #bd0283 47%,
+    #ec4b3c 98%
+  ) !important;
+  border: 0 solid #8426b0 !important;
+}

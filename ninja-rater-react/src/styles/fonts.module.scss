@@ -1,0 +1,25 @@
+$font-family: (
+  montserratRegular: "Montserrat-Regular",
+  montserratLight: "Montserrat-Light",
+  proximaNovaRegular: "ProximaNova-Regular",
+  proximaNovaSemiBold: "ProximaNova-Semibold",
+  proximaNovaLight: "ProximaNova-Light",
+  helvetica: "Helvetica",
+  arial: "Arial",
+  sansSerif: "sans-serif",
+);
+$font-weight: (
+  small: 200,
+  regular: 400,
+  medium: 500,
+  bold: 600,
+);
+:export {
+  montserratregular: map-get($font-family, montserratRegular);
+  montserratlight: map-get($font-family, montserratLight);
+  proximaNovaRegular: map-get($font-family, proximaNovaRegular);
+  proximaNovaLight: map-get($font-family, proximaNovaLight);
+  helvetica: map-get($font-family, helvetica);
+  arial: map-get($font-family, arial);
+  sansSerif: map-get($font-family, sansSerif);
+}

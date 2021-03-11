@@ -1,0 +1,289 @@
+.ui-row-background-green {
+  /* background-color: #50ae54 !important; */
+  background-color: #3d8a10 !important;
+  font-weight: bold !important;
+  color: white !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+.ui-row-background-green:hover {
+  color: white !important;
+  border-color: #aef2b0 !important;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.ui-row-background-yellow {
+  /* background-color: #f0b52c !important; */
+  background-color: #f7a344 !important;
+  font-weight: bold !important;
+  color: white !important;
+  -webkit-font-smoothing: antialiased !important;
+}
+.ui-row-background-yellow:hover {
+  color: white !important;
+  border-color: #fffd8c !important;
+  font-style: italic;
+  -webkit-font-smoothing: antialiased !important;
+}
+
+.ui-row-background-red {
+  background-color: red !important;
+  font-weight: bold !important;
+  color: white !important;
+}
+.ui-row-background-red:hover {
+  color: white !important;
+  border-color: #ff7c77 !important;
+  font-style: italic;
+}
+
+.ui-rate-detail-inner-row-background-green {
+  /* background-color: #50ae54 !important; */
+  background-color: #adde91 !important;
+  font-weight: bold !important;
+  color: white !important;
+  -webkit-font-smoothing: antialiased !important;
+  cursor: auto;
+  font-size: 1.3em;
+}
+
+.ui-rate-detail-inner-row-background-yellow {
+  /* background-color: #f0b52c !important; */
+  background-color: #ffd8aa !important;
+  font-weight: bold !important;
+  color: white !important;
+  -webkit-font-smoothing: antialiased !important;
+  cursor: auto;
+  font-size: 1.3em;
+}
+
+.ui-rate-detail-inner-row-background-red {
+  background-color: red !important;
+  font-weight: bold !important;
+  color: white !important;
+  cursor: auto;
+  font-size: 1.3em;
+}
+
+.no-padding {
+  padding: 0;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit, Blink, Edge */
+  color: #999999;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #999999;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #999999;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #999999;
+  font-size: 1.3em;
+  font-weight: bold;
+  font-family: "Roboto", "Helvetica Neue", sans-serif;
+}
+
+.ui-datepicker 
+  .uidatepicker-title {
+    line-height: unset;
+  }
+
+.smallNinjaLogoBackground {
+  background-image: url("assets/ninja/layout/images/NinjaRater-Logo-iPhoneRetina.png");
+  background-repeat: no-repeat;
+}
+
+/**
+ * The CSS shown here will not be introduced in the Quickstart guide, but shows
+ * how you can use CSS to style your Element's container.
+ */
+.StripeElement {
+  background-color: white;
+  height: 45px;
+  padding: 10px 12px;
+  border-radius: 4px;
+  border: 1px solid;
+  box-shadow: 0 1px 3px 0 #e6ebf1;
+  -webkit-transition: box-shadow 150ms ease;
+  transition: box-shadow 150ms ease;
+}
+
+.StripeElement--focus {
+  box-shadow: 0 1px 3px 0 #cfd7df;
+}
+
+.StripeElement--invalid {
+  border-color: #b00020;
+}
+
+.StripeElement--webkit-autofill {
+  background-color: #fefde5 !important;
+}
+
+.wordwrap {
+  white-space: pre-wrap; /* CSS3 */
+  white-space: -moz-pre-wrap; /* Firefox */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* IE */
+}
+body .ui-widget-header {
+  color: #fff !important;
+  /* background: #8426b0 !important;
+  background: -webkit-linear-gradient(
+    135deg,
+    #8426b0 3%,
+    #bd0283 47%,
+    #ec4b3c 98%
+  ) !important; */
+  background: linear-gradient(
+    135deg,
+    rgb(130, 35, 172) 0%,
+    rgb(187, 5, 129) 53%,
+    rgb(233, 77, 66) 100%
+  ) !important;
+  border: 0 solid #8426b0 !important;
+}
+.ui-datatable-emptymessage {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.commonButtonClass {
+  color: #fff !important;
+  /* background: #8426b0 !important; */
+  /* background: -webkit-linear-gradient(
+    135deg,
+    #8426b0 3%,
+    #bd0283 47%,
+    #ec4b3c 98%
+  ) !important; */
+  background: linear-gradient(
+    135deg,
+    rgb(130, 35, 172) 0%,
+    rgb(187, 5, 129) 53%,
+    rgb(233, 77, 66) 100%
+  ) !important;
+  border: 0 solid #8426b0 !important;
+  font-size: 16px !important;
+  font-family: "sans-serif", "Calibri" !important;
+  font-weight: bold !important;
+  /* height: 50px !important; */
+}
+.previous_head {
+  padding: 10px 10px;
+}
+body .ui-widget {
+  font-family: "sans-serif", "Calibri" !important;
+  font-size: 16px !important;
+}
+label.required:after {content: " *"; color: red;}
+#DIV_RATES_PAGE_ID #main{background-color: #f8f9fa !important;}
+#rateQuote .ui-inputtext, #rateQuote_one .ui-inputtext, #rateQuote .payroll{
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  box-shadow:none;
+}
+#rateQuote_one .ui-calendar{
+  width:100%;
+}
+#rateQuote ul{
+  list-style: none;
+  margin-left: 0;
+}
+#rateQuote .ui-autocomplete-list-item{
+  margin: 0;
+  padding: .186em .313em;
+}
+#rateQuote{
+  border: 1px solid #efefef;
+  border-left: 8px solid #efefef;
+  border-radius: .3em;
+  padding-top: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+#rateQuote_one{
+  border: 1px solid #f8f9fa;
+  border-left: 8px solid #f8f9fa;
+  border-radius: .3em;
+  padding-top: 10px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+#rateQuote_one #ID_POLICY_DATE_INPUT input{cursor: pointer;}
+#rateQuote .ui-autocomplete, #rateQuote .class-code, #rateQuote_one #ex-mod-input{margin-bottom: 0;}
+
+table.add-user tr th, table.table tr td {
+    border-color: #e9e9e9;
+}
+table.add-user th i {
+    font-size: 13px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+table.add-user th:last-child {
+    width: 100px;
+}
+table.add-user td a {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    min-width: 24px;
+}    
+table.add-user td a.add {
+    color: #27C46B;
+}
+table.add-user td a.edit {
+    color: #FFC107;
+}
+table.add-user td a.delete {
+    color: #E34724;
+}
+table.add-user td i {
+    font-size: 19px;
+}
+table.add-user td a.add i {
+    font-size: 24px;
+    margin-right: -1px;
+    position: relative;
+    top: 3px;
+}    
+table.add-user .form-control {
+    height: 32px;
+    line-height: 32px;
+    box-shadow: none;
+    border-radius: 2px;
+}
+table.add-user .form-control.error {
+    border-color: #f50000;
+}
+table.add-user td .add {
+    display: none;
+}

@@ -1,0 +1,75 @@
+groups:
+  - name: Feature
+    jobs:
+      - ninr-build-feature
+  - name: Develop
+    jobs:
+      - ninr-test-develop
+      - ninr-build-and-push-to-s3-develop
+
+  - name: Master
+    jobs:
+      - ninr-test-master
+
+resources:
+  - name: ninr-master
+    type: git
+    source: &bitbucket-repo
+      uri: ((bitbucket_url))
+      username: ((username))
+      password: ((password))
+      branch: master
+
+  - name: ninr-develop
+    type: git
+    source: &bitbucket-repo
+      uri: ((bitbucket_url))
+      username: ((username))
+      password: ((password))
+      branch: develop
+
+  - name: ninr-feature
+    type: git
+    source:
+      <<: *bitbucket-repo
+      branch: ((branch-version))
+
+jobs:
+  - name: ninr-test-master
+    public: true
+    plan:
+      - get: ninja-react
+        resource: ninr-master
+        trigger: true
+      - task: unit-test-develop
+        file: ninr-portal/ci_pipelines/unit.yml
+
+  - name: ninr-test-develop
+    public: true
+    plan:
+      - get: ninja-react
+        resource: ninr-develop
+        trigger: true
+      - task: unit-test-develop
+        file: ninr-portal/ci_pipelines/unit.yml
+
+  - name: ninr-build-feature
+    public: true
+    plan:
+      - get: ninja-react
+        resource: ninr-feature
+        trigger: true
+      - task: unit-test-feature
+        file: ninr-portal/ci_pipelines/unit.yml
+
+  - name: ninr-build-and-push-to-s3-develop
+    public: true
+    plan:
+      - get: ninja-react
+        resource: ninr-develop
+        trigger: true
+        passed: [ninr-test-develop]
+      - task: push-to-s3
+        file: ninja-react/ci_pipelines/deploymentTos3.yml
+        params:
+          env: prod

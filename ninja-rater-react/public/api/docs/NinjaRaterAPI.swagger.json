@@ -1,0 +1,412 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "title": "NinjaRater WorkComp API",
+        "description": "Move your app forward with the NinjaRater API",
+        "version": "1.0"
+    },
+    "host": "www.ninjaworkcomp.com",
+    "schemes": [
+        "https"
+    ],
+    "securityDefinitions": {
+        "APIKey": {
+            "type": "apiKey",
+            "name": "api-key",
+            "in": "header"
+        }
+    },
+    "security": [
+        {
+            "APIKey": []
+        }
+    ],
+    "basePath": "/api/v1.0",
+    "produces": [
+        "application/json"
+    ],
+    "paths": {
+        "/rates/widget/{classCode}/{payroll}/{zipCode}": {
+            "get": {
+                "summary": "Get Rates (Top Three)",
+                "description": "Get top three cheapest rates for the same coverage.\n",
+                "parameters": [
+                    {
+                        "name": "classCode",
+                        "in": "path",
+                        "enum": [
+                            9079
+                        ],
+                        "description": "Class Code ID\n",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "payroll",
+                        "in": "path",
+                        "enum": [
+                            100000
+                        ],
+                        "description": "Company Payroll\n",
+                        "required": true,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "zipCode",
+                        "in": "path",
+                        "enum": [
+                            "94108"
+                        ],
+                        "description": "Postal Code\n",
+                        "required": true,
+                        "type": "string"
+                    }
+                ],
+                "tags": [
+                    "Rates (Top 3)"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Experience Modifier Factor\n",
+                        "schema": {
+                            "$ref": "#/definitions/ListOfRates"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error\n",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/classcodes": {
+            "get": {
+                "summary": "Insurance Class Codes and Their Sic Codes",
+                "description": "Get the List of All Supported Class Codes and Their Sic Codes.\n",
+                "tags": [
+                    "Class Codes"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "List of Class Codes\n",
+                        "schema": {
+                            "$ref": "#/definitions/ClassCodeList"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error\n",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/rates/{startDate}/{exModFactor}/{classCode}/{payroll}/{zipCode}/{applyFilter}": {
+            "get": {
+                "summary": "Get Rates (All Companies)",
+                "description": "Get top three cheapest rates for the same coverage.\n",
+                "parameters": [
+                    {
+                        "name": "startDate",
+                        "in": "path",
+                        "enum": [
+                            "04-29-2016"
+                        ],
+                        "description": "Policy Start Date\n",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "exModFactor",
+                        "in": "path",
+                        "enum": [
+                            1
+                        ],
+                        "description": "Experience Modifier Factor\n",
+                        "required": true,
+                        "type": "number",
+                        "format": "double"
+                    },
+                    {
+                        "name": "classCode",
+                        "in": "path",
+                        "enum": [
+                            9079
+                        ],
+                        "description": "Insurance Class Code\n",
+                        "required": true,
+                        "type": "integer",
+                        "format": "integer"
+                    },
+                    {
+                        "name": "payroll",
+                        "in": "path",
+                        "enum": [
+                            100000
+                        ],
+                        "description": "Company Payroll\n",
+                        "required": true,
+                        "type": "integer",
+                        "format": "integer"
+                    },
+                    {
+                        "name": "zipCode",
+                        "in": "path",
+                        "enum": [
+                            "94108"
+                        ],
+                        "description": "Postal Code\n",
+                        "required": true,
+                        "type": "string"
+                    },
+                    {
+                        "name": "applyFilter",
+                        "in": "path",
+                        "enum": [
+                            true
+                        ],
+                        "description": "Apply Company Filter Rules (priority rules)\n",
+                        "required": true,
+                        "type": "boolean",
+                        "format": "true / false"
+                    },
+                    {
+                        "name": "subCode",
+                        "in": "query",
+                        "description": "SubCode of Class Code, If Any\n",
+                        "required": false,
+                        "type": "string"
+                    },
+                    {
+                        "name": "sicCode",
+                        "in": "query",
+                        "description": "Sic Code, If Any (relevant for Hartfor and Travelers only)\n",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "yearsInBusiness",
+                        "in": "query",
+                        "description": "Number of Years the Company has been in business",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "yearsOfCreditHistory",
+                        "in": "query",
+                        "description": "Number of Years the Company has had credit history",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "numberOfEmployees",
+                        "in": "query",
+                        "enum": [
+                            1
+                        ],
+                        "description": "Number of Employees at Company\n",
+                        "required": false,
+                        "type": "integer"
+                    },
+                    {
+                        "name": "numberOfClaims",
+                        "in": "query",
+                        "description": "Number of Insurance Claims the Company has ever filed\n",
+                        "required": false,
+                        "type": "integer"
+                    }
+                ],
+                "tags": [
+                    "Rates (All Companies)"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Experience Modifier Factor\n",
+                        "schema": {
+                            "$ref": "#/definitions/ListOfRates"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error\n",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        },
+        "/exmodfactor/{wcirbBureauId}": {
+            "get": {
+                "summary": "Query Experience Modifier Value",
+                "description": "Experience modifier or experience modification is a term used in the\nAmerican insurance business and more specifically in workers'\ncompensation insurance. It is the adjustment of annual premium based on\nprevious loss experience.\n",
+                "parameters": [
+                    {
+                        "name": "wcirbBureauId",
+                        "in": "path",
+                        "enum": [
+                            193047
+                        ],
+                        "description": "ID Assigned by WCIRB.\n",
+                        "required": true,
+                        "type": "number",
+                        "format": "integer"
+                    }
+                ],
+                "tags": [
+                    "ExMod"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Experience Modifier Factor\n",
+                        "schema": {
+                            "$ref": "#/definitions/ExModResponse"
+                        }
+                    },
+                    "default": {
+                        "description": "Unexpected error\n",
+                        "schema": {
+                            "$ref": "#/definitions/Error"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "ClassCodeList": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/ClassCodeItem"
+            }
+        },
+        "ClassCodeItem": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "string",
+                    "description": "Class Code (value)",
+                    "$ref": "#/definitions/ClassCodeProperties"
+                }
+            }
+        },
+        "ClassCodeProperties": {
+            "type": "object",
+            "properties": {
+                "class_code": {
+                    "type": "integer"
+                },
+                "description": {
+                    "type": "string"
+                },
+                "class_sub_code": {
+                    "type": "string"
+                },
+                "sic_code": {
+                    "type": "integer"
+                },
+                "sic_code_desc": {
+                    "type": "string"
+                }
+            }
+        },
+        "ListOfRates": {
+            "type": "array",
+            "items": {
+                "$ref": "#/definitions/RateItem"
+            }
+        },
+        "RateItem": {
+            "type": "object",
+            "properties": {
+                "value": {
+                    "type": "string",
+                    "description": "Insurance Company NAIC Code (value)",
+                    "$ref": "#/definitions/RateObject"
+                }
+            }
+        },
+        "RateObject": {
+            "type": "object",
+            "properties": {
+                "prioritySequence": {
+                    "type": "integer"
+                },
+                "isFiltered": {
+                    "type": "integer"
+                },
+                "messages": {
+                    "type": "object"
+                },
+                "debugMessages": {
+                    "type": "object"
+                },
+                "r": {
+                    "type": "object"
+                },
+                "premiumData": {
+                    "type": "object"
+                },
+                "headerLineitems": {
+                    "type": "object"
+                },
+                "items": {
+                    "type": "object"
+                },
+                "premiumAppetiteComboDTO": {
+                    "type": "object"
+                },
+                "premiumAppetiteDTOs": {
+                    "type": "object"
+                },
+                "premiumDiscountTierList": {
+                    "type": "object"
+                },
+                "zipCodeDTO": {
+                    "type": "object"
+                },
+                "anniversaryDate": {
+                    "type": "string"
+                },
+                "hartfordCalculations": {
+                    "type": "object"
+                },
+                "travelersCalculations": {
+                    "type": "object"
+                }
+            }
+        },
+        "ExModResponse": {
+            "type": "object",
+            "properties": {
+                "exModFactor": {
+                    "type": "number",
+                    "format": "double"
+                },
+                "wcirbBureauId": {
+                    "type": "integer"
+                },
+                "fields": {
+                    "type": "string"
+                }
+            }
+        },
+        "Error": {
+            "type": "object",
+            "properties": {
+                "errorCode": {
+                    "type": "integer",
+                    "format": "integer"
+                },
+                "message": {
+                    "type": "string"
+                },
+                "fields": {
+                    "type": "string"
+                }
+            }
+        }
+    }
+}

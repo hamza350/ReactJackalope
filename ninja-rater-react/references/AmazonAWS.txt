@@ -1,0 +1,61 @@
+
+Load Balancer for Ninja-React
+https://ninjarater-ui-1888590883.us-west-1.elb.amazonaws.com/sign-in#/
+
+GoDaddy https://www.workcompninja.com/ Pointed to  ninjarater-ui-1888590883.us-west-1.elb.amazonaws.com 
+Now points to heroku 
+https://ninjarater-app.herokuapp.com/
+
+New S3 Bucket Hosted Ninja-React
+http://ninja-production.s3-website-us-west-1.amazonaws.com
+
+serve -s build -c serve.json
+https://github.com/facebook/create-react-app/issues/4680
+
+===============================
+AWS DEPLOY
+$ cd /www/ninja-react
+$ sudo pm2 kill
+$ sudo git pull
+$ sudo npm install
+$ sudo pm2 start /www/ninja-react/node_modules/react-scripts/scripts/start.js --name "ultima-react"
+===============================
+
+amazon aws login
+
+akrichikov@gmail.com / Marinav9
+
+$ssh -i BasicWebServer.pem ubuntu@ec2-54-215-192-13.us-west-1.compute.amazonaws.com
+
+ubuntu@ip-172-31-13-215:~$ sudo pm2 start /www/ninja-react
+
+ubuntu@ip-172-31-13-215:~$ sudo pm2 stop /www/ninja-react
+
+
+sudo pm2 start /www/ninja-react/node_modules/react-scripts/scripts/start.js --name "ultima-react"
+
+
+sudo pm2 start PORT=3000 /www/ninja-react/node_modules/react-scripts/scripts/start.js --name "ultima-react"
+
+
+sudo pm2 start /www/ninja-react/node_modules/react-scripts start
+
+
+react-scripts start
+
+sudo pm2 kill
+
+root@ip-172-31-13-215:~# npm start > service_logs.tst
+^Croot@ip-172-31-13-215:~# npm start > service_logs.tst &
+[1] 11481
+root@ip-172-31-13-215:~# kill -9 11481
+root@ip-172-31-13-215:~#
+
+┌──────────────────────────────────────────────────────────────┐
+│                   npm update check failed                    │
+│             Try running with sudo or get access              │
+│             to the local update config store via             │
+│ sudo chown -R $USER:$(id -gn $USER) /www/ninja-react/.config │
+└──────────────────────────────────────────────────────────────┘
+ubuntu@ip-172-31-13-215:~$ screen
+ubuntu@ip-172-31-13-215:~$

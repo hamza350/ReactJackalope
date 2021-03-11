@@ -1,0 +1,60 @@
+@import "../../styles/fonts.module.scss";
+@import "../../styles/themesColor.module.scss";
+@mixin fonts() {
+  font-family: map-get($font-family, proximaNovaRegular),
+    map-get($font-family, helvetica), map-get($font-family, arial),
+    map-get($font-family, sansSerif) !important;
+  // font-weight: map-get($font-weight, regular);
+}
+@mixin paragraph_font {
+  position: relative;
+  font-family: "ProximaNova-Regular", "Helvetia", "Arial", "sans-serif";
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  color: rgba(51, 51, 51, 0.8);
+  line-height: normal;
+  cursor: pointer;
+}
+//spinner css
+.spinner {
+  // background-color: map-get($colors, orchard-blue);
+  // width: 200px;
+  // height: 47px;
+  // border-radius: 60px;
+  // span {
+  //   font-family: map-get($font-family, proximaNovaRegular);
+  //   font-weight: map-get($font-weight, bold);
+  //   line-height: 14px;
+  //   color: map-get($colors, orchard-white);
+  // }
+  img {
+    vertical-align: middle;
+  }
+  text-align: center;
+}
+.pinkLoader{
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' width='72' height='72' fill='%23e41658'%3E   %3Cpath opacity='.25' d='M16 0 A16 16 0 0 0 16 32 A16 16 0 0 0 16 0 M16 4 A12 12 0 0 1 16 28 A12 12 0 0 1 16 4'/%3E   %3Cpath d='M16 0 A16 16 0 0 1 32 16 L28 16 A12 12 0 0 0 16 4z'%3E     %3CanimateTransform attributeName='transform' type='rotate' from='0 16 16' to='360 16 16' dur='0.8s' repeatCount='indefinite' /%3E   %3C/path%3E %3C/svg%3E")}
+
+.modal {
+  position: absoulte;
+  z-index: 999 !important;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.position {
+  position: relative;
+  top: 10px;
+}
+.error_message {
+  color: map-get($colors, orchard-warning);
+  @include fonts;
+}

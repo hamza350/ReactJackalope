@@ -1,0 +1,78 @@
+react boiler plate
+
+npm install webpack --save-dev
+
+
+
+
+Code splitting - isolated code chunks / snippets loaded on demand.
+Babel Loader - translates ES6 to ES5 (full browser compatibility)
+
+include javascript files within each other
+
+webpack-dev-server - loads generated code up into browser, localhost 8080 by default. Similar to python -m SimpleHTTPServer
+
+webpack bundles the entry point and all of its dependecies into a single .bundle.js file
+
+Watch Mode (don't have to re-run webpack, picks up changes automatically)
+webpack app.js bundle.js --watch
+
+
+
+USE WEBPACK CLI and EJECT IT
+eject - something a lot more advance or custom with webpack than what the cli provides for commands like ng build and ng serve.
+webpack.config.js
+so that you can then customize it further
+
+Run Tests
+npm
+npm link
+
+WebPack Contrib
+https://github.com/webpack-contrib
+
+#What versions of webpack are available
+npm view webpack versions
+npm install webpack@2.1.0-beta.25 --save
+
+http-server -p 3000
+
+npm run build
+
+strict versions
+
+npm install --save-dev webpack-bundle-analyzer
+
+Tree shaking - remove dead code
+Unused code is removed by a minifier (such as UglifyJS). Tree-shaking just makes it possible for minifier to remove it.
+
+npm i --save-dev uglifyjs-webpack-plugin
+UglifyJSPlugin
+
+Visual Studio Code
+
+
+https://www.youtube.com/watch?v=lziuNMk_8eQ
+
+
+Tag sources to re-build specific versions. Something like Archiva for webpack. Put them in npm.
+Best Practices. Enterprise NPM locally.  Repo or CDNs.
+
+Webpack CDN Plugin
+https://libraries.io/explore/javascript-plugin-libraries?keywords=upload%2Cdrop%2Ccdn&licenses=MIT
+https://libraries.io/npm/webpack-cdn-plugin
+npm install webpack-cdn-plugin@1.6.5
+https://stackoverflow.com/questions/45388245/using-externals-in-webpack-for-loading-from-cdn
+
+https://www.npmjs.com/package/webpack-cdn-plugin
+
+webpack -p --config ./webpack.production.config.js
+
+
+"scripts": {
+    "build": "NODE_ENV=production webpack -p --config ./webpack.production.config.js"
+},
+
+git detached head - does not belong or point to any branch.
+
+git tag and also upload a build some where.

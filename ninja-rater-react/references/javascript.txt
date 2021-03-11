@@ -1,0 +1,12 @@
+onKeyPressFormatPayroll(event) {
+   const payroll_field = $('#ID_PAYROLL_INPUT');
+   const payroll = $(payroll_field).val().trim();
+   const keyCode = event.keyCode || event.which;
+   const keyValue = String.fromCharCode(keyCode);
+   let value = payroll + '' + keyValue.replace(/\D/g,''); //filter non numeric
+   value = parseInt(value).toString().replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
+   alert(value);
+   $(payroll_field).val(value);
+    //if (/\+|-/.test(keyValue))
+    //  event.preventDefault();
+}

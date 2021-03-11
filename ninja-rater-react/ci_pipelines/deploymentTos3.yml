@@ -1,0 +1,26 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: { repository: node }
+
+inputs:
+  - name: ninja-react
+    path: ninja-react
+
+run:
+  path: sh
+  args:
+    - -c
+    - |
+      cd ninja-react
+      ls -al
+      apt-get update
+      apt-get install python-dev python-pip -y
+      easy_install --upgrade six
+      pip install awscli
+      aws configure set region us-east-1
+      aws configure set aws_access_key_id AKIARQK2FL75DQFG4CRR
+      aws configure set aws_secret_access_key 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
+      aws s3 ls

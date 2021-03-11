@@ -1,0 +1,76 @@
+.Home {
+  text-align: center;
+}
+
+.Home-logo {
+  animation: Home-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Home-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Home-intro {
+  font-size: large;
+}
+
+.Home-resources {
+  list-style: none;
+}
+
+.Home-resources > li {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.ui-g-12-{
+  padding: 62px;
+}
+
+.change_password_button {
+  color: #fff !important;
+ /* background: #8426b0 !important;
+   background: -webkit-linear-gradient(
+    135deg,
+    #8426b0 3%,
+    #bd0283 47%,
+    #ec4b3c 98%
+  ) !important; */
+  border: 0 solid #8426b0 !important;
+  height: 50px !important;
+  font-family: "ProximaNova-Regular", "Helvetia", "Arial","sans-serif" !important;
+  font-weight: 600;
+  margin-top: 18px;
+}
+body .ui-widget-content {
+  background-color: #ffffff;
+  border: none !important; 
+}
+body .ui-panel .ui-panel-titlebar {
+  color: #fff !important;
+  /* background: #8426b0 !important;
+  background: -webkit-linear-gradient(
+    135deg,
+    #8426b0 3%,
+    #bd0283 47%,
+    #ec4b3c 98%
+  ) !important; */
+  background: linear-gradient(135deg, rgb(130, 35, 172) 0%, rgb(187, 5, 129) 53%, rgb(233, 77, 66) 100%) !important;
+  border: 0 solid #8426b0 !important;
+      /* width: 50%;
+    text-align: center;
+    margin: auto; */
+}
+
+@keyframes Home-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

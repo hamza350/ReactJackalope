@@ -1,0 +1,121 @@
+.mainFormDiv {
+  background-color: #d3d3d3;
+  height: 80%;
+  border: 2px solid black;
+  margin-bottom: 20px;
+  // display: flex;
+  // align-items: center;
+  // padding: 40px;
+  // margin-bottom: 20px;
+  // flex-wrap: wrap;
+  // justify-content: space-around;
+}
+.whiteBackground {
+  // width:50%;
+  background: white;
+  border: 1px solid black;
+  border-radius: 11px;
+}
+.whiteBackground input:focus {
+  background: white;
+  border: 1px solid black;
+  border-radius: 11px;
+}
+.whiteBackground input {
+  margin: 0px !important;
+  border: none !important;
+}
+.img_logo_style {
+  display: block;
+  margin: 0 auto;
+  margin-top: 12%;
+  margin-bottom: 5%;
+}
+.sub_text {
+  font-size: 13px;
+  margin: unset;
+}
+.line_items {
+  font-size: 13px;
+}
+.text_contact {
+  font-weight: bold;
+  color: black;
+}
+
+
+
+// .autoComplete{
+//     background-color: white !important;
+//     border: 1px solid black!important;
+//     border-radius: 10px !important;
+//     padding: 0px 9px 0px 9px !important;
+//     margin: unset !important;
+//     width: 49% !important
+
+// }
+// .ui_autocomplete_input{
+//     width: 112% !important;
+// }
+// .ui_autocomplete_input1{
+//  width: 82% !important;
+// }
+// .flex_items{
+//     display: flex;
+//     margin-bottom: 20px;
+// }
+// .flexGrow{
+//     flex-grow: 1;
+// }
+// .buttonWidth{
+//     width: 42%;
+// }
+.removeBtn {
+  background-color: #d3d3d3 !important;
+  // color: black !important;
+  font-weight: 500;
+  margin-right: 12px;
+}
+
+.requestBtn {
+  background-color: #d3d3d3 !important;
+  // color: black !important;
+  font-weight: 500;
+  margin-right: 5%;
+}
+// .ui_autocomplete_panel {
+//    width: 50% !important;
+// }
+// .buttonContainer button{
+// margin-right:16px !important;
+// }
+// .buttonContainer button:last-child{
+// margin-right:0px !important;
+// }
+.widthHundPer {
+  // width: 50% !important;
+  width: 350px !important;
+}
+.dataGridStyle{
+  text-align: center;
+  margin-top: 100px;
+}
+@media (min-width: 768px) {
+  .whiteBackground {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .whiteBackground {
+    width: 100%;
+  }
+  .removeBtn {
+    margin: 10px !important;
+  }
+  .widthHundPer {
+  width: 100% !important;
+}
+.dataGridStyle{
+  margin-top: 0px !important;
+}
+}

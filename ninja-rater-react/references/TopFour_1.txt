@@ -1,0 +1,43 @@
+Starting point
+
+
+
+                    <div className="ui-g-12 ui-md-4">
+                        <div className="card overview">
+                            <div className="overview-content clearfix colorbox colorbox-1">
+
+                                  <div className="ui-g-4">
+                                      <i className="material-icons">check_circle</i>
+                                  </div>
+                                  <div className="ui-g-8">
+                                      <img src="assets/ninja/images/CompanyLogosByParentId/27.png" style={{width: '100%'}} alt="Sales" />
+                                  </div>
+                            </div>
+                            <div className="overview-footer">
+                              <div className="ui-g-8">
+                                <span className="colorbox-name">State Fund</span>
+                                <span className="colorbox-count">$27,715</span>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+
+                    <div className="ui-g-12 ui-md-6 ui-lg-3">
+                        <div className="card overview" style={{cursor: 'pointer'}}>
+                            <div className="overview-content clearfix colorbox colorbox-5">
+                                  <div className="ui-g-12">
+                                      <img src="assets/ninja/images/CompanyLogosByParentId/24.png" style={{width: '100%'}} alt="Sales" />
+                                      <div><i className="material-icons">live_help</i><span className="colorbox-name">Preferred Emp Ins Co</span></div>
+                                      <div><span className="colorbox-count">$28,215</span></div>
+                                  </div>
+                            </div>
+                        </div>
+                    </div>                    

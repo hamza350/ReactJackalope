@@ -1,0 +1,17 @@
+https://www.primefaces.org/primereact/#/datatable/rowexpand
+
+Grids: https://www.primefaces.org/primereact/#/grid
+
+Responsive: https://codepen.io/SitePoint/pen/xbvWQv
+https://www.npmjs.com/package/datatables.net-responsive
+Bootstrap: http://getbootstrap.com/
+
+Example DT responsive
+https://github.com/longtian/react-datatables-example
+https://www.npmjs.com/~datatables
+
+Foundation: https://www.npmjs.com/package/foundation-sites
+https://foundation.zurb.com/sites/docs/installation.html#package-managers
+https://foundation.zurb.com/
+
+Child Rows: https://datatables.net/examples/api/row_details.html

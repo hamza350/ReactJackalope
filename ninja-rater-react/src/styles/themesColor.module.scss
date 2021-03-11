@@ -1,0 +1,49 @@
+// orchard pallete  v1
+$colors: (
+  orchard-hash: #cfcfcf4f,
+  orchard-blue: #003cbc,
+  orchard-warning: #b00020,
+  orchard-grey: #f2f2f2,
+  orchard-disabled: #999999,
+  orchard-highlighter: #d0e2ff,
+  orchard-success: #008000,
+  orchard-black: #333333,
+  orchard-header: #666666,
+  orchard-sidenav: #cccccc,
+  orchard-primary-button: #169bd5,
+  orchard-chart: #008e8c,
+  orchard-tab: #159bd4,
+  orchard-yellow: #ffcc00,
+  orchard-white: #ffffff,
+  orchard-error: #f6e1e5,
+  orchard-badge: #bf0017,
+  orchard-sub-header: #e2e2e2,
+  orchard-light-grey: #f0f0f0,
+  orchard-negative: #ff0000,
+  orchard-taxinfo: #fbfbfb,
+  orchard-graph-amount: #003cbc,
+  orchard-shadow: #ebebeb,
+  orchard-icon-grey: #f8f8f8,
+  orchard-paid-grey: #767676,
+  orchard-progress-red: #c33a3a,
+);
+:export {
+  hash: map-get($colors, orchard-hash);
+  warning: map-get($colors, orchard-warning);
+  grey: map-get($colors, orchard-grey);
+  disabled: map-get($colors, orchard-disabled);
+  highlighter: map-get($colors, orchard-highlighter);
+  success: map-get($colors, orchard-success);
+  black: map-get($colors, orchard-black);
+  headerColor: map-get($colors, orchard-header);
+  sidenav: map-get($colors, orchard-sidenav);
+  primaryButton: map-get($colors, orchard-primary-button);
+  chart: map-get($colors, orchard-chart);
+  tab: map-get($colors, orchard-tab);
+  yellow: map-get($colors, orchard-yellow);
+  white: map-get($colors, orchard-white);
+  error: map-get($colors, orchard-error);
+  badge: map-get($colors, orchard-badge);
+  sub-header: map-get($colors, orchard-sub-header);
+  paidGrey: map-get($colors, orchard-paid-grey);
+}

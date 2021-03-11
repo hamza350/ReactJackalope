@@ -1,0 +1,78 @@
+.section_pos {
+  align-content: center;
+  width: 100%;
+  // border: black solid;
+}
+.heading {
+  color: #070707;
+  text-align: center;
+  font-size: 24px;
+  line-height: 54px;
+  font-weight: bold;
+}
+.sub_heading {
+  @extend .heading;
+  text-decoration: underline solid;
+}
+.title {
+  color: #070707;
+  text-align: center;
+}
+.section_panel {
+  display: flex;
+  justify-content: space-around;
+}
+.label {
+  margin: 0px;
+  color: black;
+  font-weight: 500;
+  font-size: 16px;
+}
+.textbox {
+  width: 250px !important;
+}
+.textfield {
+  height: 200px;
+  width: 350px;
+  border: solid black 0.5px;
+  border-radius: 10px;
+}
+
+.invite_link_container {
+  margin-top: 30px;
+}
+
+.custom_button {
+  margin-top: 30px;
+  color: #fff !important;
+  background: -webkit-linear-gradient(
+    135deg,
+    #8426b0 3%,
+    #bd0283 47%,
+    #ec4b3c 98%
+  ) !important;
+  border: 0 solid #8426b0 !important;
+  height: 50px !important;
+  width: 150px !important;
+  font-family: ProximaNova-Regular, Helvetia, Arial, sans-serif !important;
+  font-weight: 600 !important;
+}
+.copy_custom_button {
+  margin-top: 30px;
+  padding: 5px 15px;
+  border-radius: 3px 3px !important;
+}
+*[tooltip]:focus:after {
+  content: attr(tooltip);
+  display: block;
+  position: absolute;
+  width: 60px;
+  border: 1px solid;
+  background-color: grey;
+  border-radius: 2px;
+}
+@media screen and (max-width: 500px) {
+  .section_panel {
+    display: block !important;
+  }
+}

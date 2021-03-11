@@ -1,0 +1,14 @@
+AutoTable - Generate PDF tables and lists (jsPDF plugin)
+https://simonbengtsson.github.io/jsPDF-AutoTable/#html
+
+8 React conditional rendering methods
+https://blog.logrocket.com/conditional-rendering-in-react-c6b0e5af381e
+
+PrimeReact
+https://www.primefaces.org/primereact/#/
+
+React Ultima
+https://www.primefaces.org/ultima-react/#/forms
+
+React Boilerplate (production ready):
+https://github.com/react-boilerplate/react-boilerplate/blob/master/docs/general/introduction.md

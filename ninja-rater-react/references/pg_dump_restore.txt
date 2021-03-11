@@ -1,0 +1,20 @@
+pg_dump
+
+Uninstall Postgres
+sudo /Library/PostgreSQL/9.4/uninstall-postgresql.app/Contents/MacOS/installbuilder.sh
+
+Galina.Perepelkina1@gmail.com / LenaLena1
+
+AppleID Password: Lena1Lena1
+
+https://www.johnmuirhealth.com/fad/doctor/profile/1508856725
+
+mihail.hrichikov@gmail.com / Mihail1Mihail1
+
+
+/Library/PostgreSQL/9.6/bin/pg_dump --host ec2-174-129-43-26.compute-1.amazonaws.com --port 5432 --username "vwjxwjeywiplva" --format custom --verbose --file "ninjasilver.dmp" --schema "ninjasilver" "dbk1kk78ishnre"
+
+
+f89dcf8204c901e21bb4bbdc881782372ef3f9d38af93b922dd630178c5f0a53
+
+/Library/PostgreSQL/9.6/bin/pg_restore --host localhost --port 5432 --username "postgres" --dbname "postgres" -n public --schema ninjasilver --verbose "ninjasilver.dmp" --clean

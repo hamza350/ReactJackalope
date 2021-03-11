@@ -1,0 +1,36 @@
+{this.state.action == Constants.ACTION_MY_ACCOUNT.value && (
+  <div>
+    <BrowserBackArrowForPage backUrl={Constants.ACTION_RATES.url} backArrowColor="black" />
+    <MyAccount />
+  </div>
+)}
+
+Data Tables
+https://www.npmjs.com/package/datatables.net-responsive
+https://datatables.net/download/
+
+Stripe
+https://stripe.com/docs/stripe-js/elements/quickstart
+
+RELOAD PAGE - LOGO
+$ pwd
+/Users/andre/Downloads/junk/ninja-react
+
+$ cp public/assets/ninja/layout/images/img/nr/logo2x.png  public/assets/layout/images
+
+LOGO - TOP PAGE
+cp public/assets/ninja/layout/images/img/nr/logo2x.png  src/assets/ninja/layout/images
+/Users/andre/Downloads/junk/ninja-react/src/assets/ninja/layout/images
+
+background: url("../images/img/nr/NinjaRater-Logo-Login.png") top left no-repeat;
+
+ULTIMATE (with Heroku)
+https://www.christianalfoni.com/articles/2015_04_19_The-ultimate-webpack-setup
+
+npm run build --> production
+npm run dev --> development
+npm run build -p //production mode, will minify code
+
+
+Pusblish / Subscribe - react and non react
+http://www.primaryobjects.com/2017/05/08/integrating-react-with-an-existing-jquery-web-application/index.html#Using-a-Publisher-Subscriber-Model

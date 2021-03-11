@@ -1,0 +1,20 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source: { repository: node }
+
+inputs:
+  - name: ninja-react
+    path: ninja-react
+
+run:
+  path: sh
+  args:
+    - -c
+    - |
+      ls -al
+      cd ninja-react
+      npm install
+      npm run test

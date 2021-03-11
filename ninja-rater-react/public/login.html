@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <script>document.write('<base href="' + document.location + '" />');</script>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="icon" type="image/x-icon" href="assets/ninja/layout/images/NinjaRater-Logo-iPhoneRetina.png">
+    <title>NinjaRater - Login</title>
+
+    <!-- Layout CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/ninja/theme/theme-indigo.css">
+    <link rel="stylesheet" type="text/css" href="assets/ninja/layout/css/layout-indigo.css">
+    <link rel="stylesheet" type="text/css" href="assets/ninja/pages/primereact.min.css">
+
+    <!-- Ripple -->
+    <script src="assets/ninja/layout/js/ripple.js"></script>
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            var inputs = document.getElementsByTagName('input');
+
+            var addClass = function(element, className) {
+                if (element.classList)
+                    element.classList.add(className);
+                else
+                    element.className += ' ' + className;
+            },
+            removeClass = function(element, className) {
+                if (element.classList)
+                    element.classList.remove(className);
+                else
+                    element.className = element.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+            };
+
+            for(var i = 0; i < inputs.length; i++) {
+                var input = inputs[i];
+
+                input.addEventListener('blur', function(event) {
+                    if(this.value != '') {
+                        addClass(this, 'ui-state-filled');
+                    }
+                    else {
+                        removeClass(this, 'ui-state-filled');
+                    }
+                });
+            }
+        }, false);
+    </script>
+  </head>
+
+  <!-- 3. Display the application -->
+  <body class="login-body">
+      <div class="card login-panel ui-fluid">
+          <div class="ui-g">
+              <div class="ui-g-12">
+                  <img src="assets/ninja/layout/images/NinjaRater-Logo-iPhoneRetina.png">
+              </div>
+              <div class="ui-g-12 shadow-box ui-shadow-2">
+                    <span class="md-inputfield">
+                        <input autoFocus type="text" autocomplete="off" class="ui-inputtext ui-corner-all ui-state-default ui-widget" style="font-weight:Bold;color:#4054B2">
+                        <label>Email</label>
+                    </span>
+              </div>
+              <div class="ui-g-12 shadow-box ui-shadow-2">
+                  <span class="md-inputfield">
+                      <input type="password" autocomplete="off" class="ui-inputtext ui-corner-all ui-state-default ui-widget" style="font-weight:Bold;color:#4054B2">
+                      <label>Password</label>
+                  </span>
+              </div>
+              <div class="ui-g-12 shadow-box ui-shadow-1">
+                  <button type="button" class="secondary ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left">
+                      <span class="ui-button-icon-left ui-c fa fa-fw ui-icon-person"></span>
+                      <span class="ui-button-text ui-c ripple-animate" style="font-weight:Bold;">Sign In</span>
+                  </button>
+                  <button type="button" class="secondary ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left">
+                      <span class="ui-button-icon-left ui-c fa fa-fw ui-icon-help"></span>
+                      <span class="ui-button-text ui-c" style="font-weight:Bold;">Forgot Password</span>
+                  </button>
+
+                  <button type="button" class="secondary ui-button ui-widget ui-state-default ui-corner-all ui-button-text-icon-left">
+                      <span class="ui-button-icon-left ui-c fa fa-fw ui-icon-visibility"></span>
+                      <span class="ui-button-text ui-c" style="font-weight:Bold;">Create Account</span>
+                  </button>
+              </div>
+          </div>
+
+          <br/>
+
+          <div class="ui-g">
+            <div>
+              <a href="tel:1-866-764-6610">
+                <i class="fa ui-icon-local-phone" style="ertical-align: bottom"></i>
+                <span style="vertical-align: top">
+                  <!-- react-text: 1344 -->1 (866) 764-6610<!-- /react-text -->
+                <span>
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </div>
+            <div>
+              <a href="mailto:sales@ninjarater.com">
+                <i class="fa ui-icon-email" style="vertical-align: bottom"></i>
+                <span style="vertical-align: top">
+                  <!-- react-text: 1344 -->sales@ninjarater.com<!-- /react-text -->
+                <span>
+              </a>
+            </div>
+          </div>
+        </div>
+<br/>
+<div style="text-align: center"><!-- react-text: 3373 -->  <!-- /react-text -->All Rights Reserved &nbsp;&nbsp;&nbsp; Copyright ©  NinjaRater 2014-2018</div>
+<br/>
+  </body>
+
+</html>
