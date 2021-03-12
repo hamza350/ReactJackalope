@@ -172,27 +172,28 @@ function Login(props) {
     }, [])
   
     const submit = () => {
-      debugger
-          // this.state.isLoginClicked = true;
-          let validFileds = [];
-          Object.keys(userInfo).forEach((item) => {
-            let isvalid = updateFormValidations(
-              item,
-              userInfo[item],
-              loginValidator
-            );
-            if (!isvalid) validFileds.push(isvalid);
-            setUserInfo((state) => {
-              userInfo[item] = userInfo[item];
-              return state;
-            });
-          });
-          if (validFileds.length <= 0) {
-            let userName = userInfo.username;
-            let password = userInfo.password;
-            debugger;
-            textInputRef.loginUser(userName, password);
-          }
+          debugger;
+          window.open('/homepage');
+          // // this.state.isLoginClicked = true;
+          // let validFileds = [];
+          // Object.keys(userInfo).forEach((item) => {
+          //   let isvalid = updateFormValidations(
+          //     item,
+          //     userInfo[item],
+          //     loginValidator
+          //   );
+          //   if (!isvalid) validFileds.push(isvalid);
+          //   setUserInfo((state) => {
+          //     userInfo[item] = userInfo[item];
+          //     return state;
+          //   });
+          // });
+          // if (validFileds.length <= 0) {
+          //   let userName = userInfo.username;
+          //   let password = userInfo.password;
+          //   debugger;
+          //   textInputRef.loginUser(userName, password);
+          // }
     };
     
 
@@ -208,9 +209,12 @@ function Login(props) {
           });
     };
 
-    const onChangeHandler = () => {
-       
-
+    const onChangeHandler = (name, event) => {
+      const value = event.target.value;
+      setUserInfo((state) => {
+        userInfo[name] = value;
+        return state;
+      });
     }
 
   
@@ -313,8 +317,6 @@ function Login(props) {
                 name="email"
                 {...formik.getFieldProps("email")}
                 style={{width: '200%'}}
-                value={userInfo.username}
-                onChange={onChangeHandler}
               />
               <div>
                 {displayForValidationErrors(
@@ -332,8 +334,6 @@ function Login(props) {
                 name="password"
                 {...formik.getFieldProps("password")}
                 style={{width: '200%'}}
-                value={userInfo.password}
-                onChange={onChangeHandler}
               />
               <span id="error" className="hide">invalid email</span>
               <div>
