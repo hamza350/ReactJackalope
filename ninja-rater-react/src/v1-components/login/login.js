@@ -1,4 +1,4 @@
-import React,{ useState,Component,useEffect } from "react";
+import React,{ useState,Component,useEffect,useRef } from "react";
 import {
   Customisedbutton,
   CustomisedTextfield,
@@ -136,6 +136,7 @@ function Login(props) {
     const [userInfo, setUserInfo] = useState({username: "", password: ""});
     const [showError, setShowError] = useState(false);
     const [errorMessage, setErrorMessage] = useState("");
+    const textInputRef = useRef(null);
 
    const loginValidator = {
           username: {
@@ -170,42 +171,48 @@ function Login(props) {
       resetFormValidations(loginValidator);
     }, [])
   
-    const loginInProgress = (inProgress, errorMessage) => {
-          // if (inProgress) {
-          //   this.setState({ display: "none" });
-          //   this.refs.NinjaProgressSpinnerSmall.setState({ display: "block" });
-          //   this.disableButtons();
-          // } else {
-          //   this.refs.NinjaProgressSpinnerSmall.setState({ display: "none" });
-          //   this.setState({ display: "block" });
-          //   // this.enableButtons();
-          // }
-      
-          // if (errorMessage) {
-          //   this.setState({ showError: true, errorMessage: errorMessage });
-          //   // this.refs.errorDiv.showError(errorMessage);
-          // }
+    const submit = () => {
+      debugger
+          // this.state.isLoginClicked = true;
+          let validFileds = [];
+          Object.keys(userInfo).forEach((item) => {
+            let isvalid = updateFormValidations(
+              item,
+              userInfo[item],
+              loginValidator
+            );
+            if (!isvalid) validFileds.push(isvalid);
+            setUserInfo((state) => {
+              userInfo[item] = userInfo[item];
+              return state;
+            });
+          });
+          if (validFileds.length <= 0) {
+            let userName = userInfo.username;
+            let password = userInfo.password;
+            debugger;
+            textInputRef.loginUser(userName, password);
+          }
+    };
+    
+
+    const customStyle = {
+          position: "relative",
+          left: "0px",
+        };
+    const updateInputValue = (name, event) => {
+          const value = event.target.value;
+          setUserInfo((state) => {
+            userInfo[name] = value;
+            return state;
+          });
+    };
+
+    const onChangeHandler = () => {
+       
+
     }
 
-    const enableLoading = () => {
-      setLoading(true);
-    };
-  
-    const disableLoading = () => {
-      setLoading(false);
-    };
-  
-    const getInputClasses = (fieldname) => {
-      if (formik.touched[fieldname] && formik.errors[fieldname]) {
-        return "is-invalid";
-      }
-  
-      if (formik.touched[fieldname] && !formik.errors[fieldname]) {
-        return "is-valid";
-      }
-  
-      return "";
-    };
   
     const formik = useFormik({
       initialValues
@@ -222,6 +229,7 @@ function Login(props) {
 
     return (
       <>
+      <UserHelper ref={textInputRef}/>
       <div className="d-flex flex-column flex-root" style={{padding: '40px',alignContent: 'center',marginTop: '148px'}}>
         {/*begin::Login*/}
         <div
@@ -278,8 +286,13 @@ function Login(props) {
                 />
               </Link>
           <div className="text-center mb-10 mb-lg-20">
+<<<<<<< HEAD
            <h3 className="font-size-h1">
               {/* <FormattedMessage id="AUTH.LOGIN.TITLE" /> */}
+=======
+            <h3 className="font-size-h1">
+              Log in
+>>>>>>> aef2d3e2e2df235dd3110d48166ec172e0792fcc
             </h3>
           </div>
           {/* end::Head */}
@@ -287,7 +300,7 @@ function Login(props) {
           {/*begin::Form*/}
         
           <form
-            onSubmit={formik.handleSubmit}
+            onSubmit={submit}
             className="form fv-plugins-bootstrap fv-plugins-framework"
           >
             
@@ -295,35 +308,45 @@ function Login(props) {
               <input
                 placeholder="Email"
                 type="email"
-                className={`form-control form-control-solid h-auto py-5 px-6 ${getInputClasses(
-                  "email"
-                )}`}
+                className={`form-control form-control-solid h-auto py-5 px-6`}
                 name="email"
                 {...formik.getFieldProps("email")}
                 style={{width: '200%'}}
+                value={userInfo.username}
+                onChange={onChangeHandler}
               />
-              {formik.touched.email && formik.errors.email ? (
-                <div className="fv-plugins-message-container">
-                  <div className="fv-help-block">{formik.errors.email}</div>
-                </div>
-              ) : null}
+              <div>
+                {displayForValidationErrors(
+                "username",
+                loginValidator,
+                customStyle
+              )}
+            </div>
             </div>
             <div className="form-group fv-plugins-icon-container">
               <input
                 placeholder="Password"
                 type="password"
-                className={`form-control form-control-solid h-auto py-5 px-6 ${getInputClasses(
-                  "password"
-                )}`}
+                className={`form-control form-control-solid h-auto py-5 px-6`}
                 name="password"
                 {...formik.getFieldProps("password")}
                 style={{width: '200%'}}
+                value={userInfo.password}
+                onChange={onChangeHandler}
               />
-              {formik.touched.password && formik.errors.password ? (
-                <div className="fv-plugins-message-container">
-                  <div className="fv-help-block">{formik.errors.password}</div>
+              <span id="error" className="hide">invalid email</span>
+              <div>
+               {displayForValidationErrors(
+                  "password",
+                  loginValidator,
+                  customStyle
+                )}
+              </div>
+              {showError && (
+                <div className={styles1.error_message}>
+                  <div>* {errorMessage}</div>
                 </div>
-              ) : null}
+              )}
             </div>
             <span className="font-weight-bold text-dark-50">
                 Don't have an account yet?
