@@ -28,6 +28,7 @@ import { FormattedMessage, injectIntl } from "react-intl";
 import { login } from "../../app/modules/Auth/_redux/authCrud";
 import "../../_metronic/_assets/sass/pages/login/classic/login-1.scss";
 import { toAbsoluteUrl } from "../../_metronic/_helpers";
+import { size } from "lodash";
 
 
 
@@ -235,18 +236,19 @@ function Login(props) {
             {/*begin: Aside Container*/}
             <div className="d-flex flex-row-fluid flex-column justify-content-between">
               {/* start:: Aside header */}
-              <Link to="/" className="flex-column-auto mt-5 pb-lg-0 pb-10">
+              {/* <Link to="/" className="flex-column-auto mt-5 pb-lg-0 pb-10">
                 <img
                   alt="Logo"
                   className="max-h-70px"
                   src={toAbsoluteUrl("/media/logos/jlop.png")}
                 />
-              </Link>
+              </Link> */}
               {/* end:: Aside header */}
 
               {/* start:: Aside content */}
               <div className="flex-column-fluid d-flex flex-column justify-content-center">
-                <h3 className="font-size-h1 mb-5 text-white">
+              {/*custom size font-size-h1 */}
+                <h3 className="mb-5 text-white" style={{fontSize: "50px"}}>
                   Welcome to Jackalope!
                 </h3>
                 <p className="font-weight-lighter text-white opacity-80">
@@ -261,18 +263,29 @@ function Login(props) {
             {/*end: Aside Container*/}
           </div>
           {/*begin::Aside*/}
-
+          
+        
+               
+          
           {/*begin::Content*/}
           <div className="login-form login-signin" id="kt_login_signin_form" style={{padding: '90px'}}>
           {/* begin::Head */}
+          <Link to="/" className="mt-5" style={{marginLeft : "150px"}}>
+                <img
+                  alt="Logo"
+                  className="max-h-70px"
+                  src={toAbsoluteUrl("/media/logos/jlop.png")}
+                />
+              </Link>
           <div className="text-center mb-10 mb-lg-20">
-            <h3 className="font-size-h1">
+           <h3 className="font-size-h1">
               {/* <FormattedMessage id="AUTH.LOGIN.TITLE" /> */}
             </h3>
           </div>
           {/* end::Head */}
 
           {/*begin::Form*/}
+        
           <form
             onSubmit={formik.handleSubmit}
             className="form fv-plugins-bootstrap fv-plugins-framework"
@@ -322,7 +335,7 @@ function Login(props) {
                 Sign Up!
               </Link>
             </span>
-            <div className="form-group d-flex flex-wrap justify-content-between align-items-center">
+            <div className="form-group d-flex flex-wrap justify-content-between align-items-center" >
               <Link
                 to="/auth/forgot-password"
                 className="text-dark-50 text-hover-primary my-3 mr-2"
@@ -334,7 +347,7 @@ function Login(props) {
                 id="kt_login_signin_submit"
                 type="submit"
                 disabled={formik.isSubmitting}
-                className={`btn btn-primary font-weight-bold px-9 py-4 my-3`}
+                className="btn btn-primary font-weight-bold px-9 py-4 my-3  border border-left-0 " style={{bordercolor : "none"}}
                 style={buttonStyle}
               >
                 <span>Sign In</span>
