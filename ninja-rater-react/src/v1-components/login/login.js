@@ -276,23 +276,24 @@ function Login(props) {
                
           
           {/*begin::Content*/}
-          <div className="login-form login-signin" id="kt_login_signin_form" style={{padding: '90px'}}>
+          <div className="login-form login-signin" id="kt_login_signin_form" style={{padding: '80px'}}>
           {/* begin::Head */}
           <Link to="/" className="mt-5" style={{marginLeft : "150px"}}>
                 <img
                   alt="Logo"
-                  className="max-h-70px"
+                  className="max-h-200px mb-10"
                   src={toAbsoluteUrl("/media/logos/jlop.png")}
                 />
               </Link>
           <div className="text-center mb-10 mb-lg-20">
-<<<<<<< HEAD
+           
            <h3 className="font-size-h1">
               {/* <FormattedMessage id="AUTH.LOGIN.TITLE" /> */}
-=======
-            <h3 className="font-size-h1">
+
+            <h3 className="font-size-h1" style={{float: "right"}}>
               Log in
->>>>>>> aef2d3e2e2df235dd3110d48166ec172e0792fcc
+
+            </h3>
             </h3>
           </div>
           {/* end::Head */}
@@ -348,11 +349,11 @@ function Login(props) {
                 </div>
               )}
             </div>
-            <span className="font-weight-bold text-dark-50">
+            <span className="font-weight-bold text-dark-50 mt-5">
                 Don't have an account yet?
                 <Link
                 to="/auth/registration"
-                className="font-weight-bold ml-2"
+                className="font-weight-bold ml-2 p-2 mt-5"
                 id="kt_login_signup"
               >
                 Sign Up!
@@ -370,7 +371,7 @@ function Login(props) {
                 id="kt_login_signin_submit"
                 type="submit"
                 disabled={formik.isSubmitting}
-                className="btn btn-primary font-weight-bold px-9 py-4 my-3  border border-left-0 " style={{bordercolor : "none"}}
+                className="btn btn-primary font-weight-bold px-9 py-4 my-3  border border-left-0 " style={{bordercolor : "none", }}
                 style={buttonStyle}
               >
                 <span>Sign In</span>
