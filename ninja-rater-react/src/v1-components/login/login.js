@@ -290,13 +290,8 @@ function Login(props) {
                 />
               </Link>
           <div className="text-center mb-10 mb-lg-20">
-<<<<<<< HEAD
-           <h3 className="font-size-h1">
-              {/* <FormattedMessage id="AUTH.LOGIN.TITLE" /> */}
-=======
             <h3 className="font-size-h1">
               Log in
->>>>>>> aef2d3e2e2df235dd3110d48166ec172e0792fcc
             </h3>
           </div>
           {/* end::Head */}
