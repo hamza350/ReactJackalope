@@ -17,7 +17,6 @@ import {StickyToolbar} from "./extras/StickyToolbar";
 export function Layout({ children }) {
     const uiService = useHtmlClassService();
     // Layout settings (cssClasses/cssAttributes)
-    debugger;
     const layoutProps = useMemo(() => {
         return {
             layoutConfig: uiService.config,

@@ -30,7 +30,6 @@ import ToastsExamplesPage from "./ToastsExamplesPage";
 import {ContentRoute} from "../../../_metronic/layout";
 
 export default function ReactBootstrapPage() {
-  debugger;
   return (
     <Switch>
       <Redirect

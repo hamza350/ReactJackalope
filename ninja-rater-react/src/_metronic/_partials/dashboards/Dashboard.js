@@ -10,7 +10,9 @@ import {Demo6Dashboard} from "./Demo6Dashboard";
 import {Demo7Dashboard} from "./Demo7Dashboard";
 
 export function Dashboard() {
+    debugger;
     const uiService = useHtmlClassService();
+    debugger;
     const layoutProps = useMemo(() => {
         return {
             demo: objectPath.get(

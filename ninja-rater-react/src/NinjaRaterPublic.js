@@ -14,6 +14,9 @@ import ReferFriendLink from "./pages/ReferAFriendLink";
 import NotFoundPage from "./pages/NotFoundPage";
 import NinjaRaterApp from "./NinjaRaterApp";
 import AdminIndex from "./admin_index";
+import SwitchApp from "./SwitchApp";
+import { DashboardPage } from "./app/pages/DashboardPage";
+import { LayoutSplashScreen, ContentRoute } from "./_metronic/layout";
 //import {BrowserRouter, Router, Route, Switch} from 'react-router-dom'
 import {Link, Switch, Route, Router} from "react-router-dom";
 import * as Constants from "./Constants";
@@ -49,11 +52,17 @@ class NinjaRaterPublic extends Component {
             exact
             render={() => <AdminIndex router={this.routerRef} />}
           />
+          
+          
+          <ContentRoute 
+            path="/dashboard" 
+            component={DashboardPage}
+          />
 
           <Route
             path={Constants.ACTION_OTHER_DOMAIN.url}
             exact
-            component={NinjaRaterApp}
+            component={SwitchApp}
           />
           <Route
             path={Constants.ACTION_OTHER_DOMAIN_CONTACT_US.url}
@@ -130,7 +139,7 @@ class NinjaRaterPublic extends Component {
           />
           <Route
             path={Constants.ACTION_HOME_PAGE.url}
-            render={() => <NinjaRaterApp router={this.routerRef} />}
+            render={() => <SwitchApp router={this.routerRef} />}
           // render={() => <Layout><NinjaRaterApp router={this.routerRef} /></Layout>}
           />
           <Route

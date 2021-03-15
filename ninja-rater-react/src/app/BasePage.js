@@ -19,7 +19,6 @@ const UserProfilepage = lazy(() =>
 );
 
 export default function BasePage() {
-  debugger;
   // useEffect(() => {
   //   console.log('Base page');
   // }, []) // [] - is required if you need only one call

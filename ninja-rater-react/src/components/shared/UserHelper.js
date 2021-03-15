@@ -83,7 +83,6 @@ export default class UserHelper extends Component {
     data += ' }';
 
     //this.state.parentComponent.loginProgress(false);
-
     $.ajax
       ({
         type: "POST",
@@ -95,14 +94,12 @@ export default class UserHelper extends Component {
         success: function (response) {
           this.state.USER.user_id = response;
           utils.createCookie('token', this.state.USER.user_id);
-          console.log('window.origin + Constants.ACTION_RATES.url', window.origin + Constants.ACTION_RATES.url)
-          // window.location = window.origin + Constants.ACTION_RATES.url;
           window.location = window.origin + Constants.ACTION_HOME_PAGE.url;
-          //this.getUserAfterLogin(this.state.USER.user_id, this.navigateToLandingPageWithData);
         },
         error: function (jqXHR, exception) {
           console.log('jqXHR', jqXHR);
           if (jqXHR.status == 200) {
+            debugger
             this.state.USER.user_id = jqXHR.responseText;
             utils.createCookie('token', this.state.USER.user_id);
             //this.getUserAfterLogin(this.state.USER.user_id, this.navigateToLandingPageWithData);
@@ -110,9 +107,9 @@ export default class UserHelper extends Component {
             // window.location = window.origin + Constants.ACTION_RATES.url;
             window.location = window.origin + Constants.ACTION_HOME_PAGE.url;
           } else {
+            debugger
             utils.eraseAllCookies();
-            console.log('jqXHR.responseText', jqXHR.responseText)
-            this.state.parentComponent.loginInProgress(false, jqXHR.responseText);
+            this.state.parentComponent(false, jqXHR.responseText);
           }
         }.bind(this)
       });

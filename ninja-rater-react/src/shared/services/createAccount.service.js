@@ -4,7 +4,6 @@ export class createAccountService {
     constructor () { }
 
     static getSubscriptionPlans(action) {
-        debugger;
         const source$ = ajax.get(
             "http://localhost:5000/getProducts",
             action.payload,

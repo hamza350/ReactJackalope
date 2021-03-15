@@ -32,6 +32,7 @@ const HtmlClassServiceContext = createContext();
  * @returns Layout context from 'localStorage'
  */
 export function useHtmlClassService() {
+  debugger
   return useContext(HtmlClassServiceContext);
 }
 

@@ -25,9 +25,12 @@ import "react-datepicker/dist/react-datepicker.css";
 import {
   MetronicLayoutProvider,
   MetronicSplashScreenProvider,
-  MetronicSubheaderProvider
+  MetronicSubheaderProvider,
+  MaterialThemeProvider,
+  Layout
 } from "./_metronic/layout";
 import {MetronicI18nProvider} from "./_metronic/i18n";
+import { DashboardPage } from "./app/pages/DashboardPage";
 
 
 
@@ -39,64 +42,31 @@ const { PUBLIC_URL } = process.env;
 
 
 _redux.setupAxios(axios, store);
-debugger
+
+
+
 const AdminIndex = () => {
-  debugger
-  ReactDOM.render(
+    
+return(
+
     <MetronicI18nProvider>
       <MetronicLayoutProvider>
         <MetronicSubheaderProvider>
           <MetronicSplashScreenProvider>
-            <App store={store} persistor={persistor} basename={PUBLIC_URL} />
+            <MaterialThemeProvider>
+              <Layout>
+                <DashboardPage />
+              </Layout>  
+            </MaterialThemeProvider>  
           </MetronicSplashScreenProvider>
         </MetronicSubheaderProvider>
       </MetronicLayoutProvider>
-    </MetronicI18nProvider>,
-  document.getElementById("root")
+    </MetronicI18nProvider>
 );
 
-return (  
-      <></>
-);
 }
 
 
 
 export default AdminIndex;
 
-
-// ReactDOM.render(
-//   <MetronicI18nProvider>
-//     <MetronicLayoutProvider>
-//       <MetronicSubheaderProvider>
-//         <MetronicSplashScreenProvider>
-//           <App store={store} persistor={persistor} basename={PUBLIC_URL} />
-//         </MetronicSplashScreenProvider>
-//       </MetronicSubheaderProvider>
-//     </MetronicLayoutProvider>
-//   </MetronicI18nProvider>,
-//   document.getElementById("root2")
-// );
-
-// ReactDOM.render(
-//     <HashRouter>
-//         <NinjaRaterPublic></NinjaRaterPublic>
-//     </HashRouter>,
-//     document.getElementById('root')
-// );
-
-//ReactDOM.render(
-//    <HashRouter>
-//        <NinjaRaterApp></NinjaRaterApp>
-//    </HashRouter>,
-//    document.getElementById('root')
-//);
-
-//ReactDOM.render(
-//    <HashRouter>
-//        <App></App>
-//    </HashRouter>,
-//    document.getElementById('root')
-//);
-
-// registerServiceWorker();

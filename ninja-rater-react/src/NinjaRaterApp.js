@@ -100,40 +100,41 @@ class NinjaRaterApp extends Component {
   }
 
   componentDidMount() {
-    // let token = utils.readCookie("token");
-    // if (!token) {
-    //   utils.logOut();
-    // }
-    // let action = [{ value: 23 }];
-    // if (window.location.hash.split("#/")[1] != "") {
-    //   action = Constants.arrayRoutes.filter((item) => {
-    //     return item.url == window.location.hash.split("#")[1];
-    //   });
-    // }
-    // new UserHelper({ parentComponent: this }).fetchUserAndInitialData(
-    //   token,
-    //   this.userAndInitialDataFetched
-    // );
+    let token = utils.readCookie("token");
+    if (!token) {
+      utils.logOut();
+    }
+    let action = [{ value: 23 }];
+    if (window.location.hash.split("#/")[1] != "") {
+      action = Constants.arrayRoutes.filter((item) => {
+        return item.url == window.location.hash.split("#")[1];
+      });
+    }
+    new UserHelper({ parentComponent: this }).fetchUserAndInitialData(
+      token,
+      this.userAndInitialDataFetched
+    );
 
-    // jQuery(this.layoutMenuScroller).nanoScroller({ flash: true });
-    // let refs = {
-    //   Rates: this.refs.Rates,
-    //   Wcirb: this.refs.Wcirb,
-    //   WcirbRange: this.refs.WcirbRange,
-    //   MyAccount: this.refs.MyAccount,
-    //   UpdateCreditCard: this.refs.UpdateCreditCard,
-    //   MyNinjaPlan: this.refs.MyNinjaPlan,
-    //   ChangePassword: this.refs.ChangePassword,
-    //   Subscribe: this.refs.Subscribe,
-    //   MySalesLeads: this.refs.MySalesLeads,
-    //   UpdateSubscription: this.refs.UpdateSubscription,
-    //   Help: this.refs.Help,
-    //   PreviousSubmissions: this.refs.PreviousSubmissions,
-    //   ReferFriend: this.refs.ReferFriend,
-    //   userActivity: this.refs.userActivity,
-    //   AddUser: this.refs.AddUser,
-    // };
-    // this.setState({ refs: refs, action: action[0].value });
+    jQuery(this.layoutMenuScroller).nanoScroller({ flash: true });
+    let refs = {
+      Rates: this.refs.Rates,
+      Wcirb: this.refs.Wcirb,
+      WcirbRange: this.refs.WcirbRange,
+      MyAccount: this.refs.MyAccount,
+      UpdateCreditCard: this.refs.UpdateCreditCard,
+      MyNinjaPlan: this.refs.MyNinjaPlan,
+      ChangePassword: this.refs.ChangePassword,
+      Subscribe: this.refs.Subscribe,
+      MySalesLeads: this.refs.MySalesLeads,
+      UpdateSubscription: this.refs.UpdateSubscription,
+      Help: this.refs.Help,
+      PreviousSubmissions: this.refs.PreviousSubmissions,
+      ReferFriend: this.refs.ReferFriend,
+      userActivity: this.refs.userActivity,
+      AddUser: this.refs.AddUser,
+    };
+    this.setState({ refs: refs, action: action[0].value });
+    $("#footer").load("footer.html");
   }
 
   userAndInitialDataFetched = (response) => {
@@ -453,33 +454,6 @@ class NinjaRaterApp extends Component {
               ninjaRaterApp={this}
               ninjaStore={this.state.ninjaStore}
             />
-            {/* <NinjaRaterAppTopbar ref="NinjaRaterAppTopbar" NinjaRaterAppStateHandler={this.NinjaRaterAppStateHandler} profileMode={this.state.profileMode} horizontal={this.props.horizontal}
-                        topbarMenuActive={this.state.topbarMenuActive} activeTopbarItem={this.state.activeTopbarItem}
-                        onMenuButtonClick={this.onMenuButtonClick} onTopbarMenuButtonClick={this.onTopbarMenuButtonClick}
-                        onTopbarItemClick={this.onTopbarItemClick} onRightPanelButtonClick={this.onRightPanelButtonClick} /> */}
-
-            {/* <div className={menuClassName} onClick={this.onMenuClick}>
-
-                        <div ref={(el) => this.layoutMenuScroller = el} className="nano">
-
-                            <div className="nano-content menu-scroll-content">
-                                {(this.state.profileMode === 'inline' && this.state.layoutMode !== 'horizontal') && <NinjaRaterAppInlineProfile ref="NinjaRaterAppInlineProfile" router={this.props.router} NinjaRaterAppStateHandler={this.NinjaRaterAppStateHandler} />}
-
-                                {this.state.recentQuotesMenu && this.state.recentQuotesMenu.length > 0 &&
-                                    <div className="ui-g-12">
-                                        <h3><i>Recent Quotes</i></h3>
-                                        <Button id="ID_CLEAR_RECENT_QUOTES_BTN" onClick={() => this.setState({displayClearRecentQuotesDialog: true})} style={{textAlign: 'center'}} type="button" label="Clear Recent Quotes" icon="ui-icon-delete-forever"></Button>
-
-                                        <Dialog header="Confirm" visible={this.state.displayClearRecentQuotesDialog} modal={false} width="250px" footer={dialogFooter} onHide={() => this.setState({displayClearRecentQuotesDialog: false})}>
-                                            <p>Clear Your Recent Quotes?</p>
-                                        </Dialog>
-                                    </div>
-                                }
-                                <AppMenu model={this.state.recentQuotesMenu} onMenuItemClick={this.onMenuItemClick} onRootMenuItemClick={this.onRootMenuItemClick}
-                                    layoutMode={this.state.layoutMode} active={this.state.menuActive} />
-                            </div>
-                        </div>
-                    </div> */}
 
             <div className={["layout-main", styles.layoutMenu].join(" ")}>
               <div className="ui-g">

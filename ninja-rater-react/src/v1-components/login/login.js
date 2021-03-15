@@ -31,106 +31,6 @@ import { toAbsoluteUrl } from "../../_metronic/_helpers";
 import { size } from "lodash";
 
 
-
-// class Login extends Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {
-//       userInfo: {
-//         username: "",
-//         password: "",
-//       },
-//       showError: false,
-//       errorMessage: "",
-//     };
-//   }
-//   loginValidator = {
-//     username: {
-//       rules: [
-//         {
-//           test: (value) => {
-//             return value.length > 0;
-//           },
-//           message: "Please enter the email or username",
-//         },
-//       ],
-//       errors: [],
-//       valid: false,
-//       state: "",
-//     },
-//     password: {
-//       rules: [
-//         {
-//           test: (value) => {
-//             return value.length > 0;
-//           },
-//           message: "Please enter the password",
-//         },
-//       ],
-//       errors: [],
-//       valid: false,
-//       state: "",
-//     },
-//   };
-//   componentDidMount() {
-//     resetFormValidations(this.loginValidator);
-//   }
-//   loginInProgress(inProgress, errorMessage) {
-//     if (inProgress) {
-//       this.setState({ display: "none" });
-//       this.refs.NinjaProgressSpinnerSmall.setState({ display: "block" });
-//       this.disableButtons();
-//     } else {
-//       this.refs.NinjaProgressSpinnerSmall.setState({ display: "none" });
-//       this.setState({ display: "block" });
-//       // this.enableButtons();
-//     }
-
-//     if (errorMessage) {
-//       this.setState({ showError: true, errorMessage: errorMessage });
-//       // this.refs.errorDiv.showError(errorMessage);
-//     }
-//   }
-//   submit = () => {
-//     this.state.isLoginClicked = true;
-//     let validFileds = [];
-//     Object.keys(this.state.userInfo).forEach((item) => {
-//       let isvalid = updateFormValidations(
-//         item,
-//         this.state.userInfo[item],
-//         this.loginValidator
-//       );
-//       if (!isvalid) validFileds.push(isvalid);
-//       this.setState((state) => {
-//         this.state.userInfo[item] = this.state.userInfo[item];
-//         return state;
-//       });
-//     });
-//     if (validFileds.length <= 0) {
-//       const { userInfo } = this.state;
-//       let userName = userInfo.username;
-//       let password = userInfo.password;
-//       this.refs.userHelper.loginUser(userName, password);
-//       // this.props.history.push("/sign-up");
-//     }
-//   };
-//   customStyle = {
-//     position: "relative",
-//     left: "0px",
-//   };
-//   updateInputValue = (name, event) => {
-//     const value = event.target.value;
-//     this.setState((state) => {
-//       this.state.userInfo[name] = value;
-//       return state;
-//     });
-//   };
-//   render() {
-
-  const initialValues = {
-    email: "admin@demo.com",
-    password: "demo",
-  };
 function Login(props) {
     const [loading, setLoading] = useState(false);
     const [userInfo, setUserInfo] = useState({username: "", password: ""});
@@ -138,89 +38,56 @@ function Login(props) {
     const [errorMessage, setErrorMessage] = useState("");
     const textInputRef = useRef(null);
 
-   const loginValidator = {
-          username: {
-            rules: [
-              {
-                test: (value) => {
-                  return value.length > 0;
-                },
-                message: "Please enter the email or username",
-              },
-            ],
-            errors: [],
-            valid: false,
-            state: "",
-          },
-          password: {
-            rules: [
-              {
-                test: (value) => {
-                  return value.length > 0;
-                },
-                message: "Please enter the password",
-              },
-            ],
-            errors: [],
-            valid: false,
-            state: "",
-          },
-    };
-    
-    useEffect(() => {
-      resetFormValidations(loginValidator);
-    }, [])
-  
-    const submit = () => {
-          debugger;
-          window.open('/homepage');
-          // // this.state.isLoginClicked = true;
-          // let validFileds = [];
-          // Object.keys(userInfo).forEach((item) => {
-          //   let isvalid = updateFormValidations(
-          //     item,
-          //     userInfo[item],
-          //     loginValidator
-          //   );
-          //   if (!isvalid) validFileds.push(isvalid);
-          //   setUserInfo((state) => {
-          //     userInfo[item] = userInfo[item];
-          //     return state;
-          //   });
-          // });
-          // if (validFileds.length <= 0) {
-          //   let userName = userInfo.username;
-          //   let password = userInfo.password;
-          //   debugger;
-          //   textInputRef.loginUser(userName, password);
-          // }
+
+    const submit = (e) => {
+      e.preventDefault();
+      let validFileds = null;
+      if(userInfo.username.length > 2 && userInfo.password.length > 4){
+        validFileds = true;
+      } 
+      else{
+        validFileds = false;
+      }
+      if (validFileds) {
+        let userName = userInfo.username;
+        let password = userInfo.password;
+        textInputRef.current.loginUser(userName, password);
+      }
+      else{
+        setShowError(true);
+        setErrorMessage("username or password is too short");
+      }
     };
     
 
     const customStyle = {
-          position: "relative",
-          left: "0px",
-        };
-    const updateInputValue = (name, event) => {
-          const value = event.target.value;
-          setUserInfo((state) => {
-            userInfo[name] = value;
-            return state;
-          });
+      position: "relative",
+      left: "0px",
     };
-
-    const onChangeHandler = (name, event) => {
-      const value = event.target.value;
-      setUserInfo((state) => {
-        userInfo[name] = value;
-        return state;
-      });
+   
+    const loginInProgress = (inProgress,errorMessage) => {
+      // if (inProgress) {
+      //   this.setState({ display: "none" });
+      //   this.refs.NinjaProgressSpinnerSmall.setState({ display: "block" });
+      //   this.disableButtons();
+      // } else {
+      //   this.refs.NinjaProgressSpinnerSmall.setState({ display: "none" });
+      //   this.setState({ display: "block" });
+      // }
+      if (errorMessage) {
+        setShowError(true);
+        setErrorMessage(errorMessage);
+        // this.refs.errorDiv.showError(errorMessage);
+      }
     }
 
-  
-    const formik = useFormik({
-      initialValues
-    });
+
+    const onChangeHandler = (event) => {
+      const value = event.target.value;
+      const name = event.target.name;
+      setUserInfo((state) => ({ ...state, [name]: value }))
+    }
+
 
 
     const mystyle={
@@ -233,7 +100,7 @@ function Login(props) {
 
     return (
       <>
-      <UserHelper ref={textInputRef}/>
+      <UserHelper ref={textInputRef} parentComponent={loginInProgress} />
       <div className="d-flex flex-column flex-root" style={{padding: '40px',alignContent: 'center',marginTop: '148px'}}>
         {/*begin::Login*/}
         <div
@@ -247,40 +114,19 @@ function Login(props) {
           >
             {/*begin: Aside Container*/}
             <div className="d-flex flex-row-fluid flex-column justify-content-between">
-              {/* start:: Aside header */}
-              {/* <Link to="/" className="flex-column-auto mt-5 pb-lg-0 pb-10">
-                <img
-                  alt="Logo"
-                  className="max-h-70px"
-                  src={toAbsoluteUrl("/media/logos/jlop.png")}
-                />
-              </Link> */}
-              {/* end:: Aside header */}
-
-              {/* start:: Aside content */}
               <div className="flex-column-fluid d-flex flex-column justify-content-center">
               {/*custom size font-size-h1 */}
                 <h3 className="mb-5 text-white" style={{fontSize: "50px"}}>
                   Welcome to Jackalope!
                 </h3>
-                <p className="font-weight-lighter text-white opacity-80">
+                <p className="font-weight-lighter text-white opacity-80" style={{fontSize: '20px'}}>
                   The best Insurance carrier providers in your area.
                 </p>
               </div>
-              {/* end:: Aside content */}
-
-              {/* start:: Aside footer for desktop */}
-              {/* end:: Aside footer for desktop */}
             </div>
-            {/*end: Aside Container*/}
           </div>
-          {/*begin::Aside*/}
           
-        
-               
-          
-          {/*begin::Content*/}
-          <div className="login-form login-signin" id="kt_login_signin_form" style={{padding: '80px'}}>
+          <div className="login-form login-signin" id="kt_login_signin_form" style={{padding: '80px',marginLeft: '100px'}}>
           {/* begin::Head */}
           <Link to="/" className="mt-5" style={{marginLeft : "150px"}}>
                 <img
@@ -288,21 +134,17 @@ function Login(props) {
                   className="max-h-200px mb-10"
                   src={toAbsoluteUrl("/media/logos/jlop.png")}
                 />
-              </Link>
+          </Link>
           <div className="text-center mb-10 mb-lg-20">
 
-           <h3 className="font-size-h1">
+          <h3 className="font-size-h1">
               {/* <FormattedMessage id="AUTH.LOGIN.TITLE" /> */}
 
-            <h3 className="font-size-h1" style={{float: "right"}}>
+          <h3 className="font-size-h1" style={{float: "right",fontWeight: '600'}}>
               Log in
-
-            </h3>
-            </h3>
+          </h3>
+          </h3>
           </div>
-          {/* end::Head */}
-
-          {/*begin::Form*/}
         
           <form
             onSubmit={submit}
@@ -312,19 +154,13 @@ function Login(props) {
             <div className="form-group fv-plugins-icon-container">
               <input
                 placeholder="Email"
-                type="email"
-                className={`form-control form-control-solid h-auto py-5 px-6`}
-                name="email"
-                {...formik.getFieldProps("email")}
-                style={{width: '200%'}}
+                className={`form-control form-control-solid py-5 px-6`}
+                name="username"
+                required={true}
+                value={userInfo.username}
+                onChange={(e) => onChangeHandler(e)}
+                style={{width: '180%', height: '63px'}}
               />
-              <div>
-                {displayForValidationErrors(
-                "username",
-                loginValidator,
-                customStyle
-              )}
-            </div>
             </div>
             <div className="form-group fv-plugins-icon-container">
               <input
@@ -332,27 +168,21 @@ function Login(props) {
                 type="password"
                 className={`form-control form-control-solid h-auto py-5 px-6`}
                 name="password"
-                {...formik.getFieldProps("password")}
-                style={{width: '200%'}}
+                required={true}
+                onChange={(e) => onChangeHandler(e)}
+                value={userInfo.password}
+                style={{width: '180%'}}
               />
-              <span id="error" className="hide">invalid email</span>
-              <div>
-               {displayForValidationErrors(
-                  "password",
-                  loginValidator,
-                  customStyle
-                )}
-              </div>
               {showError && (
                 <div className={styles1.error_message}>
-                  <div>* {errorMessage}</div>
+                  <div>*{errorMessage}</div>
                 </div>
               )}
             </div>
             <span className="font-weight-bold text-dark-50 mt-5">
                 Don't have an account yet?
                 <Link
-                to="/auth/registration"
+                to="/sign-up"
                 className="font-weight-bold ml-2 p-2 mt-5"
                 id="kt_login_signup"
               >
@@ -370,7 +200,6 @@ function Login(props) {
               <button
                 id="kt_login_signin_submit"
                 type="submit"
-                disabled={formik.isSubmitting}
                 className="btn btn-primary font-weight-bold px-9 py-4 my-3  border border-left-0 " style={{bordercolor : "none", }}
                 style={buttonStyle}
               >
@@ -385,46 +214,7 @@ function Login(props) {
 
             {/* begin::Content body */}
             <div className="d-flex flex-column-fluid flex-center mt-30 mt-lg-0">
-              {/* <Switch>
-                <ContentRoute path="/auth/login" component={Login} />
-                <ContentRoute
-                  path="/auth/registration"
-                  component={Registration}
-                />
-                <ContentRoute
-                  path="/auth/forgot-password"
-                  component={ForgotPassword}
-                />
-                <Redirect from="/auth" exact={true} to="/auth/login" />
-                <Redirect to="/auth/login" />
-              </Switch> */}
             </div>
-            {/*end::Content body*/}
-
-            {/* begin::Mobile footer */}
-            <div className="d-flex d-lg-none flex-column-auto flex-column flex-sm-row justify-content-between align-items-center mt-5 p-5">
-              <div className="text-dark-50 font-weight-bold order-2 order-sm-1 my-2">
-                &copy; 2020 Metronic
-              </div>
-              <div className="d-flex order-1 order-sm-2 my-2">
-                <Link to="/terms" className="text-dark-75 text-hover-primary">
-                  Privacy
-                </Link>
-                <Link
-                  to="/terms"
-                  className="text-dark-75 text-hover-primary ml-4"
-                >
-                  Legal
-                </Link>
-                <Link
-                  to="/terms"
-                  className="text-dark-75 text-hover-primary ml-4"
-                >
-                  Contact
-                </Link>
-              </div>
-            </div>
-            {/* end::Mobile footer */}
           </div>
           {/*end::Content*/}
         </div>
@@ -442,84 +232,7 @@ function Login(props) {
       //     display="none"
       //     divHeight="250px"
       //   />
-
-      //   <img src={logo} />
-      //   <section className={styles.main_section}>
-      //     <div className={styles.each_label_sec}>
-      //       <p className={styles.login_label}>Username*</p>
-      //       <CustomisedTextfield
-      //         className={styles.text_field}
-      //         //placeholder="Username or Email"
-      //         type="text"
-      //         value={this.state.userInfo.username}
-      //         error={
-      //           this.state.isLoginClicked &&
-      //           this.loginValidator["username"].errors.length > 0
-      //         }
-      //         onChange={this.updateInputValue.bind(this, "username")}
-      //       />
-      //       <div>
-      //         {displayForValidationErrors(
-      //           "username",
-      //           this.loginValidator,
-      //           this.customStyle
-      //         )}
-      //       </div>
-      //     </div>
-      //     <div className={styles.each_label_sec}>
-      //       <p className={styles.login_label}>Password*</p>
-      //       <PasswordTextfield
-      //         className={styles.text_field}
-      //         //placeholder="Password"
-      //         type="password"
-      //         value={this.state.userInfo.password}
-      //         onChange={this.updateInputValue.bind(this, "password")}
-      //         error={
-      //           this.state.isLoginClicked &&
-      //           this.loginValidator["password"].errors.length > 0
-      //         }
-      //       />
-      //       <div>
-      //         {displayForValidationErrors(
-      //           "password",
-      //           this.loginValidator,
-      //           this.customStyle
-      //         )}
-      //       </div>
-      //       {this.state.showError && (
-      //         <div className={styles1.error_message}>
-      //           <div>* {this.state.errorMessage}</div>
-      //         </div>
-      //       )}
-      //       <p className={styles.href_forgot}>
-      //         <Link to="/reset-password">
-      //           <span>Forgot your password?</span>
-      //         </Link>
-      //       </p>
-      //     </div>
-      //     <div className={styles.each_label_sec_button}>
-      //       <Customisedbutton
-      //         name="Login"
-      //         //className={styles.login_button}
-      //         className={["commonButtonClass", styles.login_button].join(" ")}
-      //         onClick={this.submit.bind(this)}
-      //       />
-      //     </div>
-      //     <div className={styles.each_label_sec}>
-      //       <p>
-      //         Don't have an account?
-      //         <Link to="/sign-up">
-      //           <span className={styles.register_link}>Sign up here!</span>
-      //         </Link>
-      //       </p>
-      //       <Link to="/contact-us">
-      //         <span className={styles.contact_us}>Contact Us</span>
-      //       </Link>
-      //     </div>
-      //   </section>
-      // </section>
     );
-  // }
 }
 const mapStateToProps = (state) => {
   return {

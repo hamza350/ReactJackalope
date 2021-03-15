@@ -25,7 +25,7 @@ export function AsideMenuList({ layoutProps }) {
           aria-haspopup="true"
         >
           <NavLink className="menu-link" to="/dashboard">
-            <span className="svg-icon menu-icon">
+            <span className="svg-icon">
               <SVG src={toAbsoluteUrl("/media/svg/icons/Design/Layers.svg")} />
             </span>
             <span className="menu-text">Dashboard</span>
@@ -39,7 +39,7 @@ export function AsideMenuList({ layoutProps }) {
           aria-haspopup="true"
         >
           <NavLink className="menu-link" to="/builder">
-            <span className="svg-icon menu-icon">
+            <span className="svg-icon">
               <SVG src={toAbsoluteUrl("/media/svg/icons/Home/Library.svg")} />
             </span>
             <span className="menu-text">Layout Builder</span>
@@ -66,7 +66,7 @@ export function AsideMenuList({ layoutProps }) {
           data-menu-toggle="hover"
         >
           <NavLink className="menu-link menu-toggle" to="/google-material">
-            <span className="svg-icon menu-icon">
+            <span className="svg-icon">
               <SVG src={toAbsoluteUrl("/media/svg/icons/Design/Cap-2.svg")} />
             </span>
             <span className="menu-text">Material UI</span>
@@ -1121,7 +1121,7 @@ export function AsideMenuList({ layoutProps }) {
           data-menu-toggle="hover"
         >
           <NavLink className="menu-link menu-toggle" to="/react-bootstrap">
-            <span className="svg-icon menu-icon">
+            <span className="svg-icon">
               <SVG src={toAbsoluteUrl("/media/svg/icons/Shopping/Box2.svg")} />
             </span>
             <span className="menu-text">Bootstrap</span>
@@ -1600,7 +1600,7 @@ export function AsideMenuList({ layoutProps }) {
           data-menu-toggle="hover"
         >
           <NavLink className="menu-link menu-toggle" to="/e-commerce">
-            <span className="svg-icon menu-icon">
+            <span className="svg-icon">
               <SVG src={toAbsoluteUrl("/media/svg/icons/Shopping/Bag2.svg")} />
             </span>
             <span className="menu-text">eCommerce</span>
@@ -1654,7 +1654,7 @@ export function AsideMenuList({ layoutProps }) {
           aria-haspopup="true"
         >
           <NavLink className="menu-link" to="/user-profile">
-            <span className="svg-icon menu-icon">
+            <span className="svg-icon">
               <SVG
                 src={toAbsoluteUrl(
                   "/media/svg/icons/Communication/Add-user.svg"
@@ -1685,7 +1685,7 @@ export function AsideMenuList({ layoutProps }) {
           data-menu-toggle="hover"
         >
           <NavLink className="menu-link menu-toggle" to="/error">
-            <span className="svg-icon menu-icon">
+            <span className="svg-icon">
               <SVG
                 src={toAbsoluteUrl("/media/svg/icons/Code/Error-circle.svg")}
               />

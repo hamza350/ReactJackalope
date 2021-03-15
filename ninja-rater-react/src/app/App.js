@@ -2,13 +2,17 @@
  * Entry application component used to compose providers and render Routes.
  * */
 
-import React from "react";
+import React, { Component,Suspense, lazy } from "react";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 import { PersistGate } from "redux-persist/integration/react";
 import { Routes } from "../app/Routes";
+import { Redirect, Switch, Route } from "react-router-dom";
 import { I18nProvider } from "../_metronic/i18n";
-import { LayoutSplashScreen, MaterialThemeProvider } from "../_metronic/layout";
+import { LayoutSplashScreen, MaterialThemeProvider,Layout } from "../_metronic/layout";
+import { DashboardPage } from "../app/pages/DashboardPage";
+
+
 
 export default function App({ store, persistor, basename }) {
   return (
@@ -25,7 +29,11 @@ export default function App({ store, persistor, basename }) {
               {/* Provide `react-intl` context synchronized with Redux state.  */}
               <I18nProvider>
                 {/* Render routes with provided `Layout`. */}
-                <Routes />
+                <Layout>
+                  <Suspense fallback={<LayoutSplashScreen />}>
+                    <DashboardPage />
+                  </Suspense>
+                </Layout>
               </I18nProvider>
             </MaterialThemeProvider>
           </BrowserRouter>

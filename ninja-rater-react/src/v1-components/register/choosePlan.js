@@ -60,6 +60,7 @@ class ChoosePlan extends Component {
       console.log(expection);
     }
   };
+
   handleChange = (event) => {
     let product = this.state.originalData.filter((item) => {
       return item.productId == event.target.value;
@@ -81,8 +82,8 @@ class ChoosePlan extends Component {
       },
     });
   };
+  
   componentWillReceiveProps(nextProps) {
-    debugger;
     let item = [];
     let originalData = JSON.parse(JSON.stringify(nextProps.subscriptionPlans));
     var result = nextProps.subscriptionPlans.reduce(function (r, a) {
