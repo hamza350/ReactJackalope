@@ -148,7 +148,7 @@ export function SearchDropdown() {
   return (
     <>
       {layoutProps.offcanvas && (
-        <div className="topbar-item">
+        <div className="topbar-item" style={{padding: '20px'}}>
           <div
             className="btn btn-icon btn-clean btn-lg mr-1"
             id="kt_quick_search_toggle"
@@ -177,9 +177,7 @@ export function SearchDropdown() {
             >
               <div className="btn btn-icon btn-clean btn-lg btn-dropdown mr-1">
                 <span className="svg-icon svg-icon-xl svg-icon-primary">
-                  <SVG
-                    src={toAbsoluteUrl("/media/svg/icons/General/Search.svg")}
-                  />
+                <span className="menu-text">Home</span>
                 </span>
               </div>
             </OverlayTrigger>
@@ -196,11 +194,7 @@ export function SearchDropdown() {
                   <div className={`input-group-prepend`}>
                     <span className="input-group-text">
                       <span className="svg-icon svg-icon-lg">
-                        <SVG
-                          src={toAbsoluteUrl(
-                            "/media/svg/icons/General/Search.svg"
-                          )}
-                        />
+                        <h3>Home</h3>
                       </span>
                     </span>
                   </div>

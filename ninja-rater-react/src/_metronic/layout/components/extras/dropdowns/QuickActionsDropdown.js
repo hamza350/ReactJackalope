@@ -55,9 +55,7 @@ export function QuickActionsDropdown() {
             >
               <div className="btn btn-icon btn-clean btn-dropdown btn-lg mr-1">
                 <span className="svg-icon svg-icon-xl svg-icon-primary">
-                  <SVG
-                    src={toAbsoluteUrl("/media/svg/icons/Media/Equalizer.svg")}
-                  />
+                <span className="menu-text">Settings</span>
                 </span>
               </div>
             </OverlayTrigger>

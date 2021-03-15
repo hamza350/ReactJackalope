@@ -48,9 +48,8 @@ export function Topbar() {
 
       {layoutProps.viewQuickActionsDisplay && <QuickActionsDropdown />}
 
-      {layoutProps.viewCartDisplay && <MyCartDropdown />}
 
-      {layoutProps.viewQuickPanelDisplay && (
+      {/* {layoutProps.viewQuickPanelDisplay && (
         <OverlayTrigger
           placement="bottom"
           overlay={<Tooltip id="quick-panel-tooltip">Quick panel</Tooltip>}
@@ -79,7 +78,7 @@ export function Topbar() {
 
       {layoutProps.viewLanguagesDisplay && <LanguageSelectorDropdown />}
 
-      {/* {layoutProps.viewUserDisplay && <QuickUserToggler />} */}
+      {layoutProps.viewUserDisplay && <QuickUserToggler />} */}
     </div>
   );
 }
