@@ -47,7 +47,7 @@ export function Topbar() {
       {layoutProps.viewNotificationsDisplay && <UserNotificationsDropdown />}
 
       {layoutProps.viewQuickActionsDisplay && <QuickActionsDropdown />}
-
+      {/* {layoutProps.viewUserDisplay && <QuickUserToggler />} */}
 
       {/* {layoutProps.viewQuickPanelDisplay && (
         <OverlayTrigger

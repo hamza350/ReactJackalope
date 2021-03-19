@@ -5,9 +5,16 @@ import { Customisedbutton } from "../shared/inputFields";
 import * as Constants from "../Constants";
 import PreviousSubmissions from "../v1-components/previousSubmissions";
 import "../../src/App.css";
+import $ from "jquery";
 
 
 class Home extends Component {
+
+  componentDidMount(){
+    $("#footer").css("margin","0");
+    $(".register_coverimage__vi6wo").css("height","80vh");
+  }
+
   render() {
     return (
       <React.Fragment>

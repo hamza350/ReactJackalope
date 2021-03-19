@@ -5,6 +5,20 @@ import SVG from "react-inlinesvg";
 import {useHtmlClassService} from "../../_core/MetronicLayout";
 import {toAbsoluteUrl} from "../../../_helpers";
 
+
+const headingStyle = {
+	color: 'white',
+	fontWeight: 'normal',
+	fontFamily: 'Ultra sans-serif',   
+	fontSize: '30px',
+	lineHeight: '42px',
+	textTransform: 'uppercase',
+}
+
+
+
+
+
 export function Brand() {
   const uiService = useHtmlClassService();
 
@@ -28,9 +42,7 @@ export function Brand() {
           id="kt_brand"
       >
         {/* begin::Logo */}
-        <Link to="" className="brand-logo">
-          <img alt="logo" src={layoutProps.headerLogo}/>
-        </Link>
+        <h1 style={headingStyle}>JACKALOPE</h1>
         {/* end::Logo */}
 
         {layoutProps.asideSelfMinimizeToggle && (

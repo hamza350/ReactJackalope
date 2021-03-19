@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import ReactDOM from "react-dom";
 import "babel-polyfill";
 import "react-app-polyfill/ie11";
@@ -31,6 +31,7 @@ import {
 } from "./_metronic/layout";
 import {MetronicI18nProvider} from "./_metronic/i18n";
 import { DashboardPage } from "./app/pages/DashboardPage";
+import $ from "jquery";
 
 
 
@@ -46,6 +47,10 @@ _redux.setupAxios(axios, store);
 
 
 const AdminIndex = () => {
+
+  useEffect(() => {
+    $("#footer").remove();
+  }, [])
     
 return(
 

@@ -8,7 +8,7 @@ import { LayoutSplashScreen, ContentRoute } from "./_metronic/layout";
 
 
 const SwitchApp = () => {
-  const admin = true;
+  const admin = false;
 
 return(
     <>

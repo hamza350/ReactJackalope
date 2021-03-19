@@ -77,9 +77,27 @@ export function UserNotificationsDropdown() {
                 style={{ backgroundImage: `url(${bgImage})` }}
               >
                 <h4 className="d-flex flex-center rounded-top">
-                  <span className="text-white">User Notifications</span>
+                  <span className="text-white">Reports</span>
                   <span className="btn btn-text btn-success btn-sm font-weight-bold btn-font-md ml-2">
-                    23 new
+                    2 new
+                  </span>
+                </h4>
+                <h4 className="d-flex flex-center rounded-top">
+                  <span className="text-white">Messages</span>
+                  <span className="btn btn-text btn-success btn-sm font-weight-bold btn-font-md ml-2">
+                    4 new
+                  </span>
+                </h4>
+                <h4 className="d-flex flex-center rounded-top">
+                  <span className="text-white">Notes</span>
+                  <span className="btn btn-text btn-success btn-sm font-weight-bold btn-font-md ml-2">
+                    5 new
+                  </span>
+                </h4>
+                <h4 className="d-flex flex-center rounded-top">
+                  <span className="text-white">Tasks</span>
+                  <span className="btn btn-text btn-success btn-sm font-weight-bold btn-font-md ml-2">
+                    2 new
                   </span>
                 </h4>
 

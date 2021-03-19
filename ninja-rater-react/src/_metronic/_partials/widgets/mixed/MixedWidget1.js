@@ -53,7 +53,7 @@ export function MixedWidget1({ className }) {
     <div className={`card card-custom bg-gray-100 ${className}`}>
       {/* Header */}
       <div className="card-header border-0 bg-danger py-5">
-        <h3 className="card-title font-weight-bolder text-white">Sales Stat</h3>
+        <h3 className="card-title font-weight-bolder text-white">Report Types</h3>
         <div className="card-toolbar">
           <Dropdown className="dropdown-inline" drop="down" alignRight>
             <Dropdown.Toggle
@@ -62,9 +62,6 @@ export function MixedWidget1({ className }) {
               id="dropdown-toggle-top">
               Export
             </Dropdown.Toggle>
-            <Dropdown.Menu className="dropdown-menu dropdown-menu-sm dropdown-menu-right">
-              <DropdownMenu2 />
-            </Dropdown.Menu>
           </Dropdown>
         </div>
       </div>
@@ -90,7 +87,7 @@ export function MixedWidget1({ className }) {
                 href="#"
                 className="text-warning font-weight-bold font-size-h6"
               >
-                Weekly Sales
+                New and registered Agents
               </a>
             </div>
             <div className="col bg-light-primary px-6 py-8 rounded-xl mb-7">
@@ -105,7 +102,7 @@ export function MixedWidget1({ className }) {
                 href="#"
                 className="text-primary font-weight-bold font-size-h6 mt-2"
               >
-                New Users
+                Paying Agents
               </a>
             </div>
           </div>
@@ -120,7 +117,7 @@ export function MixedWidget1({ className }) {
                 href="#"
                 className="text-danger font-weight-bold font-size-h6 mt-2"
               >
-                Item Orders
+                Carrier Clicks
               </a>
             </div>
             <div className="col bg-light-success px-6 py-8 rounded-xl">
@@ -135,7 +132,24 @@ export function MixedWidget1({ className }) {
                 href="#"
                 className="text-success font-weight-bold font-size-h6 mt-2"
               >
-                Bug Reports
+                Instant Binds
+              </a>
+            </div>
+          </div>
+          <div className="row m-0 mt-4">
+            <div className="col bg-light-success px-6 py-8 rounded-xl">
+              <span className="svg-icon svg-icon-3x svg-icon-success d-block my-2">
+                <SVG
+                  src={toAbsoluteUrl(
+                    "/media/svg/icons/Navigation/Plus.svg"
+                  )}
+                ></SVG>
+              </span>
+              <a
+                href="#"
+                className="text-success font-weight-bold font-size-h6 mt-2"
+              >
+                Log In
               </a>
             </div>
           </div>

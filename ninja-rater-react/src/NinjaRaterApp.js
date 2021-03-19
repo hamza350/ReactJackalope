@@ -134,7 +134,7 @@ class NinjaRaterApp extends Component {
       AddUser: this.refs.AddUser,
     };
     this.setState({ refs: refs, action: action[0].value });
-    $("#footer").load("footer.html");
+    
   }
 
   userAndInitialDataFetched = (response) => {

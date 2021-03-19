@@ -5,6 +5,7 @@ import {toAbsoluteUrl} from "../../../../_helpers";
 import {useHtmlClassService} from "../../../_core/MetronicLayout";
 import {HeaderMenu} from "./HeaderMenu";
 
+
 export function HeaderMenuWrapper() {
     const uiService = useHtmlClassService();
     const layoutProps = useMemo(() => {
@@ -33,7 +34,7 @@ export function HeaderMenuWrapper() {
 
     return <>
         {/*begin::Header Menu Wrapper*/}
-        <div className="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper">
+        <div className="header-menu-wrapper header-menu-wrapper-left" id="kt_header_menu_wrapper" style={{position: 'absolute', bottom: '0', right: '4'}}>
             {layoutProps.disabledAsideSelfDisplay && (
                 <>
                     {/*begin::Header Logo*/}

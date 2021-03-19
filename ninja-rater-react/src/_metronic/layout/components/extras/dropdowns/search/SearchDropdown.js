@@ -148,7 +148,7 @@ export function SearchDropdown() {
   return (
     <>
       {layoutProps.offcanvas && (
-        <div className="topbar-item" style={{padding: '20px'}}>
+        <div className="topbar-item p-4">
           <div
             className="btn btn-icon btn-clean btn-lg mr-1"
             id="kt_quick_search_toggle"
@@ -171,65 +171,13 @@ export function SearchDropdown() {
           id="kt_quick_search_toggle"
         >
           <Dropdown.Toggle as={DropdownTopbarItemToggler}>
-            <OverlayTrigger
-              placement="bottom"
-              overlay={<Tooltip id="search-panel-tooltip">Quick search</Tooltip>}
-            >
-              <div className="btn btn-icon btn-clean btn-lg btn-dropdown mr-1">
-                <span className="svg-icon svg-icon-xl svg-icon-primary">
-                <span className="menu-text">Home</span>
-                </span>
-              </div>
-            </OverlayTrigger>
-          </Dropdown.Toggle>
-          <Dropdown.Menu className="dropdown-menu p-0 m-0 dropdown-menu-right dropdown-menu-anim-up dropdown-menu-lg">
-            <div
-              id="kt_quick_search_dropdown"
-              className={clsx("quick-search quick-search-dropdown", {
-                "quick-search-has-result": data && data.length,
-              })}
-            >
-              <form className="quick-search-form">
-                <div className="input-group">
-                  <div className={`input-group-prepend`}>
-                    <span className="input-group-text">
-                      <span className="svg-icon svg-icon-lg">
-                        <h3>Home</h3>
-                      </span>
-                    </span>
-                  </div>
-                  <input
-                    type="text"
-                    autoFocus={true}
-                    placeholder="Search..."
-                    value={searchValue}
-                    onChange={handleSearchChange}
-                    className="form-control"
-                  />
-
-                  <div
-                    className={`input-group-append ${
-                      loading ? "spinner spinner-sm spinner-primary" : ""
-                    }")}`}
-                  >
-                    <span className="input-group-text">
-                      <i
-                        style={{
-                          display:
-                            loading && searchValue && searchValue.length > 0
-                              ? "none"
-                              : "flex",
-                        }}
-                        onClick={clear}
-                        className="quick-search-close ki ki-close icon-sm text-muted"
-                      />
-                    </span>
-                  </div>
-                </div>
-              </form>
-              <SearchResult data={data} />
+            <div className="btn btn-icon btn-clean btn-lg btn-dropdown mr-1">
+              <span className="svg-icon svg-icon-xl svg-icon-primary">
+              <a className="menu-text" href="/homepage">Home</a>
+              </span>
             </div>
-          </Dropdown.Menu>
+          </Dropdown.Toggle>
+          
         </Dropdown>
       )}
     </>

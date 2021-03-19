@@ -94,8 +94,7 @@ function Login(props) {
       background: 'linear-gradient(135deg, #8426b0 3%, #bd0283 47%, #ec4b3c 98%)'
     }
     const buttonStyle = {
-      background: 'linear-gradient(135deg, #8426b0 3%, #bd0283 47%, #ec4b3c 98%)',
-      margin: '-36px'
+      background: 'linear-gradient(135deg, #8426b0 3%, #bd0283 47%, #ec4b3c 98%)'
     }
 
     return (
@@ -127,23 +126,22 @@ function Login(props) {
           </div>
           
           <div className="login-form login-signin" id="kt_login_signin_form" style={{padding: '80px',marginLeft: '100px'}}>
-          {/* begin::Head */}
-          <Link to="/" className="mt-5" style={{marginLeft : "150px"}}>
-                <img
-                  alt="Logo"
-                  className="max-h-200px mb-10"
-                  src={toAbsoluteUrl("/media/logos/jlop.png")}
-                />
-          </Link>
+            <Link to="/" className="mt-5" style={{marginLeft : "110px"}}>
+                  <img
+                    alt="Logo"
+                    className="max-h-200px mb-10"
+                    src={toAbsoluteUrl("/media/logos/jlop.png")}
+                  />
+            </Link>
           <div className="text-center mb-10 mb-lg-20">
 
-          <h3 className="font-size-h1">
+            <h3 className="font-size-h1">
               {/* <FormattedMessage id="AUTH.LOGIN.TITLE" /> */}
 
-          <h3 className="font-size-h1" style={{float: "right",fontWeight: '600'}}>
-              Log in
-          </h3>
-          </h3>
+              <h3 className="font-size-h1" style={{marginLeft: '100px',fontWeight: '600'}}>
+                Log in
+            </h3>
+            </h3>
           </div>
         
           <form
@@ -159,7 +157,7 @@ function Login(props) {
                 required={true}
                 value={userInfo.username}
                 onChange={(e) => onChangeHandler(e)}
-                style={{width: '180%', height: '63px'}}
+                style={{width: '150%', height: '63px'}}
               />
             </div>
             <div className="form-group fv-plugins-icon-container">
@@ -171,7 +169,7 @@ function Login(props) {
                 required={true}
                 onChange={(e) => onChangeHandler(e)}
                 value={userInfo.password}
-                style={{width: '180%'}}
+                style={{width: '150%'}}
               />
               {showError && (
                 <div className={styles1.error_message}>
