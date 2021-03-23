@@ -99,43 +99,43 @@ class NinjaRaterApp extends Component {
     this.redrawLandingPage = this.redrawLandingPage.bind(this);
   }
 
-  componentDidMount() {
-    let token = utils.readCookie("token");
-    if (!token) {
-      utils.logOut();
-    }
-    let action = [{ value: 23 }];
-    if (window.location.hash.split("#/")[1] != "") {
-      action = Constants.arrayRoutes.filter((item) => {
-        return item.url == window.location.hash.split("#")[1];
-      });
-    }
-    new UserHelper({ parentComponent: this }).fetchUserAndInitialData(
-      token,
-      this.userAndInitialDataFetched
-    );
+  // componentDidMount() {
+  //   let token = utils.readCookie("token");
+  //   if (!token) {
+  //     utils.logOut();
+  //   }
+  //   let action = [{ value: 23 }];
+  //   if (window.location.hash.split("#/")[1] != "") {
+  //     action = Constants.arrayRoutes.filter((item) => {
+  //       return item.url == window.location.hash.split("#")[1];
+  //     });
+  //   }
+  //   new UserHelper({ parentComponent: this }).fetchUserAndInitialData(
+  //     token,
+  //     this.userAndInitialDataFetched
+  //   );
 
-    jQuery(this.layoutMenuScroller).nanoScroller({ flash: true });
-    let refs = {
-      Rates: this.refs.Rates,
-      Wcirb: this.refs.Wcirb,
-      WcirbRange: this.refs.WcirbRange,
-      MyAccount: this.refs.MyAccount,
-      UpdateCreditCard: this.refs.UpdateCreditCard,
-      MyNinjaPlan: this.refs.MyNinjaPlan,
-      ChangePassword: this.refs.ChangePassword,
-      Subscribe: this.refs.Subscribe,
-      MySalesLeads: this.refs.MySalesLeads,
-      UpdateSubscription: this.refs.UpdateSubscription,
-      Help: this.refs.Help,
-      PreviousSubmissions: this.refs.PreviousSubmissions,
-      ReferFriend: this.refs.ReferFriend,
-      userActivity: this.refs.userActivity,
-      AddUser: this.refs.AddUser,
-    };
-    this.setState({ refs: refs, action: action[0].value });
+  //   jQuery(this.layoutMenuScroller).nanoScroller({ flash: true });
+  //   let refs = {
+  //     Rates: this.refs.Rates,
+  //     Wcirb: this.refs.Wcirb,
+  //     WcirbRange: this.refs.WcirbRange,
+  //     MyAccount: this.refs.MyAccount,
+  //     UpdateCreditCard: this.refs.UpdateCreditCard,
+  //     MyNinjaPlan: this.refs.MyNinjaPlan,
+  //     ChangePassword: this.refs.ChangePassword,
+  //     Subscribe: this.refs.Subscribe,
+  //     MySalesLeads: this.refs.MySalesLeads,
+  //     UpdateSubscription: this.refs.UpdateSubscription,
+  //     Help: this.refs.Help,
+  //     PreviousSubmissions: this.refs.PreviousSubmissions,
+  //     ReferFriend: this.refs.ReferFriend,
+  //     userActivity: this.refs.userActivity,
+  //     AddUser: this.refs.AddUser,
+  //   };
+  //   this.setState({ refs: refs, action: action[0].value });
     
-  }
+  // }
 
   userAndInitialDataFetched = (response) => {
     this.setState({
