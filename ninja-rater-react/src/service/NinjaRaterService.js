@@ -18,8 +18,8 @@ export class NinjaRaterService {
     }
 
     getStubbedClassCodes() {
-        return axios.get('assets/demo/data/class-codes.json')
-                .then(res => res.data);
+        return axios.get('assets/demo/data/class-codes')
+                .then(res => console.log(res.data));
     }
 
     getStubbedSicCodes() {

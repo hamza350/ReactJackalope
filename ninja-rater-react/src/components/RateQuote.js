@@ -27,6 +27,7 @@ import {Checkbox} from "primereact/components/checkbox/Checkbox";
 //import * as jsPDF from 'jspdf-autotable';
 import styles from "./RateQuote.module.scss";
 import "../../src/App.css";
+import data from './class-codes.json'
 const utils = new Utils();
 const DEFAULT_EXMOD = "1.00";
 
@@ -120,12 +121,11 @@ export class RateQuote extends React.Component {
     // this.ninjaRaterService.getStubbedSicCodes().then(data => this.setState({sicCodes: data}));
     // this.ninjaRaterService.getZipcodeCityCountyCA().then(data => this.setState({zipCodesCA:  utils.getZipCodes(data) }) );
 
-    this.ninjaRaterService.getStubbedClassCodes().then((data) => {
+    
       this.setState({
         ninjaClassData: this.state.RatesUtility.flattenClassCodes(data),
       });
       this.state.ninjaClassData.sort(this.compare);
-    });
 
     //Cross checking - No more use
     // this.ninjaRaterService.getStubbedClassCodes().then(data => this.setState(
@@ -269,6 +269,7 @@ export class RateQuote extends React.Component {
       classCodeInt,
       this.state.subCodesGroupedByClassCode
     );
+    debugger
     let ID_SUBCODE = "ID_SUBCODE_" + currentClassCodeCountIndex;
     let subCodeDomElement = document.getElementById(ID_SUBCODE);
 
@@ -682,7 +683,6 @@ export class RateQuote extends React.Component {
                               float: "right"
                             }}
                             label="Remove"
-                            icon="ui-icon-remove"
                           ></Button>
                         </div>
                         </fieldset>
