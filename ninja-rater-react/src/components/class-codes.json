@@ -1,0 +1,5784 @@
+{
+   "4420-null":{
+      "class_code":4420,
+      "description":"Rubber Tire Recapping/Retreading",
+      "class_sub_code":null,
+      "sic_code":3011,
+      "sic_code_desc":"TIRES AND INNER TUBES"
+   },
+   "8018-null":{
+      "class_code":8018,
+      "description":"Stores - wholesale",
+      "class_sub_code":null,
+      "sic_code":5181,
+      "sic_code_desc":"BEER AND ALE"
+   },
+   "4251-null":{
+      "class_code":4251,
+      "description":"Envelope Mfg",
+      "class_sub_code":null,
+      "sic_code":2679,
+      "sic_code_desc":"CONVERTED PAPER AND PAPERBOARD PRODUCTS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7098-null":{
+      "class_code":7098,
+      "description":"Vessels-notself-propelled-Program II-State Act",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "4279-1":{
+      "class_code":4279,
+      "description":"Paper Goods Mfg",
+      "class_sub_code":"1",
+      "sic_code":3999,
+      "sic_code_desc":"MANUFACTURING INDUSTRIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4279-2":{
+      "class_code":4279,
+      "description":"Bag Mfg - paper",
+      "class_sub_code":"2",
+      "sic_code":2679,
+      "sic_code_desc":"CONVERTED PAPER AND PAPERBOARD PRODUCTS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2840-2":{
+      "class_code":2840,
+      "description":"Picture/Artwork Framing",
+      "class_sub_code":"2",
+      "sic_code":2431,
+      "sic_code_desc":"MILLWORK"
+   },
+   "8387-3":{
+      "class_code":8387,
+      "description":"Auto/Truck Washing Facilities",
+      "class_sub_code":"3",
+      "sic_code":5541,
+      "sic_code_desc":"GASOLINE SERVICE STATIONS"
+   },
+   "2840-1":{
+      "class_code":2840,
+      "description":"Picture Frame Assembly",
+      "class_sub_code":"1",
+      "sic_code":2431,
+      "sic_code_desc":"MILLWORK"
+   },
+   "8846-1":{
+      "class_code":8846,
+      "description":"Printing - screen printing - editing",
+      "class_sub_code":"1",
+      "sic_code":2759,
+      "sic_code_desc":"COMMERCIAL PRINTING, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8846-2":{
+      "class_code":8846,
+      "description":"Screen Printed Merchandise Dlr - editing",
+      "class_sub_code":"2",
+      "sic_code":2759,
+      "sic_code_desc":"COMMERCIAL PRINTING, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8278-null":{
+      "class_code":8278,
+      "description":"Racing Stables - jockeys per race basis",
+      "class_sub_code":null,
+      "sic_code":272,
+      "sic_code_desc":"HORSES AND OTHER EQUINES"
+   },
+   "3572-null":{
+      "class_code":3572,
+      "description":"Medical Instrument Mfg",
+      "class_sub_code":null,
+      "sic_code":3829,
+      "sic_code_desc":"MEASURING AND CONTROLLING DEVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5447-null":{
+      "class_code":5447,
+      "description":"Wallboard Application - high wage",
+      "class_sub_code":null,
+      "sic_code":1742,
+      "sic_code_desc":"PLASTERING, DRYWALL, ACOUSTICAL, AND INSULATION WORK"
+   },
+   "8387-1":{
+      "class_code":8387,
+      "description":"Auto/Truck Gasoline Service Stations",
+      "class_sub_code":"1",
+      "sic_code":5541,
+      "sic_code_desc":"GASOLINE SERVICE STATIONS"
+   },
+   "8387-2":{
+      "class_code":8387,
+      "description":"Auto/Truck Oil/Fluid Service Facilities",
+      "class_sub_code":"2",
+      "sic_code":5541,
+      "sic_code_desc":"GASOLINE SERVICE STATIONS"
+   },
+   "4494-null":{
+      "class_code":4494,
+      "description":"Plastics - blow molded products mfg",
+      "class_sub_code":null,
+      "sic_code":5162,
+      "sic_code_desc":"PLASTICS MATERIALS AND BASIC FORMS AND SHAPES"
+   },
+   "8729-null":{
+      "class_code":8729,
+      "description":"Elevator Service Inspections/Oil/Adjust",
+      "class_sub_code":null,
+      "sic_code":3534,
+      "sic_code_desc":"ELEVATORS AND MOVING STAIRWAYS"
+   },
+   "5633-null":{
+      "class_code":5633,
+      "description":"Steel Framing - light gauge - high wage",
+      "class_sub_code":null,
+      "sic_code":1541,
+      "sic_code_desc":"GENERAL CONTRACTORS-INDUSTRIAL BUILDINGS AND WAREHOUSES"
+   },
+   "6218-3":{
+      "class_code":6218,
+      "description":"Land Leveling - farm lands - low wage",
+      "class_sub_code":"3",
+      "sic_code":1794,
+      "sic_code_desc":"EXCAVATION WORK"
+   },
+   "6218-2":{
+      "class_code":6218,
+      "description":"Grading Land - low wage",
+      "class_sub_code":"2",
+      "sic_code":1794,
+      "sic_code_desc":"EXCAVATION WORK"
+   },
+   "8278-P":{
+      "class_code":8278,
+      "description":"Racing Stables - jockeys per race basis - Sub Code (P)",
+      "class_sub_code":"P",
+      "sic_code":272,
+      "sic_code_desc":"PERIODICALS: PUBLISHING, OR PUBLISHING AND PRINTING"
+   },
+   "6218-1":{
+      "class_code":6218,
+      "description":"Excavation - low wage",
+      "class_sub_code":"1",
+      "sic_code":1794,
+      "sic_code_desc":"EXCAVATION WORK"
+   },
+   "2923-null":{
+      "class_code":2923,
+      "description":"Musical Instrument Mfg - other than metal",
+      "class_sub_code":null,
+      "sic_code":3931,
+      "sic_code_desc":"MUSICAL INSTRUMENTS"
+   },
+   "5212-null":{
+      "class_code":5212,
+      "description":"Concrete Pumping - foundations",
+      "class_sub_code":null,
+      "sic_code":1771,
+      "sic_code_desc":"CONCRETE WORK"
+   },
+   "4111-1":{
+      "class_code":4111,
+      "description":"Glassware Mfg - no automatic machines",
+      "class_sub_code":"1",
+      "sic_code":3229,
+      "sic_code_desc":"PRESSED AND BLOWN GLASS AND GLASSWARE, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4111-3":{
+      "class_code":4111,
+      "description":"Cathedral/Art Glass Window Mfg",
+      "class_sub_code":"3",
+      "sic_code":3229,
+      "sic_code_desc":"PRESSED AND BLOWN GLASS AND GLASSWARE, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9079-null":{
+      "class_code":9079,
+      "description":"RESTAURANT OR TAVERNS",
+      "class_sub_code":null,
+      "sic_code":5813,
+      "sic_code_desc":"DRINKING PLACES (ALCOHOLIC BEVERAGES)"
+   },
+   "4111-2":{
+      "class_code":4111,
+      "description":"Incandescent Lamp/Fluorescent Tube Mfg",
+      "class_sub_code":"2",
+      "sic_code":3229,
+      "sic_code_desc":"PRESSED AND BLOWN GLASS AND GLASSWARE, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6874-F":{
+      "class_code":6874,
+      "description":"Ship scaling - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "5650-null":{
+      "class_code":5650,
+      "description":"Termite Control Work",
+      "class_sub_code":null,
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8852-null":{
+      "class_code":8852,
+      "description":"Home Infusion Therapists",
+      "class_sub_code":null,
+      "sic_code":8059,
+      "sic_code_desc":"NURSING AND PERSONAL CARE FACILITIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8868-6":{
+      "class_code":8868,
+      "description":"Colleges/Schools - private - professionals - Sub Code (6)",
+      "class_sub_code":"6",
+      "sic_code":8322,
+      "sic_code_desc":"INDIVIDUAL AND FAMILY SOCIAL SERVICES"
+   },
+   "2123-null":{
+      "class_code":2123,
+      "description":"Fruit/Vegetable Processing - fresh",
+      "class_sub_code":null,
+      "sic_code":2038,
+      "sic_code_desc":"FROZEN SPECIALTIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8868-5":{
+      "class_code":8868,
+      "description":"Colleges/Schools - private - professionals - Sub Code (5)",
+      "class_sub_code":"5",
+      "sic_code":8322,
+      "sic_code_desc":"INDIVIDUAL AND FAMILY SOCIAL SERVICES"
+   },
+   "5482-3":{
+      "class_code":5482,
+      "description":"Painting - oil/gas - storage tanks - high wage",
+      "class_sub_code":"3",
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8232-3":{
+      "class_code":8232,
+      "description":"Fuel and Material Dealers",
+      "class_sub_code":"3",
+      "sic_code":5052,
+      "sic_code_desc":"COAL AND OTHER MINERALS AND ORES"
+   },
+   "5482-2":{
+      "class_code":5482,
+      "description":"Waterproofing - high wage",
+      "class_sub_code":"2",
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8232-2":{
+      "class_code":8232,
+      "description":"Building Material Dealers",
+      "class_sub_code":"2",
+      "sic_code":5984,
+      "sic_code_desc":"LIQUEFIED PETROLEUM GAS (BOTTLED GAS) DEALERS"
+   },
+   "5482-1":{
+      "class_code":5482,
+      "description":"Painting/Decorating - high wage",
+      "class_sub_code":"1",
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8232-1":{
+      "class_code":8232,
+      "description":"Lumberyards",
+      "class_sub_code":"1",
+      "sic_code":5251,
+      "sic_code_desc":"HARDWARE STORES"
+   },
+   "7016-M":{
+      "class_code":7016,
+      "description":"Boat testing-newlyconstructed vessels-Program I - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "7024-null":{
+      "class_code":7024,
+      "description":"Pilots who guidevessels-Program II-State Act",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "3821-null":{
+      "class_code":3821,
+      "description":"Auto/Truck Dismantling",
+      "class_sub_code":null,
+      "sic_code":5093,
+      "sic_code_desc":"SCRAP AND WASTE MATERIALS"
+   },
+   "8392-null":{
+      "class_code":8392,
+      "description":"Auto/Truck Storage Garages/Parking Lots",
+      "class_sub_code":null,
+      "sic_code":7549,
+      "sic_code_desc":"AUTOMOTIVE SERVICES, EXCEPT REPAIR AND CARWASHES"
+   },
+   "172-null":{
+      "class_code":172,
+      "description":"Truck Farms",
+      "class_sub_code":null,
+      "sic_code":191,
+      "sic_code_desc":"GENERAL FARMS, PRIMARILY CROP"
+   },
+   "9079-12":{
+      "class_code":9079,
+      "description":"RESTAURANT OR TAVERNS - Sub Code (12)",
+      "class_sub_code":"12",
+      "sic_code":5813,
+      "sic_code_desc":"DRINKING PLACES (ALCOHOLIC BEVERAGES)"
+   },
+   "9079-11":{
+      "class_code":9079,
+      "description":"RESTAURANT OR TAVERNS - Sub Code (11)",
+      "class_sub_code":"11",
+      "sic_code":5812,
+      "sic_code_desc":"EATING PLACES"
+   },
+   "3805-1":{
+      "class_code":3805,
+      "description":"Aircraft Engine Mfg/Rebuilding",
+      "class_sub_code":"1",
+      "sic_code":3724,
+      "sic_code_desc":"AIRCRAFT ENGINES AND ENGINE PARTS"
+   },
+   "3805-2":{
+      "class_code":3805,
+      "description":"Auto/Truck Engine Mfg",
+      "class_sub_code":"2",
+      "sic_code":3724,
+      "sic_code_desc":"AIRCRAFT ENGINES AND ENGINE PARTS"
+   },
+   "9079-10":{
+      "class_code":9079,
+      "description":"RESTAURANT OR TAVERNS - Sub Code (10)",
+      "class_sub_code":"10",
+      "sic_code":5087,
+      "sic_code_desc":"SERVICE ESTABLISHMENT EQUIPMENT AND SUPPLIES"
+   },
+   "5190-null":{
+      "class_code":5190,
+      "description":"Electrical Wiring - low wage",
+      "class_sub_code":null,
+      "sic_code":1731,
+      "sic_code_desc":"ELECTRICAL WORK"
+   },
+   "7500-null":{
+      "class_code":7500,
+      "description":"Gas Works",
+      "class_sub_code":null,
+      "sic_code":4619,
+      "sic_code_desc":"PIPELINES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4112-null":{
+      "class_code":4112,
+      "description":"Integrated Circuit Mfg",
+      "class_sub_code":null,
+      "sic_code":3663,
+      "sic_code_desc":"RADIO AND TELEVISION BROADCASTING AND COMMUNICATIONS EQUIPMENT"
+   },
+   "5107-null":{
+      "class_code":5107,
+      "description":"Door/Pre-Glazed Window Installation",
+      "class_sub_code":null,
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3400-null":{
+      "class_code":3400,
+      "description":"Metal Goods Mfg",
+      "class_sub_code":null,
+      "sic_code":3499,
+      "sic_code_desc":"FABRICATED METAL PRODUCTS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8060-null":{
+      "class_code":8060,
+      "description":"Stores - wine/beer/spirits - retail",
+      "class_sub_code":null,
+      "sic_code":5182,
+      "sic_code_desc":"WINE AND DISTILLED ALCOHOLIC BEVERAGES"
+   },
+   "3175-null":{
+      "class_code":3175,
+      "description":"Furnace/Heater/Radiator Mfg",
+      "class_sub_code":null,
+      "sic_code":3325,
+      "sic_code_desc":"STEEL FOUNDRIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "1710-null":{
+      "class_code":1710,
+      "description":"Stone Crushing",
+      "class_sub_code":null,
+      "sic_code":3274,
+      "sic_code_desc":"LIME"
+   },
+   "3828-null":{
+      "class_code":3828,
+      "description":"Auto/Truck Parts Rebuilding",
+      "class_sub_code":null,
+      "sic_code":7539,
+      "sic_code_desc":"AUTOMOTIVE REPAIR SHOPS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8107-null":{
+      "class_code":8107,
+      "description":"Machinery Dealers",
+      "class_sub_code":null,
+      "sic_code":5082,
+      "sic_code_desc":"CONSTRUCTION AND MINING (EXCEPT PETROLEUM) MACHINERY AND EQUIPMEN"
+   },
+   "2002-null":{
+      "class_code":2002,
+      "description":"Macaroni Mfg",
+      "class_sub_code":null,
+      "sic_code":2095,
+      "sic_code_desc":"ROASTED COFFEE"
+   },
+   "2683-null":{
+      "class_code":2683,
+      "description":"Bag Mfg - traveling bags/hand luggage",
+      "class_sub_code":null,
+      "sic_code":3199,
+      "sic_code_desc":"LEATHER GOODS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9184-null":{
+      "class_code":9184,
+      "description":"Ski Resorts",
+      "class_sub_code":null,
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6872-F":{
+      "class_code":6872,
+      "description":"Marine railway operation - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "2585-null":{
+      "class_code":2585,
+      "description":"Laundry Services / Carpentry Cleaning",
+      "class_sub_code":null,
+      "sic_code":7213,
+      "sic_code_desc":"LINEN SUPPLY"
+   },
+   "7403-null":{
+      "class_code":7403,
+      "description":"Aircraft Operation - scheduled - all others",
+      "class_sub_code":null,
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "8106-null":{
+      "class_code":8106,
+      "description":"Iron/Steel Merchants",
+      "class_sub_code":null,
+      "sic_code":5039,
+      "sic_code_desc":"CONSTRUCTION MATERIALS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4470-null":{
+      "class_code":4470,
+      "description":"Wire Rope/Cable Mfg - no wire drawing",
+      "class_sub_code":null,
+      "sic_code":3496,
+      "sic_code_desc":"MISCELLANEOUS FABRICATED WIRE PRODUCTS"
+   },
+   "9096-null":{
+      "class_code":9096,
+      "description":"Residential Cleaning Services",
+      "class_sub_code":null,
+      "sic_code":7349,
+      "sic_code_desc":"BUILDING CLEANING AND MAINTENANCE SERVICES, NOT ELSEWHERE CLASSIF"
+   },
+   "8726-F":{
+      "class_code":8726,
+      "description":"Steamship line oragency-port employees: superintendents, captains, - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "2915-null":{
+      "class_code":2915,
+      "description":"Veneer/Veneer Products Mfg",
+      "class_sub_code":null,
+      "sic_code":2411,
+      "sic_code_desc":"LOGGING"
+   },
+   "4771-1":{
+      "class_code":4771,
+      "description":"Explosive Mfg",
+      "class_sub_code":"1",
+      "sic_code":3482,
+      "sic_code_desc":"SMALL ARMS AMMUNITION"
+   },
+   "4771-2":{
+      "class_code":4771,
+      "description":"Rocket Propellant Mfg",
+      "class_sub_code":"2",
+      "sic_code":3482,
+      "sic_code_desc":"SMALL ARMS AMMUNITION"
+   },
+   "8116-null":{
+      "class_code":8116,
+      "description":"Farm Machinery Dealers",
+      "class_sub_code":null,
+      "sic_code":5083,
+      "sic_code_desc":"FARM AND GARDEN MACHINERY AND EQUIPMENT"
+   },
+   "8818-null":{
+      "class_code":8818,
+      "description":"Newspaper Publishing/Printing - editing",
+      "class_sub_code":null,
+      "sic_code":2711,
+      "sic_code_desc":"NEWSPAPERS: PUBLISHING, OR PUBLISHING AND PRINTING"
+   },
+   "7016-null":{
+      "class_code":7016,
+      "description":"Boat testing-newlyconstructed vessels-Program I",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "9185-null":{
+      "class_code":9185,
+      "description":"Carnivals/Circuses",
+      "class_sub_code":null,
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "35-null":{
+      "class_code":35,
+      "description":"Florists - cultivating/gardening",
+      "class_sub_code":null,
+      "sic_code":5261,
+      "sic_code_desc":"RETAIL NURSERIES, LAWN AND GARDEN SUPPLY STORES"
+   },
+   "7382-null":{
+      "class_code":7382,
+      "description":"Bus/Limousine Operations",
+      "class_sub_code":null,
+      "sic_code":4111,
+      "sic_code_desc":"LOCAL AND SUBURBAN TRANSIT"
+   },
+   "8265-1":{
+      "class_code":8265,
+      "description":"Iron/Steel Scrap Dealers",
+      "class_sub_code":"1",
+      "sic_code":5093,
+      "sic_code_desc":"SCRAP AND WASTE MATERIALS"
+   },
+   "8859-2":{
+      "class_code":8859,
+      "description":"Internet/Web-Based Application Developmt",
+      "class_sub_code":"2",
+      "sic_code":5045,
+      "sic_code_desc":"COMPUTERS AND COMPUTER PERIPHERAL EQUIPMENT AND SOFTWARE"
+   },
+   "8859-1":{
+      "class_code":8859,
+      "description":"Computer Programming/Software Developmnt",
+      "class_sub_code":"1",
+      "sic_code":5045,
+      "sic_code_desc":"COMPUTERS AND COMPUTER PERIPHERAL EQUIPMENT AND SOFTWARE"
+   },
+   "5027-null":{
+      "class_code":5027,
+      "description":"Masonry - low wage",
+      "class_sub_code":null,
+      "sic_code":1741,
+      "sic_code_desc":"MASONRY, STONE SETTING, AND OTHER STONE WORK"
+   },
+   "8265-2":{
+      "class_code":8265,
+      "description":"Junk Dealers",
+      "class_sub_code":"2",
+      "sic_code":5093,
+      "sic_code_desc":"SCRAP AND WASTE MATERIALS"
+   },
+   "5213-null":{
+      "class_code":5213,
+      "description":"Concrete Construction",
+      "class_sub_code":null,
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8813-2":{
+      "class_code":8813,
+      "description":"Bookbinding - editing",
+      "class_sub_code":"2",
+      "sic_code":2732,
+      "sic_code_desc":"BOOK PRINTING"
+   },
+   "8813-1":{
+      "class_code":8813,
+      "description":"Printing - editing",
+      "class_sub_code":"1",
+      "sic_code":2732,
+      "sic_code_desc":"BOOK PRINTING"
+   },
+   "9031-null":{
+      "class_code":9031,
+      "description":"Pest Control",
+      "class_sub_code":null,
+      "sic_code":7342,
+      "sic_code_desc":"DISINFECTING AND PEST CONTROL SERVICES"
+   },
+   "8803-null":{
+      "class_code":8803,
+      "description":"Auditors/Accountants",
+      "class_sub_code":null,
+      "sic_code":7379,
+      "sic_code_desc":"COMPUTER RELATED SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "913-null":{
+      "class_code":913,
+      "description":"Domestic workers-inside",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "9050-2":{
+      "class_code":9050,
+      "description":"Motels",
+      "class_sub_code":"2",
+      "sic_code":7011,
+      "sic_code_desc":"HOTELS AND MOTELS"
+   },
+   "9050-1":{
+      "class_code":9050,
+      "description":"Hotels",
+      "class_sub_code":"1",
+      "sic_code":7011,
+      "sic_code_desc":"HOTELS AND MOTELS"
+   },
+   "6872-null":{
+      "class_code":6872,
+      "description":"Marine railway operation",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "4478-null":{
+      "class_code":4478,
+      "description":"Plastic Goods Mfg",
+      "class_sub_code":null,
+      "sic_code":5162,
+      "sic_code_desc":"PLASTICS MATERIALS AND BASIC FORMS AND SHAPES"
+   },
+   "2413-null":{
+      "class_code":2413,
+      "description":"Textiles",
+      "class_sub_code":null,
+      "sic_code":2297,
+      "sic_code_desc":"NONWOVEN FABRICS"
+   },
+   "8393-null":{
+      "class_code":8393,
+      "description":"Auto/Truck Body Repairing/Painting",
+      "class_sub_code":null,
+      "sic_code":7538,
+      "sic_code_desc":"GENERAL AUTOMOTIVE REPAIR SHOPS"
+   },
+   "8851-null":{
+      "class_code":8851,
+      "description":"Congregate Living Facilities - elderly",
+      "class_sub_code":null,
+      "sic_code":8059,
+      "sic_code_desc":"NURSING AND PERSONAL CARE FACILITIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8831-3":{
+      "class_code":8831,
+      "description":"Kennels",
+      "class_sub_code":"3",
+      "sic_code":752,
+      "sic_code_desc":"AUTOMOBILE PARKING"
+   },
+   "50-null":{
+      "class_code":50,
+      "description":"Farm Machinery Operation",
+      "class_sub_code":null,
+      "sic_code":761,
+      "sic_code_desc":"FARM LABOR CONTRACTORS AND CREW LEADERS"
+   },
+   "8070-null":{
+      "class_code":8070,
+      "description":"Stores - video media - rental - retail",
+      "class_sub_code":null,
+      "sic_code":5946,
+      "sic_code_desc":"CAMERA AND PHOTOGRAPHIC SUPPLY STORES"
+   },
+   "8831-1":{
+      "class_code":8831,
+      "description":"Hospitals - veterinary",
+      "class_sub_code":"1",
+      "sic_code":752,
+      "sic_code_desc":"AUTOMOBILE PARKING"
+   },
+   "7090-null":{
+      "class_code":7090,
+      "description":"Pilot boats-ProgramII-State Act",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "9522-5":{
+      "class_code":9522,
+      "description":"Wheelchair Upholstering",
+      "class_sub_code":"5",
+      "sic_code":7641,
+      "sic_code_desc":"REUPHOLSTERY AND FURNITURE REPAIR"
+   },
+   "2107-null":{
+      "class_code":2107,
+      "description":"Fruit - fresh fruit packing/handling",
+      "class_sub_code":null,
+      "sic_code":2037,
+      "sic_code_desc":"FROZEN FRUITS, FRUIT JUICES, AND VEGETABLES"
+   },
+   "9522-3":{
+      "class_code":9522,
+      "description":"Auto Upholstering",
+      "class_sub_code":"3",
+      "sic_code":7641,
+      "sic_code_desc":"REUPHOLSTERY AND FURNITURE REPAIR"
+   },
+   "9522-4":{
+      "class_code":9522,
+      "description":"Coffin/Casket Upholstery Work",
+      "class_sub_code":"4",
+      "sic_code":7641,
+      "sic_code_desc":"REUPHOLSTERY AND FURNITURE REPAIR"
+   },
+   "9522-1":{
+      "class_code":9522,
+      "description":"Upholstering",
+      "class_sub_code":"1",
+      "sic_code":7641,
+      "sic_code_desc":"REUPHOLSTERY AND FURNITURE REPAIR"
+   },
+   "9522-2":{
+      "class_code":9522,
+      "description":"Furniture - upholstering",
+      "class_sub_code":"2",
+      "sic_code":7641,
+      "sic_code_desc":"REUPHOLSTERY AND FURNITURE REPAIR"
+   },
+   "3560-3":{
+      "class_code":3560,
+      "description":"Machinery Mfg - material handling equip",
+      "class_sub_code":"3",
+      "sic_code":3469,
+      "sic_code_desc":"METAL STAMPINGS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5222-1":{
+      "class_code":5222,
+      "description":"Concrete Construction - bridges",
+      "class_sub_code":"1",
+      "sic_code":1622,
+      "sic_code_desc":"BRIDGE, TUNNEL, AND ELEVATED HIGHWAY CONSTRUCTION"
+   },
+   "3560-2":{
+      "class_code":3560,
+      "description":"Machinery Mfg - industrial",
+      "class_sub_code":"2",
+      "sic_code":3469,
+      "sic_code_desc":"METAL STAMPINGS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5020-null":{
+      "class_code":5020,
+      "description":"Ceiling Installation",
+      "class_sub_code":null,
+      "sic_code":1751,
+      "sic_code_desc":"CARPENTRY WORK"
+   },
+   "5222-2":{
+      "class_code":5222,
+      "description":"Chimney Construction",
+      "class_sub_code":"2",
+      "sic_code":1622,
+      "sic_code_desc":"BRIDGE, TUNNEL, AND ELEVATED HIGHWAY CONSTRUCTION"
+   },
+   "5473-null":{
+      "class_code":5473,
+      "description":"Asbestos Abatement",
+      "class_sub_code":null,
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3560-1":{
+      "class_code":3560,
+      "description":"Machinery Mfg - commercial - food processing",
+      "class_sub_code":"1",
+      "sic_code":3469,
+      "sic_code_desc":"METAL STAMPINGS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7047-M":{
+      "class_code":7047,
+      "description":"Boat testing-newlyconstructed vessels-Program II-USL Act - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "8720-1":{
+      "class_code":8720,
+      "description":"Inspection for Insurance/Valuation",
+      "class_sub_code":"1",
+      "sic_code":1711,
+      "sic_code_desc":"PLUMBING, HEATING AND AIR-CONDITIONING"
+   },
+   "8720-3":{
+      "class_code":8720,
+      "description":"Weighers/Samplers/Inspectors",
+      "class_sub_code":"3",
+      "sic_code":7389,
+      "sic_code_desc":"BUSINESS SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8720-2":{
+      "class_code":8720,
+      "description":"Elevator Inspecting",
+      "class_sub_code":"2",
+      "sic_code":1796,
+      "sic_code_desc":"INSTALLATION OR ERECTION OF BUILDING EQUIPMENT, NOT ELSEWHERE CLA"
+   },
+   "8745-null":{
+      "class_code":8745,
+      "description":"News Agents/Distributors Magazines",
+      "class_sub_code":null,
+      "sic_code":5192,
+      "sic_code_desc":"BOOKS, PERIODICALS, AND NEWSPAPERS"
+   },
+   "2570-null":{
+      "class_code":2570,
+      "description":"Mattress/Box Springs Mfg",
+      "class_sub_code":null,
+      "sic_code":2515,
+      "sic_code_desc":"MATTRESSES, FOUNDATIONS, AND CONVERTIBLE BEDS"
+   },
+   "9410-null":{
+      "class_code":9410,
+      "description":"Municipal/State/Public Agency",
+      "class_sub_code":null,
+      "sic_code":9229,
+      "sic_code_desc":"PUBLIC ORDER AND SAFETY, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3257-null":{
+      "class_code":3257,
+      "description":"Wire Goods Mfg",
+      "class_sub_code":null,
+      "sic_code":3496,
+      "sic_code_desc":"MISCELLANEOUS FABRICATED WIRE PRODUCTS"
+   },
+   "3076-6":{
+      "class_code":3076,
+      "description":"Wheelchair Mfg",
+      "class_sub_code":"6",
+      "sic_code":3995,
+      "sic_code_desc":"BURIAL CASKETS"
+   },
+   "3076-1":{
+      "class_code":3076,
+      "description":"Furniture Mfg - metal",
+      "class_sub_code":"1",
+      "sic_code":3639,
+      "sic_code_desc":"HOUSEHOLD APPLIANCES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6233-null":{
+      "class_code":6233,
+      "description":"Oil/Gas Pipeline Construction",
+      "class_sub_code":null,
+      "sic_code":1623,
+      "sic_code_desc":"WATER, SEWER, PIPELINE, AND COMMUNICATIONS AND POWER LINE CONSTRU"
+   },
+   "6843-F":{
+      "class_code":6843,
+      "description":"Barge building-iron or steel-U.S. Act- - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "7421-null":{
+      "class_code":7421,
+      "description":"Aircraft Operation - personnel transport",
+      "class_sub_code":null,
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "5432-null":{
+      "class_code":5432,
+      "description":"Carpentry - high wage",
+      "class_sub_code":null,
+      "sic_code":1751,
+      "sic_code_desc":"CARPENTRY WORK"
+   },
+   "8078-1":{
+      "class_code":8078,
+      "description":"Sandwich Shops",
+      "class_sub_code":"1",
+      "sic_code":2024,
+      "sic_code_desc":"ICE CREAM AND FROZEN DESSERTS"
+   },
+   "8078-3":{
+      "class_code":8078,
+      "description":"Ice Cream/Frozen Yogurt Shops",
+      "class_sub_code":"3",
+      "sic_code":2024,
+      "sic_code_desc":"ICE CREAM AND FROZEN DESSERTS"
+   },
+   "2797-1":{
+      "class_code":2797,
+      "description":"Mobile/Modular/Manufactured Home Mfg",
+      "class_sub_code":"1",
+      "sic_code":3465,
+      "sic_code_desc":"AUTOMOTIVE STAMPINGS"
+   },
+   "8078-2":{
+      "class_code":8078,
+      "description":"Beverage Preparation Shops",
+      "class_sub_code":"2",
+      "sic_code":2024,
+      "sic_code_desc":"ICE CREAM AND FROZEN DESSERTS"
+   },
+   "7720-null":{
+      "class_code":7720,
+      "description":"Police/Sheriffs - not volunteers",
+      "class_sub_code":null,
+      "sic_code":6512,
+      "sic_code_desc":"OPERATORS OF NONRESIDENTIAL BUILDINGS"
+   },
+   "9101-null":{
+      "class_code":9101,
+      "description":"Colleges/Schools - private",
+      "class_sub_code":null,
+      "sic_code":7911,
+      "sic_code_desc":"DANCE STUDIOS, SCHOOLS, AND HALLS"
+   },
+   "5146-2":{
+      "class_code":5146,
+      "description":"Sign Installation/Repair",
+      "class_sub_code":"2",
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5146-1":{
+      "class_code":5146,
+      "description":"Cabinet/Fixtures Installation",
+      "class_sub_code":"1",
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2797-2":{
+      "class_code":2797,
+      "description":"Auto Body Mfg",
+      "class_sub_code":"2",
+      "sic_code":3465,
+      "sic_code_desc":"AUTOMOTIVE STAMPINGS"
+   },
+   "8001-null":{
+      "class_code":8001,
+      "description":"Stores - florists",
+      "class_sub_code":null,
+      "sic_code":5992,
+      "sic_code_desc":"FLORISTS"
+   },
+   "2797-3":{
+      "class_code":2797,
+      "description":"Recreational Vehicle Mfg",
+      "class_sub_code":"3",
+      "sic_code":3465,
+      "sic_code_desc":"AUTOMOTIVE STAMPINGS"
+   },
+   "8820-null":{
+      "class_code":8820,
+      "description":"Attorneys",
+      "class_sub_code":null,
+      "sic_code":8111,
+      "sic_code_desc":"LEGAL SERVICES"
+   },
+   "2081-1":{
+      "class_code":2081,
+      "description":"Butchering",
+      "class_sub_code":"1",
+      "sic_code":2011,
+      "sic_code_desc":"MEAT PACKING PLANTS"
+   },
+   "2081-2":{
+      "class_code":2081,
+      "description":"Stockyards",
+      "class_sub_code":"2",
+      "sic_code":2048,
+      "sic_code_desc":"PREPARED FEEDS AND FEED INGREDIENTS FOR ANIMALS AND FOWLS, EXCEPT"
+   },
+   "3152-1":{
+      "class_code":3152,
+      "description":"Nail/Tack/Rivet Mfg",
+      "class_sub_code":"1",
+      "sic_code":3452,
+      "sic_code_desc":"BOLTS, NUTS, SCREWS, RIVETS, AND WASHERS"
+   },
+   "8755-null":{
+      "class_code":8755,
+      "description":"Labor Unions",
+      "class_sub_code":null,
+      "sic_code":8631,
+      "sic_code_desc":"LABOR UNIONS AND SIMILAR LABOR ORGANIZATIONS"
+   },
+   "8810-null":{
+      "class_code":8810,
+      "description":"CLERICAL OFFICE EMPLOYEES NOC",
+      "class_sub_code":null,
+      "sic_code":8322,
+      "sic_code_desc":"INDIVIDUAL AND FAMILY SOCIAL SERVICES"
+   },
+   "4239-1":{
+      "class_code":4239,
+      "description":"Paper/Pulp Mfg",
+      "class_sub_code":"1",
+      "sic_code":2621,
+      "sic_code_desc":"PAPER MILLS"
+   },
+   "4239-2":{
+      "class_code":4239,
+      "description":"Fibre Preparation",
+      "class_sub_code":"2",
+      "sic_code":2621,
+      "sic_code_desc":"PAPER MILLS"
+   },
+   "5553-null":{
+      "class_code":5553,
+      "description":"Roofing - high wage",
+      "class_sub_code":null,
+      "sic_code":1761,
+      "sic_code_desc":"ROOFING, SIDING, AND SHEET METAL WORK"
+   },
+   "7047-null":{
+      "class_code":7047,
+      "description":"Boat testing-newlyconstructed vessels-Program II-USL Act",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "1624-2":{
+      "class_code":1624,
+      "description":"Excavation - rock",
+      "class_sub_code":"2",
+      "sic_code":3281,
+      "sic_code_desc":"CUT STONE AND STONE PRODUCTS"
+   },
+   "8391-null":{
+      "class_code":8391,
+      "description":"Auto/Truck Dealers",
+      "class_sub_code":null,
+      "sic_code":5511,
+      "sic_code_desc":"MOTOR VEHICLE DEALERS (NEW AND USED)"
+   },
+   "1624-1":{
+      "class_code":1624,
+      "description":"Quarries",
+      "class_sub_code":"1",
+      "sic_code":1499,
+      "sic_code_desc":"MISCELLANEOUS NONMETALLIC MINERALS, EXCEPT FUELS"
+   },
+   "8227-null":{
+      "class_code":8227,
+      "description":"Construction/Erection Permanent Yards",
+      "class_sub_code":null,
+      "sic_code":4226,
+      "sic_code_desc":"SPECIAL WAREHOUSING AND STORAGE, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7038-M":{
+      "class_code":7038,
+      "description":"Chartered fishingboat-less than 15 tons-Program I - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "3830-null":{
+      "class_code":3830,
+      "description":"Airplane Mfg",
+      "class_sub_code":null,
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "7050-null":{
+      "class_code":7050,
+      "description":"Chartered fishingboat-less than 15 tons-Program II-USL Act",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "3383-2":{
+      "class_code":3383,
+      "description":"Clock Mfg",
+      "class_sub_code":"2",
+      "sic_code":3497,
+      "sic_code_desc":"METAL FOIL AND LEAF"
+   },
+   "3383-3":{
+      "class_code":3383,
+      "description":"Watch Mfg",
+      "class_sub_code":"3",
+      "sic_code":3873,
+      "sic_code_desc":"WATCHES, CLOCKS, CLOCKWORK OPERATED DEVICES, AND PARTS"
+   },
+   "42-null":{
+      "class_code":42,
+      "description":"Landscape Gardening",
+      "class_sub_code":null,
+      "sic_code":782,
+      "sic_code_desc":"LAWN AND GARDEN SERVICES"
+   },
+   "3152-2":{
+      "class_code":3152,
+      "description":"Nut/Bolt/Screw Mfg",
+      "class_sub_code":"2",
+      "sic_code":3452,
+      "sic_code_desc":"BOLTS, NUTS, SCREWS, RIVETS, AND WASHERS"
+   },
+   "3383-4":{
+      "class_code":3383,
+      "description":"Trophy Mfg",
+      "class_sub_code":"4",
+      "sic_code":3911,
+      "sic_code_desc":"JEWELRY, PRECIOUS METAL"
+   },
+   "3152-3":{
+      "class_code":3152,
+      "description":"Screw Machine Products Mfg",
+      "class_sub_code":"3",
+      "sic_code":3452,
+      "sic_code_desc":"BOLTS, NUTS, SCREWS, RIVETS, AND WASHERS"
+   },
+   "1452-null":{
+      "class_code":1452,
+      "description":"Mining - ore milling",
+      "class_sub_code":null,
+      "sic_code":1011,
+      "sic_code_desc":"IRON ORES"
+   },
+   "8868-null":{
+      "class_code":8868,
+      "description":"Colleges/Schools - private - professionals",
+      "class_sub_code":null,
+      "sic_code":8322,
+      "sic_code_desc":"INDIVIDUAL AND FAMILY SOCIAL SERVICES"
+   },
+   "5108-null":{
+      "class_code":5108,
+      "description":"Door Installation - overhead doors",
+      "class_sub_code":null,
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4410-null":{
+      "class_code":4410,
+      "description":"Rubber Goods Mfg",
+      "class_sub_code":null,
+      "sic_code":3069,
+      "sic_code_desc":"FABRICATED RUBBER PRODUCTS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8062-null":{
+      "class_code":8062,
+      "description":"Stores - computer",
+      "class_sub_code":null,
+      "sic_code":5999,
+      "sic_code_desc":"MISCELLANEOUS RETAIL STORES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6316-2":{
+      "class_code":6316,
+      "description":"Gas Mains Construction - high wage",
+      "class_sub_code":"2",
+      "sic_code":1623,
+      "sic_code_desc":"WATER, SEWER, PIPELINE, AND COMMUNICATIONS AND POWER LINE CONSTRU"
+   },
+   "3372-4":{
+      "class_code":3372,
+      "description":"Galvanizing/Tinning",
+      "class_sub_code":"4",
+      "sic_code":3471,
+      "sic_code_desc":"ELECTROPLATING, PLATING, POLISHING, ANODIZING, AND COLORING"
+   },
+   "6316-1":{
+      "class_code":6316,
+      "description":"Water Mains Construction - high wage",
+      "class_sub_code":"1",
+      "sic_code":1623,
+      "sic_code_desc":"WATER, SEWER, PIPELINE, AND COMMUNICATIONS AND POWER LINE CONSTRU"
+   },
+   "3372-3":{
+      "class_code":3372,
+      "description":"Buffing/Polishing of Metal",
+      "class_sub_code":"3",
+      "sic_code":3471,
+      "sic_code_desc":"ELECTROPLATING, PLATING, POLISHING, ANODIZING, AND COLORING"
+   },
+   "3372-2":{
+      "class_code":3372,
+      "description":"Detinning",
+      "class_sub_code":"2",
+      "sic_code":3471,
+      "sic_code_desc":"ELECTROPLATING, PLATING, POLISHING, ANODIZING, AND COLORING"
+   },
+   "3383-1":{
+      "class_code":3383,
+      "description":"Jewelry Mfg",
+      "class_sub_code":"1",
+      "sic_code":3873,
+      "sic_code_desc":"WATCHES, CLOCKS, CLOCKWORK OPERATED DEVICES, AND PARTS"
+   },
+   "3165-3":{
+      "class_code":3165,
+      "description":"Solar Panel Mfg",
+      "class_sub_code":"3",
+      "sic_code":3585,
+      "sic_code_desc":"AIR-CONDITIONING AND WARM AIR HEATING EQUIPMENT AND COMMERCIAL AN"
+   },
+   "3165-2":{
+      "class_code":3165,
+      "description":"Refrigerator Mfg",
+      "class_sub_code":"2",
+      "sic_code":3585,
+      "sic_code_desc":"AIR-CONDITIONING AND WARM AIR HEATING EQUIPMENT AND COMMERCIAL AN"
+   },
+   "3165-1":{
+      "class_code":3165,
+      "description":"Air Conditioning/Refrigeration Equip Mfg",
+      "class_sub_code":"1",
+      "sic_code":3585,
+      "sic_code_desc":"AIR-CONDITIONING AND WARM AIR HEATING EQUIPMENT AND COMMERCIAL AN"
+   },
+   "7539-null":{
+      "class_code":7539,
+      "description":"Electric Light/Power Companies",
+      "class_sub_code":null,
+      "sic_code":4961,
+      "sic_code_desc":"STEAM AND AIR-CONDITIONING SUPPLY"
+   },
+   "9070-3":{
+      "class_code":9070,
+      "description":"Residential Care Facilities - adults",
+      "class_sub_code":"3",
+      "sic_code":8059,
+      "sic_code_desc":"NURSING AND PERSONAL CARE FACILITIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8059-null":{
+      "class_code":8059,
+      "description":"Stores - ceramic tile",
+      "class_sub_code":null,
+      "sic_code":5713,
+      "sic_code_desc":"FLOOR COVERING STORES"
+   },
+   "9070-1":{
+      "class_code":9070,
+      "description":"Residential Care Facilities - elderly",
+      "class_sub_code":"1",
+      "sic_code":8059,
+      "sic_code_desc":"NURSING AND PERSONAL CARE FACILITIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3634-null":{
+      "class_code":3634,
+      "description":"Valve Mfg",
+      "class_sub_code":null,
+      "sic_code":3491,
+      "sic_code_desc":"INDUSTRIAL VALVES"
+   },
+   "9016-4":{
+      "class_code":9016,
+      "description":"Boat Marina/Rental Operation",
+      "class_sub_code":"4",
+      "sic_code":6519,
+      "sic_code_desc":"LESSORS OF REAL PROPERTY, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9016-3":{
+      "class_code":9016,
+      "description":"Horse Shows - maintenance",
+      "class_sub_code":"3",
+      "sic_code":7948,
+      "sic_code_desc":"RACING, INCLUDING TRACK OPERATION"
+   },
+   "9016-2":{
+      "class_code":9016,
+      "description":"Dog Shows",
+      "class_sub_code":"2",
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9016-1":{
+      "class_code":9016,
+      "description":"Amusement/Recreational Facilities",
+      "class_sub_code":"1",
+      "sic_code":7996,
+      "sic_code_desc":"AMUSEMENT PARKS"
+   },
+   "2150-null":{
+      "class_code":2150,
+      "description":"Ice Mfg/Ice Dealers",
+      "class_sub_code":null,
+      "sic_code":5199,
+      "sic_code_desc":"NONDURABLE GOODS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3372-1":{
+      "class_code":3372,
+      "description":"Electroplating",
+      "class_sub_code":"1",
+      "sic_code":3471,
+      "sic_code_desc":"ELECTROPLATING, PLATING, POLISHING, ANODIZING, AND COLORING"
+   },
+   "4740-1":{
+      "class_code":4740,
+      "description":"Oil Refining - petroleum",
+      "class_sub_code":"1",
+      "sic_code":2911,
+      "sic_code_desc":"PETROLEUM REFINING"
+   },
+   "4740-3":{
+      "class_code":4740,
+      "description":"Gasoline Recovery",
+      "class_sub_code":"3",
+      "sic_code":2911,
+      "sic_code_desc":"PETROLEUM REFINING"
+   },
+   "4740-2":{
+      "class_code":4740,
+      "description":"Asphalt/Tar Distilling/Refining",
+      "class_sub_code":"2",
+      "sic_code":1321,
+      "sic_code_desc":"NATURAL GAS LIQUIDS"
+   },
+   "2790-null":{
+      "class_code":2790,
+      "description":"Pattern/Model Mfg",
+      "class_sub_code":null,
+      "sic_code":3021,
+      "sic_code_desc":"RUBBER AND PLASTICS FOOTWEAR"
+   },
+   "8850-null":{
+      "class_code":8850,
+      "description":"Check Cashers",
+      "class_sub_code":null,
+      "sic_code":6153,
+      "sic_code_desc":"SHORT-TERM BUSINESS CREDIT INSTITUTIONS, EXCEPT AGRICULTURAL"
+   },
+   "7428-2":{
+      "class_code":7428,
+      "description":"Aircraft Operation - ground schools",
+      "class_sub_code":"2",
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "7428-3":{
+      "class_code":7428,
+      "description":"Aircraft Remanufacture/Conversion/Repair",
+      "class_sub_code":"3",
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "7428-1":{
+      "class_code":7428,
+      "description":"Aircraft Operation - not agri/scheduled",
+      "class_sub_code":"1",
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "3840-null":{
+      "class_code":3840,
+      "description":"Auto/Truck/Motorcycle Parts Mfg",
+      "class_sub_code":null,
+      "sic_code":3714,
+      "sic_code_desc":"MOTOR VEHICLE PARTS AND ACCESSORIES"
+   },
+   "2113-null":{
+      "class_code":2113,
+      "description":"Fish/Seafood Products Mfg",
+      "class_sub_code":null,
+      "sic_code":2048,
+      "sic_code_desc":"PREPARED FEEDS AND FEED INGREDIENTS FOR ANIMALS AND FOWLS, EXCEPT"
+   },
+   "3040-null":{
+      "class_code":3040,
+      "description":"Iron Works - non-structural",
+      "class_sub_code":null,
+      "sic_code":3471,
+      "sic_code_desc":"ELECTROPLATING, PLATING, POLISHING, ANODIZING, AND COLORING"
+   },
+   "8391-b":{
+      "class_code":8391,
+      "description":"Auto/Truck Dealers - Sub Code (b)",
+      "class_sub_code":"b",
+      "sic_code":5511,
+      "sic_code_desc":"MOTOR VEHICLE DEALERS (NEW AND USED)"
+   },
+   "2727-null":{
+      "class_code":2727,
+      "description":"Log Hauling",
+      "class_sub_code":null,
+      "sic_code":2411,
+      "sic_code_desc":"LOGGING"
+   },
+   "3570-null":{
+      "class_code":3570,
+      "description":"Electric Appliance Mfg",
+      "class_sub_code":null,
+      "sic_code":3639,
+      "sic_code_desc":"HOUSEHOLD APPLIANCES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5214-null":{
+      "class_code":5214,
+      "description":"Concrete/Cement Work - precast",
+      "class_sub_code":null,
+      "sic_code":1771,
+      "sic_code_desc":"CONCRETE WORK"
+   },
+   "9092-3":{
+      "class_code":9092,
+      "description":"Skating Centers",
+      "class_sub_code":"3",
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9092-2":{
+      "class_code":9092,
+      "description":"Billiard Halls",
+      "class_sub_code":"2",
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9092-1":{
+      "class_code":9092,
+      "description":"Bowling Centers",
+      "class_sub_code":"1",
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3507-null":{
+      "class_code":3507,
+      "description":"Machinery Mfg - agricultural/construction",
+      "class_sub_code":null,
+      "sic_code":3599,
+      "sic_code_desc":"INDUSTRIAL AND COMMERCIAL MACHINERY AND EQUIPMENT, NOT ELSEWHERE"
+   },
+   "5192-null":{
+      "class_code":5192,
+      "description":"Vending/Coin-Operated Machines",
+      "class_sub_code":null,
+      "sic_code":5962,
+      "sic_code_desc":"AUTOMATIC MERCHANDISING MACHINE OPERATORS"
+   },
+   "7722-P":{
+      "class_code":7722,
+      "description":"Police/Sheriffs - volunteers - Sub Code (P)",
+      "class_sub_code":"P",
+      "sic_code":9221,
+      "sic_code_desc":"POLICE PROTECTION"
+   },
+   "2812-null":{
+      "class_code":2812,
+      "description":"Cabinet Mfg - wood",
+      "class_sub_code":null,
+      "sic_code":3281,
+      "sic_code_desc":"CUT STONE AND STONE PRODUCTS"
+   },
+   "8391-a":{
+      "class_code":8391,
+      "description":"Auto/Truck Dealers - Sub Code (a)",
+      "class_sub_code":"a",
+      "sic_code":5511,
+      "sic_code_desc":"MOTOR VEHICLE DEALERS (NEW AND USED)"
+   },
+   "9092-9":{
+      "class_code":9092,
+      "description":"Skating / Billiard / Bowling Centers - Sub Code (9)",
+      "class_sub_code":"9",
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4041-1":{
+      "class_code":4041,
+      "description":"Brick/Clay Products Mfg",
+      "class_sub_code":"1",
+      "sic_code":3251,
+      "sic_code_desc":"BRICK AND STRUCTURAL CLAY TILE"
+   },
+   "4041-2":{
+      "class_code":4041,
+      "description":"Tile/Earthenware Mfg",
+      "class_sub_code":"2",
+      "sic_code":3251,
+      "sic_code_desc":"BRICK AND STRUCTURAL CLAY TILE"
+   },
+   "8821-null":{
+      "class_code":8821,
+      "description":"Attorney Support Services",
+      "class_sub_code":null,
+      "sic_code":8111,
+      "sic_code_desc":"LEGAL SERVICES"
+   },
+   "5028-null":{
+      "class_code":5028,
+      "description":"Masonry - high wage",
+      "class_sub_code":null,
+      "sic_code":1741,
+      "sic_code_desc":"MASONRY, STONE SETTING, AND OTHER STONE WORK"
+   },
+   "2211-1":{
+      "class_code":2211,
+      "description":"Cotton Batting/Wadding/Waste Mfg",
+      "class_sub_code":"1",
+      "sic_code":2299,
+      "sic_code_desc":"TEXTILE GOODS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7855-null":{
+      "class_code":7855,
+      "description":"Railroad Construction",
+      "class_sub_code":null,
+      "sic_code":1629,
+      "sic_code_desc":"HEAVY CONSTRUCTION, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2211-4":{
+      "class_code":2211,
+      "description":"Wool Combing/Scouring",
+      "class_sub_code":"4",
+      "sic_code":2299,
+      "sic_code_desc":"TEXTILE GOODS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2211-3":{
+      "class_code":2211,
+      "description":"Felting Mfg",
+      "class_sub_code":"3",
+      "sic_code":2299,
+      "sic_code_desc":"TEXTILE GOODS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3131-2":{
+      "class_code":3131,
+      "description":"Engraving",
+      "class_sub_code":"2",
+      "sic_code":3965,
+      "sic_code_desc":"FASTENERS, BUTTONS, NEEDLES, AND PINS"
+   },
+   "8391-B":{
+      "class_code":8391,
+      "description":"Auto/Truck Dealers - Sub Code (B)",
+      "class_sub_code":"B",
+      "sic_code":5511,
+      "sic_code_desc":"MOTOR VEHICLE DEALERS (NEW AND USED)"
+   },
+   "3131-1":{
+      "class_code":3131,
+      "description":"Tag/Button/Fastener Mfg",
+      "class_sub_code":"1",
+      "sic_code":3965,
+      "sic_code_desc":"FASTENERS, BUTTONS, NEEDLES, AND PINS"
+   },
+   "9061-null":{
+      "class_code":9061,
+      "description":"Clubs - N.O.C.",
+      "class_sub_code":null,
+      "sic_code":8322,
+      "sic_code_desc":"INDIVIDUAL AND FAMILY SOCIAL SERVICES"
+   },
+   "7394-M":{
+      "class_code":7394,
+      "description":"Skin divers innavigable water-Program I - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "8391-A":{
+      "class_code":8391,
+      "description":"Auto/Truck Dealers - Sub Code (A)",
+      "class_sub_code":"A",
+      "sic_code":5511,
+      "sic_code_desc":"MOTOR VEHICLE DEALERS (NEW AND USED)"
+   },
+   "3726-null":{
+      "class_code":3726,
+      "description":"Boiler Install/Repair/Setting - steam",
+      "class_sub_code":null,
+      "sic_code":1711,
+      "sic_code_desc":"PLUMBING, HEATING AND AIR-CONDITIONING"
+   },
+   "5057-null":{
+      "class_code":5057,
+      "description":"Iron/Steel Erection - N.O.C.",
+      "class_sub_code":null,
+      "sic_code":7353,
+      "sic_code_desc":"HEAVY CONSTRUCTION EQUIPMENT RENTAL AND LEASING"
+   },
+   "8391-6":{
+      "class_code":8391,
+      "description":"Auto/Truck Dealers - Sub Code (6)",
+      "class_sub_code":"6",
+      "sic_code":5511,
+      "sic_code_desc":"MOTOR VEHICLE DEALERS (NEW AND USED)"
+   },
+   "2571-null":{
+      "class_code":2571,
+      "description":"Pillow/Quilt/Comforter/Cushion Mfg",
+      "class_sub_code":null,
+      "sic_code":2211,
+      "sic_code_desc":"BROADWOVEN FABRIC MILLS, COTTON"
+   },
+   "8293-1":{
+      "class_code":8293,
+      "description":"Warehouses - furniture",
+      "class_sub_code":"1",
+      "sic_code":4226,
+      "sic_code_desc":"SPECIAL WAREHOUSING AND STORAGE, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8293-2":{
+      "class_code":8293,
+      "description":"Furniture Moving",
+      "class_sub_code":"2",
+      "sic_code":4226,
+      "sic_code_desc":"SPECIAL WAREHOUSING AND STORAGE, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7248-null":{
+      "class_code":7248,
+      "description":"Marine Appraisers/Surveyors",
+      "class_sub_code":null,
+      "sic_code":4499,
+      "sic_code_desc":"WATER TRANSPORTATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4829-null":{
+      "class_code":4829,
+      "description":"Chemical Mfg",
+      "class_sub_code":null,
+      "sic_code":2899,
+      "sic_code_desc":"CHEMICALS AND CHEMICAL PREPARATIONS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2095-null":{
+      "class_code":2095,
+      "description":"Meat Products Mfg",
+      "class_sub_code":null,
+      "sic_code":2091,
+      "sic_code_desc":"CANNED AND CURED FISH AND SEAFOODS"
+   },
+   "5191-2":{
+      "class_code":5191,
+      "description":"Computer/System Installation/Repair",
+      "class_sub_code":"2",
+      "sic_code":7373,
+      "sic_code_desc":"COMPUTER INTEGRATED SYSTEMS DESIGN"
+   },
+   "6258-null":{
+      "class_code":6258,
+      "description":"Foundation Preparation Work",
+      "class_sub_code":null,
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5191-1":{
+      "class_code":5191,
+      "description":"Office Machine Installation/Repair",
+      "class_sub_code":"1",
+      "sic_code":7378,
+      "sic_code_desc":"COMPUTER MAINTENANCE AND REPAIR"
+   },
+   "5191-3":{
+      "class_code":5191,
+      "description":"Telephone/System Installation/Repair",
+      "class_sub_code":"3",
+      "sic_code":7373,
+      "sic_code_desc":"COMPUTER INTEGRATED SYSTEMS DESIGN"
+   },
+   "6801-F":{
+      "class_code":6801,
+      "description":"Boatbuilding-wood-NOC-U.S. Act -U.S. Act - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "8631-null":{
+      "class_code":8631,
+      "description":"Racing Stables - operation - all employees",
+      "class_sub_code":null,
+      "sic_code":272,
+      "sic_code_desc":"PERIODICALS: PUBLISHING, OR PUBLISHING AND PRINTING"
+   },
+   "4244-null":{
+      "class_code":4244,
+      "description":"Corrugated/Fibre Board Container Mfg",
+      "class_sub_code":null,
+      "sic_code":2653,
+      "sic_code_desc":"CORRUGATED AND SOLID FIBER BOXES"
+   },
+   "7198-2":{
+      "class_code":7198,
+      "description":"Armored Transport Services",
+      "class_sub_code":"2",
+      "sic_code":4212,
+      "sic_code_desc":"LOCAL TRUCKING WITHOUT STORAGE"
+   },
+   "7198-1":{
+      "class_code":7198,
+      "description":"Parcel Delivery/Messenger Service",
+      "class_sub_code":"1",
+      "sic_code":4212,
+      "sic_code_desc":"LOCAL TRUCKING WITHOUT STORAGE"
+   },
+   "8004-null":{
+      "class_code":8004,
+      "description":"Stores - garden supplies",
+      "class_sub_code":null,
+      "sic_code":5261,
+      "sic_code_desc":"RETAIL NURSERIES, LAWN AND GARDEN SUPPLY STORES"
+   },
+   "7600-null":{
+      "class_code":7600,
+      "description":"Telecommunications Companies",
+      "class_sub_code":null,
+      "sic_code":4813,
+      "sic_code_desc":"TELEPHONE COMMUNICATIONS, EXCEPT RADIOTELEPHONE"
+   },
+   "8209-null":{
+      "class_code":8209,
+      "description":"Vegetable/Tomato Packing/Handling",
+      "class_sub_code":null,
+      "sic_code":723,
+      "sic_code_desc":"CROP PREPARATION SERVICES FOR MARKET, EXCEPT COTTON GINNING"
+   },
+   "5606-null":{
+      "class_code":5606,
+      "description":"Contractors - executive level supervisors",
+      "class_sub_code":null,
+      "sic_code":8741,
+      "sic_code_desc":"MANAGEMENT SERVICES"
+   },
+   "7392-null":{
+      "class_code":7392,
+      "description":"Beer/Ale Dealers",
+      "class_sub_code":null,
+      "sic_code":5181,
+      "sic_code_desc":"BEER AND ALE"
+   },
+   "3577-null":{
+      "class_code":3577,
+      "description":"Printed Circuit Board Assembling",
+      "class_sub_code":null,
+      "sic_code":3672,
+      "sic_code_desc":"PRINTED CIRCUIT BOARDS"
+   },
+   "8808-null":{
+      "class_code":8808,
+      "description":"Banks",
+      "class_sub_code":null,
+      "sic_code":6035,
+      "sic_code_desc":"SAVINGS INSTITUTIONS, FEDERALLY CHARTERED"
+   },
+   "171-null":{
+      "class_code":171,
+      "description":"Field Crops",
+      "class_sub_code":null,
+      "sic_code":139,
+      "sic_code_desc":"FIELD CROPS, EXCEPT CASH GRAINS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2111-1":{
+      "class_code":2111,
+      "description":"Fruit/Vegetable Preserving",
+      "class_sub_code":"1",
+      "sic_code":2013,
+      "sic_code_desc":"SAUSAGES AND OTHER PREPARED MEAT PRODUCTS"
+   },
+   "44-null":{
+      "class_code":44,
+      "description":"Cotton Farms",
+      "class_sub_code":null,
+      "sic_code":131,
+      "sic_code_desc":"COTTON"
+   },
+   "3831-null":{
+      "class_code":3831,
+      "description":"Machine Shops - aircraft components",
+      "class_sub_code":null,
+      "sic_code":3728,
+      "sic_code_desc":"AIRCRAFT PARTS AND AUXILIARY EQUIPMENT, NOT ELSEWHERE CLASSIFIED"
+   },
+   "1438-null":{
+      "class_code":1438,
+      "description":"Smelting/Sintering/Refining/Alloying",
+      "class_sub_code":null,
+      "sic_code":2899,
+      "sic_code_desc":"CHEMICALS AND CHEMICAL PREPARATIONS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2111-3":{
+      "class_code":2111,
+      "description":"Pickle Mfg",
+      "class_sub_code":"3",
+      "sic_code":2032,
+      "sic_code_desc":"CANNED SPECIALTIES"
+   },
+   "2111-2":{
+      "class_code":2111,
+      "description":"Olive Handling",
+      "class_sub_code":"2",
+      "sic_code":2099,
+      "sic_code_desc":"FOOD PREPARATIONS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9549-null":{
+      "class_code":9549,
+      "description":"Advertising Companies",
+      "class_sub_code":null,
+      "sic_code":7311,
+      "sic_code_desc":"ADVERTISING AGENCIES"
+   },
+   "5538-null":{
+      "class_code":5538,
+      "description":"Sheet Metal Work - low wage",
+      "class_sub_code":null,
+      "sic_code":1761,
+      "sic_code_desc":"ROOFING, SIDING, AND SHEET METAL WORK"
+   },
+   "9069-null":{
+      "class_code":9069,
+      "description":"Clubs - gaming",
+      "class_sub_code":null,
+      "sic_code":7993,
+      "sic_code_desc":"COIN-OPERATED AMUSEMENT DEVICES"
+   },
+   "4114-null":{
+      "class_code":4114,
+      "description":"Glassware Mfg",
+      "class_sub_code":null,
+      "sic_code":3229,
+      "sic_code_desc":"PRESSED AND BLOWN GLASS AND GLASSWARE, NOT ELSEWHERE CLASSIFIED"
+   },
+   "45-null":{
+      "class_code":45,
+      "description":"Orchards - nut crops",
+      "class_sub_code":null,
+      "sic_code":721,
+      "sic_code_desc":"CROP PLANTING, CULTIVATING, AND PROTECTING"
+   },
+   "7350-F":{
+      "class_code":7350,
+      "description":"Freight handlingNOC-coverage under Longshore Act - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "1741-2":{
+      "class_code":1741,
+      "description":"Talc Mills",
+      "class_sub_code":"2",
+      "sic_code":3291,
+      "sic_code_desc":"ABRASIVE PRODUCTS"
+   },
+   "1741-3":{
+      "class_code":1741,
+      "description":"Plaster Mills",
+      "class_sub_code":"3",
+      "sic_code":3291,
+      "sic_code_desc":"ABRASIVE PRODUCTS"
+   },
+   "8057-null":{
+      "class_code":8057,
+      "description":"Boat Dealers",
+      "class_sub_code":null,
+      "sic_code":5551,
+      "sic_code_desc":"BOAT DEALERS"
+   },
+   "6235-3":{
+      "class_code":6235,
+      "description":"Drilling - geothermal wells",
+      "class_sub_code":"3",
+      "sic_code":1389,
+      "sic_code_desc":"OIL AND GAS FIELD SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "1741-1":{
+      "class_code":1741,
+      "description":"Silica Grinding",
+      "class_sub_code":"1",
+      "sic_code":3291,
+      "sic_code_desc":"ABRASIVE PRODUCTS"
+   },
+   "6216-null":{
+      "class_code":6216,
+      "description":"Oil/Gas Lease Work",
+      "class_sub_code":null,
+      "sic_code":1389,
+      "sic_code_desc":"OIL AND GAS FIELD SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6235-1":{
+      "class_code":6235,
+      "description":"Oil/Gas Wells - drilling/redrilling",
+      "class_sub_code":"1",
+      "sic_code":1381,
+      "sic_code_desc":"DRILLING OIL AND GAS WELLS"
+   },
+   "9420-null":{
+      "class_code":9420,
+      "description":"Municipal/State/Public Agency - other",
+      "class_sub_code":null,
+      "sic_code":9199,
+      "sic_code_desc":"GENERAL GOVERNMENT, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6235-2":{
+      "class_code":6235,
+      "description":"Oil/Gas Wells - install/recovery of casing",
+      "class_sub_code":"2",
+      "sic_code":1389,
+      "sic_code_desc":"OIL AND GAS FIELD SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9048-1":{
+      "class_code":9048,
+      "description":"Camps",
+      "class_sub_code":"1",
+      "sic_code":7032,
+      "sic_code_desc":"SPORTING AND RECREATIONAL CAMPS"
+   },
+   "9048-2":{
+      "class_code":9048,
+      "description":"Boy/Girl Scout Councils—camp operations",
+      "class_sub_code":"2",
+      "sic_code":7032,
+      "sic_code_desc":"SPORTING AND RECREATIONAL CAMPS"
+   },
+   "3612-null":{
+      "class_code":3612,
+      "description":"Pump/Hydraulic Apparatus Mfg/Repair",
+      "class_sub_code":null,
+      "sic_code":3519,
+      "sic_code_desc":"INTERNAL COMBUSTION ENGINES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4623-null":{
+      "class_code":4623,
+      "description":"Cosmetic/Personal Care Products Mfg",
+      "class_sub_code":null,
+      "sic_code":2844,
+      "sic_code_desc":"PERFUMES, COSMETICS, AND OTHER TOILET PREPARATIONS"
+   },
+   "2163-null":{
+      "class_code":2163,
+      "description":"Bottling",
+      "class_sub_code":null,
+      "sic_code":2086,
+      "sic_code_desc":"BOTTLED AND CANNED SOFT DRINKS AND CARBONATED WATERS"
+   },
+   "5201-2":{
+      "class_code":5201,
+      "description":"Concrete/Cement Work - low wage",
+      "class_sub_code":"2",
+      "sic_code":1771,
+      "sic_code_desc":"CONCRETE WORK"
+   },
+   "5201-1":{
+      "class_code":5201,
+      "description":"Concrete/Cement Work - sidewalks - low wage",
+      "class_sub_code":"1",
+      "sic_code":1771,
+      "sic_code_desc":"CONCRETE WORK"
+   },
+   "4362-null":{
+      "class_code":4362,
+      "description":"Motion Pictures - processors/distributors",
+      "class_sub_code":null,
+      "sic_code":7822,
+      "sic_code_desc":"MOTION PICTURE AND VIDEO TAPE DISTRIBUTION"
+   },
+   "3146-1":{
+      "class_code":3146,
+      "description":"Hardware Mfg",
+      "class_sub_code":"1",
+      "sic_code":3599,
+      "sic_code_desc":"INDUSTRIAL AND COMMERCIAL MACHINERY AND EQUIPMENT, NOT ELSEWHERE"
+   },
+   "2584-null":{
+      "class_code":2584,
+      "description":"Carpet/Rug/Upholstery Cleaning",
+      "class_sub_code":null,
+      "sic_code":7217,
+      "sic_code_desc":"CARPET AND UPHOLSTERY CLEANING"
+   },
+   "3146-2":{
+      "class_code":3146,
+      "description":"Heat Treating",
+      "class_sub_code":"2",
+      "sic_code":3949,
+      "sic_code_desc":"SPORTING AND ATHLETIC GOODS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9220-2":{
+      "class_code":9220,
+      "description":"Crematory Operators",
+      "class_sub_code":"2",
+      "sic_code":6553,
+      "sic_code_desc":"CEMETERY SUBDIVIDERS AND DEVELOPERS"
+   },
+   "9220-1":{
+      "class_code":9220,
+      "description":"Cemetery Operation",
+      "class_sub_code":"1",
+      "sic_code":6553,
+      "sic_code_desc":"CEMETERY SUBDIVIDERS AND DEVELOPERS"
+   },
+   "8066-null":{
+      "class_code":8066,
+      "description":"Stores - bicycles/bicycle accessories",
+      "class_sub_code":null,
+      "sic_code":5941,
+      "sic_code_desc":"SPORTING GOODS STORES AND BICYCLE SHOPS"
+   },
+   "4150-2":{
+      "class_code":4150,
+      "description":"Lens Mfg",
+      "class_sub_code":"2",
+      "sic_code":5995,
+      "sic_code_desc":"OPTICAL GOODS STORES"
+   },
+   "7227-null":{
+      "class_code":7227,
+      "description":"Auto Tow/Roadside Assistance",
+      "class_sub_code":null,
+      "sic_code":4214,
+      "sic_code_desc":"LOCAL TRUCKING WITH STORAGE"
+   },
+   "4150-1":{
+      "class_code":4150,
+      "description":"Optical Goods Mfg",
+      "class_sub_code":"1",
+      "sic_code":3851,
+      "sic_code_desc":"OPHTHALMIC GOODS"
+   },
+   "9529-1":{
+      "class_code":9529,
+      "description":"Scaffolds/Construction Elevators",
+      "class_sub_code":"1",
+      "sic_code":1796,
+      "sic_code_desc":"INSTALLATION OR ERECTION OF BUILDING EQUIPMENT, NOT ELSEWHERE CLA"
+   },
+   "8393-10":{
+      "class_code":8393,
+      "description":"Auto/Truck Body Repairing/Painting - Sub Code (10)",
+      "class_sub_code":"10",
+      "sic_code":7538,
+      "sic_code_desc":"GENERAL AUTOMOTIVE REPAIR SHOPS"
+   },
+   "7424-2":{
+      "class_code":7424,
+      "description":"Aircraft Operation - patrol",
+      "class_sub_code":"2",
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "7424-3":{
+      "class_code":7424,
+      "description":"Aircraft Operation - student instruction",
+      "class_sub_code":"3",
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "8350-null":{
+      "class_code":8350,
+      "description":"Gasoline/Oil Dealers",
+      "class_sub_code":null,
+      "sic_code":5261,
+      "sic_code_desc":"RETAIL NURSERIES, LAWN AND GARDEN SUPPLY STORES"
+   },
+   "5446-null":{
+      "class_code":5446,
+      "description":"Wallboard Application - low wage",
+      "class_sub_code":null,
+      "sic_code":1742,
+      "sic_code_desc":"PLASTERING, DRYWALL, ACOUSTICAL, AND INSULATION WORK"
+   },
+   "7424-1":{
+      "class_code":7424,
+      "description":"Aircraft Operation - flying crew",
+      "class_sub_code":"1",
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "9529-2":{
+      "class_code":9529,
+      "description":"Decorating",
+      "class_sub_code":"2",
+      "sic_code":1796,
+      "sic_code_desc":"INSTALLATION OR ERECTION OF BUILDING EQUIPMENT, NOT ELSEWHERE CLA"
+   },
+   "9529-3":{
+      "class_code":9529,
+      "description":"Tent Erection/Removal/Repair",
+      "class_sub_code":"3",
+      "sic_code":1796,
+      "sic_code_desc":"INSTALLATION OR ERECTION OF BUILDING EQUIPMENT, NOT ELSEWHERE CLA"
+   },
+   "5040-3":{
+      "class_code":5040,
+      "description":"Painting - steel structures/bridges",
+      "class_sub_code":"3",
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5040-2":{
+      "class_code":5040,
+      "description":"Bridge Building - metal",
+      "class_sub_code":"2",
+      "sic_code":1791,
+      "sic_code_desc":"STRUCTURAL STEEL ERECTION"
+   },
+   "8804-2":{
+      "class_code":8804,
+      "description":"Social Rehab Facilities for Adults",
+      "class_sub_code":"2",
+      "sic_code":8399,
+      "sic_code_desc":"SOCIAL SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2842-null":{
+      "class_code":2842,
+      "description":"Wood Products Mfg",
+      "class_sub_code":null,
+      "sic_code":2499,
+      "sic_code_desc":"WOOD PRODUCTS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8804-1":{
+      "class_code":8804,
+      "description":"Substance Use Disorder Recovery Homes",
+      "class_sub_code":"1",
+      "sic_code":8399,
+      "sic_code_desc":"SOCIAL SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5040-1":{
+      "class_code":5040,
+      "description":"Iron/Steel Erection - structural",
+      "class_sub_code":"1",
+      "sic_code":1622,
+      "sic_code_desc":"BRIDGE, TUNNEL, AND ELEVATED HIGHWAY CONSTRUCTION"
+   },
+   "3070-null":{
+      "class_code":3070,
+      "description":"Computer Memory Disk Mfg",
+      "class_sub_code":null,
+      "sic_code":3572,
+      "sic_code_desc":"COMPUTER STORAGE DEVICES"
+   },
+   "8017-null":{
+      "class_code":8017,
+      "description":"STORE RETAIL NOC",
+      "class_sub_code":null,
+      "sic_code":5921,
+      "sic_code_desc":"LIQUOR STORES"
+   },
+   "7606-null":{
+      "class_code":7606,
+      "description":"Cable Television Companies",
+      "class_sub_code":null,
+      "sic_code":4833,
+      "sic_code_desc":"TELEVISION BROADCASTING STATIONS"
+   },
+   "400-2":{
+      "class_code":400,
+      "description":"Warehouses - cotton",
+      "class_sub_code":"2",
+      "sic_code":2261,
+      "sic_code_desc":"FINISHERS OF BROADWOVEN FABRICS OF COTTON"
+   },
+   "400-1":{
+      "class_code":400,
+      "description":"Cotton Merchants",
+      "class_sub_code":"1",
+      "sic_code":2261,
+      "sic_code_desc":"FINISHERS OF BROADWOVEN FABRICS OF COTTON"
+   },
+   "4497-null":{
+      "class_code":4497,
+      "description":"Plastics - fiber reinforced products mfg",
+      "class_sub_code":null,
+      "sic_code":2824,
+      "sic_code_desc":"MANMADE ORGANIC FIBERS, EXCEPT CELLULOSIC"
+   },
+   "6843-null":{
+      "class_code":6843,
+      "description":"Barge building-iron or steel-U.S. Act-",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "4361-2":{
+      "class_code":4361,
+      "description":"Photofinishing",
+      "class_sub_code":"2",
+      "sic_code":7221,
+      "sic_code_desc":"PHOTOGRAPHIC STUDIOS, PORTRAIT"
+   },
+   "7538-null":{
+      "class_code":7538,
+      "description":"Electric Light/Power Line Construction",
+      "class_sub_code":null,
+      "sic_code":1623,
+      "sic_code_desc":"WATER, SEWER, PIPELINE, AND COMMUNICATIONS AND POWER LINE CONSTRU"
+   },
+   "8304-null":{
+      "class_code":8304,
+      "description":"Grain Elevators/Storage Warehouses",
+      "class_sub_code":null,
+      "sic_code":4221,
+      "sic_code_desc":"FARM PRODUCT WAREHOUSING AND STORAGE"
+   },
+   "4361-1":{
+      "class_code":4361,
+      "description":"Photographers",
+      "class_sub_code":"1",
+      "sic_code":7384,
+      "sic_code_desc":"PHOTOFINISHING LABORATORIES"
+   },
+   "3651-null":{
+      "class_code":3651,
+      "description":"Electrical Wire Harness Mfg",
+      "class_sub_code":null,
+      "sic_code":3629,
+      "sic_code_desc":"ELECTRICAL INDUSTRIAL APPARATUS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9507-1":{
+      "class_code":9507,
+      "description":"Sign Painting/Lettering",
+      "class_sub_code":"1",
+      "sic_code":3993,
+      "sic_code_desc":"SIGNS AND ADVERTISING SPECIALTIES"
+   },
+   "5479-null":{
+      "class_code":5479,
+      "description":"Insulation Work",
+      "class_sub_code":null,
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7365-null":{
+      "class_code":7365,
+      "description":"Taxicab Operations",
+      "class_sub_code":null,
+      "sic_code":4121,
+      "sic_code_desc":"TAXICABS"
+   },
+   "9009-null":{
+      "class_code":9009,
+      "description":"Building Operation - commercial - other",
+      "class_sub_code":null,
+      "sic_code":6512,
+      "sic_code_desc":"OPERATORS OF NONRESIDENTIAL BUILDINGS"
+   },
+   "2116-null":{
+      "class_code":2116,
+      "description":"Fruit Juice/Concentrate Mfg",
+      "class_sub_code":null,
+      "sic_code":2037,
+      "sic_code_desc":"FROZEN FRUITS, FRUIT JUICES, AND VEGETABLES"
+   },
+   "9507-2":{
+      "class_code":9507,
+      "description":"Sign Mfg - quick sign shops",
+      "class_sub_code":"2",
+      "sic_code":3993,
+      "sic_code_desc":"SIGNS AND ADVERTISING SPECIALTIES"
+   },
+   "3620-2":{
+      "class_code":3620,
+      "description":"Plate Steel Products Mfg",
+      "class_sub_code":"2",
+      "sic_code":1791,
+      "sic_code_desc":"STRUCTURAL STEEL ERECTION"
+   },
+   "3620-1":{
+      "class_code":3620,
+      "description":"Boilermaking",
+      "class_sub_code":"1",
+      "sic_code":3443,
+      "sic_code_desc":"FABRICATED PLATE WORK (BOILER SHOPS)"
+   },
+   "1463-3":{
+      "class_code":1463,
+      "description":"Coke Mfg",
+      "class_sub_code":"3",
+      "sic_code":2819,
+      "sic_code_desc":"INDUSTRIAL INORGANIC CHEMICALS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "1463-2":{
+      "class_code":1463,
+      "description":"Briquette Mfg",
+      "class_sub_code":"2",
+      "sic_code":2819,
+      "sic_code_desc":"INDUSTRIAL INORGANIC CHEMICALS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2731-null":{
+      "class_code":2731,
+      "description":"Planing/Moulding Mills",
+      "class_sub_code":null,
+      "sic_code":2421,
+      "sic_code_desc":"SAWMILLS AND PLANING MILLS, GENERAL"
+   },
+   "1463-1":{
+      "class_code":1463,
+      "description":"Asphalt Works",
+      "class_sub_code":"1",
+      "sic_code":2819,
+      "sic_code_desc":"INDUSTRIAL INORGANIC CHEMICALS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3573-null":{
+      "class_code":3573,
+      "description":"Power Supply Mfg",
+      "class_sub_code":null,
+      "sic_code":3568,
+      "sic_code_desc":"MECHANICAL POWER TRANSMISSION EQUIPMENT, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5403-null":{
+      "class_code":5403,
+      "description":"Carpentry - low wage",
+      "class_sub_code":null,
+      "sic_code":5031,
+      "sic_code_desc":"LUMBER, PLYWOOD, MILLWORK, AND WOOD PANELS"
+   },
+   "2362-null":{
+      "class_code":2362,
+      "description":"Knitting",
+      "class_sub_code":null,
+      "sic_code":2389,
+      "sic_code_desc":"APPAREL AND ACCESSORIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7050-M":{
+      "class_code":7050,
+      "description":"Chartered fishingboat-less than 15 tons-Program II-USL Act - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "8801-null":{
+      "class_code":8801,
+      "description":"Credit Unions",
+      "class_sub_code":null,
+      "sic_code":6062,
+      "sic_code_desc":"CREDIT UNIONS, NOT FEDERALLY CHARTERED"
+   },
+   "4250-1":{
+      "class_code":4250,
+      "description":"Paper Coating/Laminating",
+      "class_sub_code":"1",
+      "sic_code":2672,
+      "sic_code_desc":"COATED AND LAMINATED PAPER, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4250-3":{
+      "class_code":4250,
+      "description":"Typewriter Ribbon Mfg/Refurbish",
+      "class_sub_code":"3",
+      "sic_code":2672,
+      "sic_code_desc":"COATED AND LAMINATED PAPER, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4250-2":{
+      "class_code":4250,
+      "description":"Computer Printing Ribbon Mfg/Refurbish",
+      "class_sub_code":"2",
+      "sic_code":2672,
+      "sic_code_desc":"COATED AND LAMINATED PAPER, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7515-null":{
+      "class_code":7515,
+      "description":"Oil/Gas Pipeline Operation",
+      "class_sub_code":null,
+      "sic_code":4612,
+      "sic_code_desc":"CRUDE PETROLEUM PIPELINES"
+   },
+   "9095-null":{
+      "class_code":9095,
+      "description":"Event Markets/Trade Shows",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "2142-1":{
+      "class_code":2142,
+      "description":"Wineries",
+      "class_sub_code":"1",
+      "sic_code":2038,
+      "sic_code_desc":"FROZEN SPECIALTIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2142-3":{
+      "class_code":2142,
+      "description":"Vinegar Mfg",
+      "class_sub_code":"3",
+      "sic_code":2038,
+      "sic_code_desc":"FROZEN SPECIALTIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2142-2":{
+      "class_code":2142,
+      "description":"Distilling",
+      "class_sub_code":"2",
+      "sic_code":2038,
+      "sic_code_desc":"FROZEN SPECIALTIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4512-null":{
+      "class_code":4512,
+      "description":"Biomedical Research Laboratories",
+      "class_sub_code":null,
+      "sic_code":8734,
+      "sic_code_desc":"TESTING LABORATORIES"
+   },
+   "1124-null":{
+      "class_code":1124,
+      "description":"Mining - underground - surface staff",
+      "class_sub_code":null,
+      "sic_code":1241,
+      "sic_code_desc":"COAL MINING SERVICES"
+   },
+   "8389-A":{
+      "class_code":8389,
+      "description":"Auto/Truck Repair Facilities - Sub Code (A)",
+      "class_sub_code":"A",
+      "sic_code":7539,
+      "sic_code_desc":"AUTOMOTIVE REPAIR SHOPS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8389-B":{
+      "class_code":8389,
+      "description":"Auto/Truck Repair Facilities - Sub Code (B)",
+      "class_sub_code":"B",
+      "sic_code":7539,
+      "sic_code_desc":"AUTOMOTIVE REPAIR SHOPS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8390-null":{
+      "class_code":8390,
+      "description":"Auto/Truck/Van Conversion/Customizing",
+      "class_sub_code":null,
+      "sic_code":7539,
+      "sic_code_desc":"AUTOMOTIVE REPAIR SHOPS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9085-null":{
+      "class_code":9085,
+      "description":"Residential Care - development disabled",
+      "class_sub_code":null,
+      "sic_code":8059,
+      "sic_code_desc":"NURSING AND PERSONAL CARE FACILITIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7219-1":{
+      "class_code":7219,
+      "description":"Trucking Firms",
+      "class_sub_code":"1",
+      "sic_code":4213,
+      "sic_code_desc":"TRUCKING, EXCEPT LOCAL"
+   },
+   "7219-2":{
+      "class_code":7219,
+      "description":"Express Companies",
+      "class_sub_code":"2",
+      "sic_code":4213,
+      "sic_code_desc":"TRUCKING, EXCEPT LOCAL"
+   },
+   "7219-3":{
+      "class_code":7219,
+      "description":"Mobile Crane/Hoisting Service",
+      "class_sub_code":"3",
+      "sic_code":4213,
+      "sic_code_desc":"TRUCKING, EXCEPT LOCAL"
+   },
+   "9079-2":{
+      "class_code":9079,
+      "description":"Vending Concessionaires",
+      "class_sub_code":"2",
+      "sic_code":5999,
+      "sic_code_desc":"MISCELLANEOUS RETAIL STORES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9079-1":{
+      "class_code":9079,
+      "description":"Restaurants/Taverns",
+      "class_sub_code":"1",
+      "sic_code":5812,
+      "sic_code_desc":"EATING PLACES"
+   },
+   "9079-6":{
+      "class_code":9079,
+      "description":"RESTAURANT OR TAVERNS - Sub Code (6)",
+      "class_sub_code":"6",
+      "sic_code":5812,
+      "sic_code_desc":"EATING PLACES"
+   },
+   "2819-null":{
+      "class_code":2819,
+      "description":"Truss/Building Components Mfg",
+      "class_sub_code":null,
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9079-8":{
+      "class_code":9079,
+      "description":"RESTAURANT OR TAVERNS - Sub Code (8)",
+      "class_sub_code":"8",
+      "sic_code":5999,
+      "sic_code_desc":"MISCELLANEOUS RETAIL STORES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9079-9":{
+      "class_code":9079,
+      "description":"RESTAURANT OR TAVERNS - Sub Code (9)",
+      "class_sub_code":"9",
+      "sic_code":5812,
+      "sic_code_desc":"EATING PLACES"
+   },
+   "5436-null":{
+      "class_code":5436,
+      "description":"Hardwood Floor Laying",
+      "class_sub_code":null,
+      "sic_code":1752,
+      "sic_code_desc":"FLOOR LAYING AND OTHER FLOOR WORK, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4130-null":{
+      "class_code":4130,
+      "description":"Glass Merchants",
+      "class_sub_code":null,
+      "sic_code":1793,
+      "sic_code_desc":"GLASS AND GLAZING WORK"
+   },
+   "9620-null":{
+      "class_code":9620,
+      "description":"Funeral Directors",
+      "class_sub_code":null,
+      "sic_code":5999,
+      "sic_code_desc":"MISCELLANEOUS RETAIL STORES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3030-null":{
+      "class_code":3030,
+      "description":"Iron/Steel Works - structural",
+      "class_sub_code":null,
+      "sic_code":3441,
+      "sic_code_desc":"FABRICATED STRUCTURAL METAL"
+   },
+   "7332-null":{
+      "class_code":7332,
+      "description":"Ambulance Services",
+      "class_sub_code":null,
+      "sic_code":4119,
+      "sic_code_desc":"LOCAL PASSENGER TRANSPORTATION, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8726-null":{
+      "class_code":8726,
+      "description":"Steamship line oragency-port employees: superintendents, captains,",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "8292-null":{
+      "class_code":8292,
+      "description":"Warehouses - general merchandise",
+      "class_sub_code":null,
+      "sic_code":4226,
+      "sic_code_desc":"SPECIAL WAREHOUSING AND STORAGE, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2710-1":{
+      "class_code":2710,
+      "description":"Sawmills/Shingle Mills",
+      "class_sub_code":"1",
+      "sic_code":2421,
+      "sic_code_desc":"SAWMILLS AND PLANING MILLS, GENERAL"
+   },
+   "2710-2":{
+      "class_code":2710,
+      "description":"Log Chipping",
+      "class_sub_code":"2",
+      "sic_code":2421,
+      "sic_code_desc":"SAWMILLS AND PLANING MILLS, GENERAL"
+   },
+   "2710-3":{
+      "class_code":2710,
+      "description":"Wood Treating/Preserving",
+      "class_sub_code":"3",
+      "sic_code":2421,
+      "sic_code_desc":"SAWMILLS AND PLANING MILLS, GENERAL"
+   },
+   "3178-null":{
+      "class_code":3178,
+      "description":"Electronic Element Mfg",
+      "class_sub_code":null,
+      "sic_code":5065,
+      "sic_code_desc":"ELECTRONIC PARTS AND EQUIPMENT, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7309-null":{
+      "class_code":7309,
+      "description":"Stevedoring NOC",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "7395-null":{
+      "class_code":7395,
+      "description":"Demolitionoperations-underwater-Program II-State Act",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "5205-1":{
+      "class_code":5205,
+      "description":"Concrete/Cement Work - sidewalks - high wage",
+      "class_sub_code":"1",
+      "sic_code":1771,
+      "sic_code_desc":"CONCRETE WORK"
+   },
+   "6307-null":{
+      "class_code":6307,
+      "description":"Sewer Construction - low wage",
+      "class_sub_code":null,
+      "sic_code":1623,
+      "sic_code_desc":"WATER, SEWER, PIPELINE, AND COMMUNICATIONS AND POWER LINE CONSTRU"
+   },
+   "5205-2":{
+      "class_code":5205,
+      "description":"Concrete/Cement Work - high wage",
+      "class_sub_code":"2",
+      "sic_code":1771,
+      "sic_code_desc":"CONCRETE WORK"
+   },
+   "8500-null":{
+      "class_code":8500,
+      "description":"Metal Scrap Dealers",
+      "class_sub_code":null,
+      "sic_code":5093,
+      "sic_code_desc":"SCRAP AND WASTE MATERIALS"
+   },
+   "1320-null":{
+      "class_code":1320,
+      "description":"Oil/Gas Lease Operators",
+      "class_sub_code":null,
+      "sic_code":1382,
+      "sic_code_desc":"OIL AND GAS FIELD EXPLORATION SERVICES"
+   },
+   "41-null":{
+      "class_code":41,
+      "description":"Potato Crops",
+      "class_sub_code":null,
+      "sic_code":139,
+      "sic_code_desc":"FIELD CROPS, EXCEPT CASH GRAINS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5195-null":{
+      "class_code":5195,
+      "description":"Communications Cabling",
+      "class_sub_code":null,
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5348-null":{
+      "class_code":5348,
+      "description":"Tile/Stone/Mosaic/Terrazzo Work",
+      "class_sub_code":null,
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9610-null":{
+      "class_code":9610,
+      "description":"Motion Pictures - production",
+      "class_sub_code":null,
+      "sic_code":7829,
+      "sic_code_desc":"SERVICES ALLIED TO MOTION PICTURE DISTRIBUTION"
+   },
+   "6220-3":{
+      "class_code":6220,
+      "description":"Land Leveling - farm lands - high wage",
+      "class_sub_code":"3",
+      "sic_code":1629,
+      "sic_code_desc":"HEAVY CONSTRUCTION, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7410-null":{
+      "class_code":7410,
+      "description":"Aircraft Operation - agri - all others",
+      "class_sub_code":null,
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "9516-2":{
+      "class_code":9516,
+      "description":"Auto/Truck Radio/Alarm Install/Repair",
+      "class_sub_code":"2",
+      "sic_code":1731,
+      "sic_code_desc":"ELECTRICAL WORK"
+   },
+   "7098-M":{
+      "class_code":7098,
+      "description":"Vessels-notself-propelled-Program II-State Act - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "6220-2":{
+      "class_code":6220,
+      "description":"Grading Land - high wage",
+      "class_sub_code":"2",
+      "sic_code":1629,
+      "sic_code_desc":"HEAVY CONSTRUCTION, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8324-null":{
+      "class_code":8324,
+      "description":"Gasoline Stations",
+      "class_sub_code":null,
+      "sic_code":5541,
+      "sic_code_desc":"GASOLINE SERVICE STATIONS"
+   },
+   "2081-null":{
+      "class_code":2081,
+      "description":"Butchering",
+      "class_sub_code":null,
+      "sic_code":2011,
+      "sic_code_desc":"MEAT PACKING PLANTS"
+   },
+   "6220-1":{
+      "class_code":6220,
+      "description":"Excavation - high wage",
+      "class_sub_code":"1",
+      "sic_code":1629,
+      "sic_code_desc":"HEAVY CONSTRUCTION, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9516-1":{
+      "class_code":9516,
+      "description":"TV/Video/Audio Equip Install/Repair",
+      "class_sub_code":"1",
+      "sic_code":1731,
+      "sic_code_desc":"ELECTRICAL WORK"
+   },
+   "8397-null":{
+      "class_code":8397,
+      "description":"Auto/Truck Transmission Repair/Rebuild",
+      "class_sub_code":null,
+      "sic_code":7537,
+      "sic_code_desc":"AUTOMOTIVE TRANSMISSION REPAIR SHOPS"
+   },
+   "8063-null":{
+      "class_code":8063,
+      "description":"Stores - lighting fixtures",
+      "class_sub_code":null,
+      "sic_code":5719,
+      "sic_code_desc":"MISCELLANEOUS HOMEFURNISHINGS STORES"
+   },
+   "9424-null":{
+      "class_code":9424,
+      "description":"Garbage/Transfer Station/Mat Recovery",
+      "class_sub_code":null,
+      "sic_code":9511,
+      "sic_code_desc":"AIR AND WATER RESOURCE AND SOLID WASTE MANAGEMENT"
+   },
+   "7038-null":{
+      "class_code":7038,
+      "description":"Chartered fishingboat-less than 15 tons-Program I",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "8834-null":{
+      "class_code":8834,
+      "description":"Physicians’ Practices/Outpatient Clinics",
+      "class_sub_code":null,
+      "sic_code":8049,
+      "sic_code_desc":"OFFICES AND CLINICS OF HEALTH PRACTITIONERS, NOT ELSEWHERE CLASSI"
+   },
+   "2852-null":{
+      "class_code":2852,
+      "description":"Window Blind Mfg/Assembly",
+      "class_sub_code":null,
+      "sic_code":2591,
+      "sic_code_desc":"DRAPERY HARDWARE AND WINDOW BLINDS AND SHADES"
+   },
+   "1925-null":{
+      "class_code":1925,
+      "description":"Die Casting Mfg",
+      "class_sub_code":null,
+      "sic_code":3544,
+      "sic_code_desc":"SPECIAL DIES AND TOOLS, DIE SETS, JIGS AND FIXTURES, AND INDUSTRI"
+   },
+   "5185-null":{
+      "class_code":5185,
+      "description":"Automatic Sprinkler Install - low wage",
+      "class_sub_code":null,
+      "sic_code":1711,
+      "sic_code_desc":"PLUMBING, HEATING AND AIR-CONDITIONING"
+   },
+   "7317-F":{
+      "class_code":7317,
+      "description":"Automobile haulawayor driveaway-driving cars on or off vessels - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "1330-null":{
+      "class_code":1330,
+      "description":"Blasting",
+      "class_sub_code":null,
+      "sic_code":1311,
+      "sic_code_desc":"CRUDE PETROLEUM AND NATURAL GAS"
+   },
+   "5632-null":{
+      "class_code":5632,
+      "description":"Steel Framing - light gauge - low wage",
+      "class_sub_code":null,
+      "sic_code":1541,
+      "sic_code_desc":"GENERAL CONTRACTORS-INDUSTRIAL BUILDINGS AND WAREHOUSES"
+   },
+   "3081-2":{
+      "class_code":3081,
+      "description":"Enameled Ironware Mfg",
+      "class_sub_code":"2",
+      "sic_code":3088,
+      "sic_code_desc":"PLASTICS PLUMBING FIXTURES"
+   },
+   "3081-1":{
+      "class_code":3081,
+      "description":"Foundries - iron",
+      "class_sub_code":"1",
+      "sic_code":3325,
+      "sic_code_desc":"STEEL FOUNDRIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8103-null":{
+      "class_code":8103,
+      "description":"Cotton merchant",
+      "class_sub_code":null,
+      "sic_code":5159,
+      "sic_code_desc":"FARM-PRODUCT RAW MATERIALS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6315-2":{
+      "class_code":6315,
+      "description":"Gas Mains Construction - low wage",
+      "class_sub_code":"2",
+      "sic_code":1623,
+      "sic_code_desc":"WATER, SEWER, PIPELINE, AND COMMUNICATIONS AND POWER LINE CONSTRU"
+   },
+   "6315-1":{
+      "class_code":6315,
+      "description":"Water Mains Construction - low wage",
+      "class_sub_code":"1",
+      "sic_code":1623,
+      "sic_code_desc":"WATER, SEWER, PIPELINE, AND COMMUNICATIONS AND POWER LINE CONSTRU"
+   },
+   "7707-P":{
+      "class_code":7707,
+      "description":"Fire Fighters - volunteers - Sub Code (P)",
+      "class_sub_code":"P",
+      "sic_code":9224,
+      "sic_code_desc":"FIRE PROTECTION"
+   },
+   "6206-3":{
+      "class_code":6206,
+      "description":"Oil/Gas Wells - vacuum truck service",
+      "class_sub_code":"3",
+      "sic_code":1389,
+      "sic_code_desc":"OIL AND GAS FIELD SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6206-4":{
+      "class_code":6206,
+      "description":"Oil/Gas Wells - gravel packing",
+      "class_sub_code":"4",
+      "sic_code":1389,
+      "sic_code_desc":"OIL AND GAS FIELD SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8064-null":{
+      "class_code":8064,
+      "description":"Stores - office supplies/stationery",
+      "class_sub_code":null,
+      "sic_code":5999,
+      "sic_code_desc":"MISCELLANEOUS RETAIL STORES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8847-null":{
+      "class_code":8847,
+      "description":"Beverage Container Collection/Redemption",
+      "class_sub_code":null,
+      "sic_code":3221,
+      "sic_code_desc":"GLASS CONTAINERS"
+   },
+   "3099-null":{
+      "class_code":3099,
+      "description":"Tool Mfg - N.O.C.",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "6206-1":{
+      "class_code":6206,
+      "description":"Oil/Gas Wells - cementing",
+      "class_sub_code":"1",
+      "sic_code":1389,
+      "sic_code_desc":"OIL AND GAS FIELD SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6206-2":{
+      "class_code":6206,
+      "description":"Oil/Gas Wells - acidizing",
+      "class_sub_code":"2",
+      "sic_code":1389,
+      "sic_code_desc":"OIL AND GAS FIELD SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4049-1":{
+      "class_code":4049,
+      "description":"Potteries",
+      "class_sub_code":"1",
+      "sic_code":3259,
+      "sic_code_desc":"STRUCTURAL CLAY PRODUCTS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7706-null":{
+      "class_code":7706,
+      "description":"Fire Fighters - not volunteers",
+      "class_sub_code":null,
+      "sic_code":9224,
+      "sic_code_desc":"FIRE PROTECTION"
+   },
+   "79-2":{
+      "class_code":79,
+      "description":"Bush Berry Crops",
+      "class_sub_code":"2",
+      "sic_code":171,
+      "sic_code_desc":"BERRY CROPS"
+   },
+   "4049-2":{
+      "class_code":4049,
+      "description":"Terra Cotta Mfg",
+      "class_sub_code":"2",
+      "sic_code":3259,
+      "sic_code_desc":"STRUCTURAL CLAY PRODUCTS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "79-1":{
+      "class_code":79,
+      "description":"Strawberry Crops",
+      "class_sub_code":"1",
+      "sic_code":171,
+      "sic_code_desc":"PLUMBING, HEATING AND AIR-CONDITIONING"
+   },
+   "96-null":{
+      "class_code":96,
+      "description":"Nut Hulling/Shelling/Processing",
+      "class_sub_code":null,
+      "sic_code":173,
+      "sic_code_desc":"ELECTRICAL WORK"
+   },
+   "8017-15":{
+      "class_code":8017,
+      "description":"STORE RETAIL NOC - Sub Code (15)",
+      "class_sub_code":"15",
+      "sic_code":5921,
+      "sic_code_desc":"LIQUOR STORES"
+   },
+   "401-null":{
+      "class_code":401,
+      "description":"Cotton Gin Operation",
+      "class_sub_code":null,
+      "sic_code":724,
+      "sic_code_desc":"BARBER SHOPS"
+   },
+   "3719-null":{
+      "class_code":3719,
+      "description":"Oil/Gas Refining Units",
+      "class_sub_code":null,
+      "sic_code":1389,
+      "sic_code_desc":"OIL AND GAS FIELD SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9077-F":{
+      "class_code":9077,
+      "description":"United States armed service risk-all employees - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "4432-null":{
+      "class_code":4432,
+      "description":"Pen/Mechanical Pencil Mfg",
+      "class_sub_code":null,
+      "sic_code":3951,
+      "sic_code_desc":"PENS, MECHANICAL PENCILS, AND PARTS"
+   },
+   "7335-null":{
+      "class_code":7335,
+      "description":"not used",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "4038-1":{
+      "class_code":4038,
+      "description":"Plaster Statuary/Ornament Mfg",
+      "class_sub_code":"1",
+      "sic_code":3271,
+      "sic_code_desc":"CONCRETE BLOCK AND BRICK"
+   },
+   "7333-M":{
+      "class_code":7333,
+      "description":"Dredging-alltypes-Program I - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "9181-null":{
+      "class_code":9181,
+      "description":"Athletic Teams/Parks - players/umpires",
+      "class_sub_code":null,
+      "sic_code":7941,
+      "sic_code_desc":"PROFESSIONAL SPORTS CLUBS AND PROMOTERS"
+   },
+   "4038-2":{
+      "class_code":4038,
+      "description":"Taxidermist",
+      "class_sub_code":"2",
+      "sic_code":3271,
+      "sic_code_desc":"CONCRETE BLOCK AND BRICK"
+   },
+   "5187-1":{
+      "class_code":5187,
+      "description":"Plumbing - high wage",
+      "class_sub_code":"1",
+      "sic_code":1711,
+      "sic_code_desc":"PLUMBING, HEATING AND AIR-CONDITIONING"
+   },
+   "3179-null":{
+      "class_code":3179,
+      "description":"Electrical Apparatus Mfg",
+      "class_sub_code":null,
+      "sic_code":3699,
+      "sic_code_desc":"ELECTRICAL MACHINERY, EQUIPMENT, AND SUPPLIES, NOT ELSEWHERE CLAS"
+   },
+   "4692-null":{
+      "class_code":4692,
+      "description":"Dental Laboratories",
+      "class_sub_code":null,
+      "sic_code":8071,
+      "sic_code_desc":"MEDICAL LABORATORIES"
+   },
+   "3365-null":{
+      "class_code":3365,
+      "description":"Welding/Cutting",
+      "class_sub_code":null,
+      "sic_code":3471,
+      "sic_code_desc":"ELECTROPLATING, PLATING, POLISHING, ANODIZING, AND COLORING"
+   },
+   "9053-1":{
+      "class_code":9053,
+      "description":"Baths",
+      "class_sub_code":"1",
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9053-3":{
+      "class_code":9053,
+      "description":"Swimming Pools",
+      "class_sub_code":"3",
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9053-2":{
+      "class_code":9053,
+      "description":"Exercise/Health Institutes",
+      "class_sub_code":"2",
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9053-5":{
+      "class_code":9053,
+      "description":"Clubs - tennis/racquetball",
+      "class_sub_code":"5",
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9053-4":{
+      "class_code":9053,
+      "description":"Clubs - swimming",
+      "class_sub_code":"4",
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8291-null":{
+      "class_code":8291,
+      "description":"Warehouses - cold storage",
+      "class_sub_code":null,
+      "sic_code":4222,
+      "sic_code_desc":"REFRIGERATED WAREHOUSING AND STORAGE"
+   },
+   "9155-null":{
+      "class_code":9155,
+      "description":"Theaters - motion picture",
+      "class_sub_code":null,
+      "sic_code":7832,
+      "sic_code_desc":"MOTION PICTURE THEATERS, EXCEPT DRIVE-IN"
+   },
+   "4036-null":{
+      "class_code":4036,
+      "description":"Plaster Board/Plaster Block Mfg",
+      "class_sub_code":null,
+      "sic_code":3275,
+      "sic_code_desc":"GYPSUM PRODUCTS"
+   },
+   "8111-1":{
+      "class_code":8111,
+      "description":"Plumbers’ Supplies Dealers",
+      "class_sub_code":"1",
+      "sic_code":5251,
+      "sic_code_desc":"HARDWARE STORES"
+   },
+   "8111-2":{
+      "class_code":8111,
+      "description":"Oil/Gas Well Supplies/Equip Dealers - new",
+      "class_sub_code":"2",
+      "sic_code":5074,
+      "sic_code_desc":"PLUMBING AND HEATING EQUIPMENT AND SUPPLIES (HYDRONICS)"
+   },
+   "3808-null":{
+      "class_code":3808,
+      "description":"Auto/Motorcycle Mfg/Assembling",
+      "class_sub_code":null,
+      "sic_code":3799,
+      "sic_code_desc":"TRANSPORTATION EQUIPMENT, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7610-null":{
+      "class_code":7610,
+      "description":"Radio/Television/Commercial Stations",
+      "class_sub_code":null,
+      "sic_code":7812,
+      "sic_code_desc":"MOTION PICTURE AND VIDEO TAPE PRODUCTION"
+   },
+   "8834-9":{
+      "class_code":8834,
+      "description":"Physicians’ Practices/Outpatient Clinics - Sub Code (9)",
+      "class_sub_code":"9",
+      "sic_code":8049,
+      "sic_code_desc":"OFFICES AND CLINICS OF HEALTH PRACTITIONERS, NOT ELSEWHERE CLASSI"
+   },
+   "8013-1":{
+      "class_code":8013,
+      "description":"Stores - jewelry",
+      "class_sub_code":"1",
+      "sic_code":7631,
+      "sic_code_desc":"WATCH, CLOCK, AND JEWELRY REPAIR"
+   },
+   "8013-2":{
+      "class_code":8013,
+      "description":"Stores - eye wear",
+      "class_sub_code":"2",
+      "sic_code":5999,
+      "sic_code_desc":"MISCELLANEOUS RETAIL STORES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8823-null":{
+      "class_code":8823,
+      "description":"Residential Care Facilities for Children",
+      "class_sub_code":null,
+      "sic_code":8059,
+      "sic_code_desc":"NURSING AND PERSONAL CARE FACILITIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7393-null":{
+      "class_code":7393,
+      "description":"Diving-marine-ProgramII-State Act",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "2501-4":{
+      "class_code":2501,
+      "description":"Dressmaking/Tailoring",
+      "class_sub_code":"4",
+      "sic_code":3999,
+      "sic_code_desc":"MANUFACTURING INDUSTRIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3060-2":{
+      "class_code":3060,
+      "description":"Door/Window Frame Mfg - metal/plastic",
+      "class_sub_code":"2",
+      "sic_code":3442,
+      "sic_code_desc":"METAL DOORS, SASH, FRAMES, MOLDING, AND TRIM"
+   },
+   "3060-3":{
+      "class_code":3060,
+      "description":"Door/Window Mfg - screen",
+      "class_sub_code":"3",
+      "sic_code":3442,
+      "sic_code_desc":"METAL DOORS, SASH, FRAMES, MOLDING, AND TRIM"
+   },
+   "2501-2":{
+      "class_code":2501,
+      "description":"Hat Mfg",
+      "class_sub_code":"2",
+      "sic_code":2297,
+      "sic_code_desc":"NONWOVEN FABRICS"
+   },
+   "2501-1":{
+      "class_code":2501,
+      "description":"Clothing Mfg",
+      "class_sub_code":"1",
+      "sic_code":3645,
+      "sic_code_desc":"RESIDENTIAL ELECTRIC LIGHTING FIXTURES"
+   },
+   "2589-null":{
+      "class_code":2589,
+      "description":"Dry Cleaning",
+      "class_sub_code":null,
+      "sic_code":7218,
+      "sic_code_desc":"INDUSTRIAL LAUNDERERS"
+   },
+   "9092-null":{
+      "class_code":9092,
+      "description":"Skating / Billiard / Bowling Centers",
+      "class_sub_code":null,
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2501-6":{
+      "class_code":2501,
+      "description":"Flower/Flower Arrangement Mfg - artificial",
+      "class_sub_code":"6",
+      "sic_code":3999,
+      "sic_code_desc":"MANUFACTURING INDUSTRIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2501-5":{
+      "class_code":2501,
+      "description":"Lampshade Mfg",
+      "class_sub_code":"5",
+      "sic_code":2389,
+      "sic_code_desc":"APPAREL AND ACCESSORIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3060-1":{
+      "class_code":3060,
+      "description":"Door/Window Mfg - metal/plastic",
+      "class_sub_code":"1",
+      "sic_code":3442,
+      "sic_code_desc":"METAL DOORS, SASH, FRAMES, MOLDING, AND TRIM"
+   },
+   "9422-null":{
+      "class_code":9422,
+      "description":"Road Districts/Departments",
+      "class_sub_code":null,
+      "sic_code":9621,
+      "sic_code_desc":"REGULATION AND ADMINISTRATION OF TRANSPORTATION PROGRAMS"
+   },
+   "6834-null":{
+      "class_code":6834,
+      "description":"Boat Building/Repairing",
+      "class_sub_code":null,
+      "sic_code":3731,
+      "sic_code_desc":"SHIP BUILDING AND REPAIRING"
+   },
+   "8742-null":{
+      "class_code":8742,
+      "description":"SALESPERSONS, OR COLLECTORS, OUTSIDE",
+      "class_sub_code":null,
+      "sic_code":8641,
+      "sic_code_desc":"CIVIC, SOCIAL, AND FRATERNAL ASSOCIATIONS"
+   },
+   "3632-null":{
+      "class_code":3632,
+      "description":"Machine Shops",
+      "class_sub_code":null,
+      "sic_code":3999,
+      "sic_code_desc":"MANUFACTURING INDUSTRIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5467-null":{
+      "class_code":5467,
+      "description":"Glaziers - low wage",
+      "class_sub_code":null,
+      "sic_code":1793,
+      "sic_code_desc":"GLASS INSTALLATION, EXCEPT AUTOMOTIVE-CONTRACTORS"
+   },
+   "3815-2":{
+      "class_code":3815,
+      "description":"Truck Body Mfg - truck/trailer/bus",
+      "class_sub_code":"2",
+      "sic_code":3714,
+      "sic_code_desc":"MOTOR VEHICLE PARTS AND ACCESSORIES"
+   },
+   "3815-1":{
+      "class_code":3815,
+      "description":"Truck/Truck Trailer/Bus Mfg/Assembling",
+      "class_sub_code":"1",
+      "sic_code":3714,
+      "sic_code_desc":"MOTOR VEHICLE PARTS AND ACCESSORIES"
+   },
+   "9552-null":{
+      "class_code":9552,
+      "description":"Sign Erection/Repair",
+      "class_sub_code":null,
+      "sic_code":3993,
+      "sic_code_desc":"SIGNS AND ADVERTISING SPECIALTIES"
+   },
+   "3574-1":{
+      "class_code":3574,
+      "description":"Machine Mfg",
+      "class_sub_code":"1",
+      "sic_code":3672,
+      "sic_code_desc":"PRINTED CIRCUIT BOARDS"
+   },
+   "8840-null":{
+      "class_code":8840,
+      "description":"Church/Temple/Mosque/Synagogue - clergy",
+      "class_sub_code":null,
+      "sic_code":8661,
+      "sic_code_desc":"RELIGIOUS ORGANIZATIONS"
+   },
+   "4683-2":{
+      "class_code":4683,
+      "description":"Cottonseed Oil Mfg/Refining",
+      "class_sub_code":"2",
+      "sic_code":2076,
+      "sic_code_desc":"VEGETABLE OIL MILLS, EXCEPT CORN, COTTONSEED, AND SOYBEAN"
+   },
+   "4683-1":{
+      "class_code":4683,
+      "description":"Oil Mfg/Refining - vegetable",
+      "class_sub_code":"1",
+      "sic_code":2076,
+      "sic_code_desc":"VEGETABLE OIL MILLS, EXCEPT CORN, COTTONSEED, AND SOYBEAN"
+   },
+   "3574-2":{
+      "class_code":3574,
+      "description":"Golf Club/Fishing Rod Mfg/Assembly",
+      "class_sub_code":"2",
+      "sic_code":3572,
+      "sic_code_desc":"COMPUTER STORAGE DEVICES"
+   },
+   "8264-2":{
+      "class_code":8264,
+      "description":"Bottle Dealers",
+      "class_sub_code":"2",
+      "sic_code":4953,
+      "sic_code_desc":"REFUSE SYSTEMS"
+   },
+   "9403-2":{
+      "class_code":9403,
+      "description":"Street Sweeping Service Companies",
+      "class_sub_code":"2",
+      "sic_code":4953,
+      "sic_code_desc":"REFUSE SYSTEMS"
+   },
+   "8264-1":{
+      "class_code":8264,
+      "description":"Paper Stock Dealers",
+      "class_sub_code":"1",
+      "sic_code":5093,
+      "sic_code_desc":"SCRAP AND WASTE MATERIALS"
+   },
+   "9403-1":{
+      "class_code":9403,
+      "description":"Garbage/Refuse Collecting",
+      "class_sub_code":"1",
+      "sic_code":4953,
+      "sic_code_desc":"REFUSE SYSTEMS"
+   },
+   "8264-4":{
+      "class_code":8264,
+      "description":"Wiping Cloth/Rag Dealers",
+      "class_sub_code":"4",
+      "sic_code":5932,
+      "sic_code_desc":"USED MERCHANDISE STORES"
+   },
+   "8264-3":{
+      "class_code":8264,
+      "description":"Rubber Stock Dealers",
+      "class_sub_code":"3",
+      "sic_code":5932,
+      "sic_code_desc":"USED MERCHANDISE STORES"
+   },
+   "8838-null":{
+      "class_code":8838,
+      "description":"Museums",
+      "class_sub_code":null,
+      "sic_code":8412,
+      "sic_code_desc":"MUSEUMS AND ART GALLERIES"
+   },
+   "3401-1":{
+      "class_code":3401,
+      "description":"Tube/Pipe Products Mfg",
+      "class_sub_code":"1",
+      "sic_code":3317,
+      "sic_code_desc":"STEEL PIPE AND TUBES"
+   },
+   "3401-2":{
+      "class_code":3401,
+      "description":"Gate/Corral Mfg",
+      "class_sub_code":"2",
+      "sic_code":3317,
+      "sic_code_desc":"STEEL PIPE AND TUBES"
+   },
+   "5187-2":{
+      "class_code":5187,
+      "description":"Refrigeration Equipment - high wage",
+      "class_sub_code":"2",
+      "sic_code":1711,
+      "sic_code_desc":"PLUMBING, HEATING AND AIR-CONDITIONING"
+   },
+   "8397-9":{
+      "class_code":8397,
+      "description":"Auto/Truck Transmission Repair/Rebuild - Sub Code (9)",
+      "class_sub_code":"9",
+      "sic_code":7537,
+      "sic_code_desc":"AUTOMOTIVE TRANSMISSION REPAIR SHOPS"
+   },
+   "7335-M":{
+      "class_code":7335,
+      "description":"not used - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "7337-M":{
+      "class_code":7337,
+      "description":"Dredging-alltypes-Program II-USL Act - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "9501-1":{
+      "class_code":9501,
+      "description":"Painting - shop only",
+      "class_sub_code":"1",
+      "sic_code":7379,
+      "sic_code_desc":"COMPUTER RELATED SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8822-null":{
+      "class_code":8822,
+      "description":"Insurance Companies",
+      "class_sub_code":null,
+      "sic_code":6399,
+      "sic_code_desc":"INSURANCE CARRIERS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9501-3":{
+      "class_code":9501,
+      "description":"Painting - auto/truck bodies",
+      "class_sub_code":"3",
+      "sic_code":1721,
+      "sic_code_desc":"PAINTING AND PAPER HANGING"
+   },
+   "8031-null":{
+      "class_code":8031,
+      "description":"Stores - meat/fish/poultry - retail",
+      "class_sub_code":null,
+      "sic_code":5421,
+      "sic_code_desc":"MEAT AND FISH (SEAFOOD) MARKETS, INCLUDING FREEZER PROVISIONERS"
+   },
+   "9156-null":{
+      "class_code":9156,
+      "description":"Theaters - dance/opera",
+      "class_sub_code":null,
+      "sic_code":7922,
+      "sic_code_desc":"THEATRICAL PRODUCERS (EXCEPT MOTION PICTURE) AND MISCELLANEOUS TH"
+   },
+   "7133-null":{
+      "class_code":7133,
+      "description":"Railroads",
+      "class_sub_code":null,
+      "sic_code":4111,
+      "sic_code_desc":"LOCAL AND SUBURBAN TRANSIT"
+   },
+   "9033-null":{
+      "class_code":9033,
+      "description":"Housing Authorities",
+      "class_sub_code":null,
+      "sic_code":6513,
+      "sic_code_desc":"OPERATORS OF APARTMENT BUILDINGS"
+   },
+   "8743-null":{
+      "class_code":8743,
+      "description":"Mortgage Brokers",
+      "class_sub_code":null,
+      "sic_code":6162,
+      "sic_code_desc":"MORTGAGE BANKERS AND LOAN CORRESPONDENTS"
+   },
+   "9043-null":{
+      "class_code":9043,
+      "description":"Hospitals",
+      "class_sub_code":null,
+      "sic_code":8062,
+      "sic_code_desc":"GENERAL MEDICAL AND SURGICAL HOSPITALS"
+   },
+   "2030-null":{
+      "class_code":2030,
+      "description":"Sugar Mfg/Refining",
+      "class_sub_code":null,
+      "sic_code":2062,
+      "sic_code_desc":"CANE SUGAR REFINING"
+   },
+   "5443-null":{
+      "class_code":5443,
+      "description":"Lathing",
+      "class_sub_code":null,
+      "sic_code":1751,
+      "sic_code_desc":"CARPENTRY WORK"
+   },
+   "8749-null":{
+      "class_code":8749,
+      "description":"Mortgage Bankers",
+      "class_sub_code":null,
+      "sic_code":6163,
+      "sic_code_desc":"LOAN BROKERS"
+   },
+   "5-null":{
+      "class_code":5,
+      "description":"Nurseries - propagation/cultivation",
+      "class_sub_code":null,
+      "sic_code":5261,
+      "sic_code_desc":"RETAIL NURSERIES, LAWN AND GARDEN SUPPLY STORES"
+   },
+   "5474-3":{
+      "class_code":5474,
+      "description":"Painting - oil/gas storage tanks - low wage",
+      "class_sub_code":"3",
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5474-2":{
+      "class_code":5474,
+      "description":"Waterproofing - low wage",
+      "class_sub_code":"2",
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9521-2":{
+      "class_code":9521,
+      "description":"Floor Covering",
+      "class_sub_code":"2",
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5474-1":{
+      "class_code":5474,
+      "description":"Painting/Decorating - low wage",
+      "class_sub_code":"1",
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9521-3":{
+      "class_code":9521,
+      "description":"Window Covering",
+      "class_sub_code":"3",
+      "sic_code":7641,
+      "sic_code_desc":"REUPHOLSTERY AND FURNITURE REPAIR"
+   },
+   "9059-null":{
+      "class_code":9059,
+      "description":"Day Care Centers",
+      "class_sub_code":null,
+      "sic_code":8351,
+      "sic_code_desc":"CHILD DAY CARE SERVICES"
+   },
+   "2806-1":{
+      "class_code":2806,
+      "description":"Door/Sash/Window Mfg—wood",
+      "class_sub_code":"1",
+      "sic_code":2493,
+      "sic_code_desc":"RECONSTITUTED WOOD PRODUCTS"
+   },
+   "2806-2":{
+      "class_code":2806,
+      "description":"Shutter Mfg",
+      "class_sub_code":"2",
+      "sic_code":2493,
+      "sic_code_desc":"RECONSTITUTED WOOD PRODUCTS"
+   },
+   "7605-3":{
+      "class_code":7605,
+      "description":"Sound System Installation/Repair",
+      "class_sub_code":"3",
+      "sic_code":1731,
+      "sic_code_desc":"ELECTRICAL WORK"
+   },
+   "2881-1":{
+      "class_code":2881,
+      "description":"Furniture Assembling",
+      "class_sub_code":"1",
+      "sic_code":7379,
+      "sic_code_desc":"COMPUTER RELATED SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6824-null":{
+      "class_code":6824,
+      "description":"Boatbuilding orrepair -coverage under the Longshore Act",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "7605-1":{
+      "class_code":7605,
+      "description":"Burglar Alarm Installation/Repair",
+      "class_sub_code":"1",
+      "sic_code":1731,
+      "sic_code_desc":"ELECTRICAL WORK"
+   },
+   "7605-2":{
+      "class_code":7605,
+      "description":"Fire Alarm Installation/Repair",
+      "class_sub_code":"2",
+      "sic_code":1731,
+      "sic_code_desc":"ELECTRICAL WORK"
+   },
+   "2881-2":{
+      "class_code":2881,
+      "description":"Coffin/Casket Mfg/Assembling",
+      "class_sub_code":"2",
+      "sic_code":3995,
+      "sic_code_desc":"BURIAL CASKETS"
+   },
+   "40-9":{
+      "class_code":40,
+      "description":"Vineyards - Sub Code (9)",
+      "class_sub_code":"9",
+      "sic_code":2084,
+      "sic_code_desc":"WINES, BRANDY, AND BRANDY SPIRITS"
+   },
+   "8046-null":{
+      "class_code":8046,
+      "description":"Stores - auto/truck parts/accessories",
+      "class_sub_code":null,
+      "sic_code":5013,
+      "sic_code_desc":"MOTOR VEHICLE SUPPLIES AND NEW PARTS"
+   },
+   "8032-null":{
+      "class_code":8032,
+      "description":"Stores - clothing/dry goods - wholesale",
+      "class_sub_code":null,
+      "sic_code":5131,
+      "sic_code_desc":"PIECE GOODS, NOTIONS, AND OTHER DRY GOODS"
+   },
+   "2109-null":{
+      "class_code":2109,
+      "description":"Fruit - dried fruit packing/handling",
+      "class_sub_code":null,
+      "sic_code":2037,
+      "sic_code_desc":"FROZEN FRUITS, FRUIT JUICES, AND VEGETABLES"
+   },
+   "6237-1":{
+      "class_code":6237,
+      "description":"Oil/Gas Wells - wireline service",
+      "class_sub_code":"1",
+      "sic_code":1389,
+      "sic_code_desc":"OIL AND GAS FIELD SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6237-2":{
+      "class_code":6237,
+      "description":"Oil/Gas Wells - perforating of casing",
+      "class_sub_code":"2",
+      "sic_code":1389,
+      "sic_code_desc":"OIL AND GAS FIELD SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8865-null":{
+      "class_code":8865,
+      "description":"Hospitals (NY)",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "3082-null":{
+      "class_code":3082,
+      "description":"Foundries - steel castings",
+      "class_sub_code":null,
+      "sic_code":3325,
+      "sic_code_desc":"STEEL FOUNDRIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7024-M":{
+      "class_code":7024,
+      "description":"Pilots who guidevessels-Program II-State Act - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "908-null":{
+      "class_code":908,
+      "description":"Domestic workers-inside-occasional",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "3681-3":{
+      "class_code":3681,
+      "description":"Telecommunications Equip Mfg",
+      "class_sub_code":"3",
+      "sic_code":3661,
+      "sic_code_desc":"TELEPHONE AND TELEGRAPH APPARATUS"
+   },
+   "3681-4":{
+      "class_code":3681,
+      "description":"Audio/Visual Electronic Products Mfg",
+      "class_sub_code":"4",
+      "sic_code":3661,
+      "sic_code_desc":"TELEPHONE AND TELEGRAPH APPARATUS"
+   },
+   "8830-null":{
+      "class_code":8830,
+      "description":"Institutional Employees",
+      "class_sub_code":null,
+      "sic_code":8099,
+      "sic_code_desc":"HEALTH AND ALLIED SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3681-1":{
+      "class_code":3681,
+      "description":"Instrument Mfg - electronic",
+      "class_sub_code":"1",
+      "sic_code":3651,
+      "sic_code_desc":"HOUSEHOLD AUDIO AND VIDEO EQUIPMENT"
+   },
+   "3681-2":{
+      "class_code":3681,
+      "description":"Computer/Computer Peripheral Equip Mfg",
+      "class_sub_code":"2",
+      "sic_code":3651,
+      "sic_code_desc":"HOUSEHOLD AUDIO AND VIDEO EQUIPMENT"
+   },
+   "3220-null":{
+      "class_code":3220,
+      "description":"Can Mfg",
+      "class_sub_code":null,
+      "sic_code":3411,
+      "sic_code_desc":"METAL CANS"
+   },
+   "8807-null":{
+      "class_code":8807,
+      "description":"Newspaper/Magazine/Book Publishing",
+      "class_sub_code":null,
+      "sic_code":2711,
+      "sic_code_desc":"NEWSPAPERS: PUBLISHING, OR PUBLISHING AND PRINTING"
+   },
+   "40-null":{
+      "class_code":40,
+      "description":"Vineyards",
+      "class_sub_code":null,
+      "sic_code":2084,
+      "sic_code_desc":"WINES, BRANDY, AND BRANDY SPIRITS"
+   },
+   "8102-null":{
+      "class_code":8102,
+      "description":"Seed Merchants",
+      "class_sub_code":null,
+      "sic_code":5191,
+      "sic_code_desc":"FARM SUPPLIES"
+   },
+   "7707-null":{
+      "class_code":7707,
+      "description":"Fire Fighters - volunteers",
+      "class_sub_code":null,
+      "sic_code":9224,
+      "sic_code_desc":"FIRE PROTECTION"
+   },
+   "2589-9":{
+      "class_code":2589,
+      "description":"Dry Cleaning - Sub Code (9)",
+      "class_sub_code":"9",
+      "sic_code":7216,
+      "sic_code_desc":"DRYCLEANING PLANTS, EXCEPT RUG CLEANING"
+   },
+   "8286-1":{
+      "class_code":8286,
+      "description":"Livestock Dealers/Commission Merchants",
+      "class_sub_code":"1",
+      "sic_code":272,
+      "sic_code_desc":"PERIODICALS: PUBLISHING, OR PUBLISHING AND PRINTING"
+   },
+   "8286-2":{
+      "class_code":8286,
+      "description":"Livestock Auctioneers",
+      "class_sub_code":"2",
+      "sic_code":272,
+      "sic_code_desc":"HORSES AND OTHER EQUINES"
+   },
+   "9521-1":{
+      "class_code":9521,
+      "description":"House Furnishings",
+      "class_sub_code":"1",
+      "sic_code":7389,
+      "sic_code_desc":"BUSINESS SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6308-null":{
+      "class_code":6308,
+      "description":"Sewer Construction - high wage",
+      "class_sub_code":null,
+      "sic_code":1623,
+      "sic_code_desc":"WATER, SEWER, PIPELINE, AND COMMUNICATIONS AND POWER LINE CONSTRU"
+   },
+   "2589-2":{
+      "class_code":2589,
+      "description":"Dry Cleaning - N.O.C.",
+      "class_sub_code":"2",
+      "sic_code":7216,
+      "sic_code_desc":"DRYCLEANING PLANTS, EXCEPT RUG CLEANING"
+   },
+   "2589-1":{
+      "class_code":2589,
+      "description":"Dry Cleaning/Laundry - retail",
+      "class_sub_code":"1",
+      "sic_code":7216,
+      "sic_code_desc":"DRYCLEANING PLANTS, EXCEPT RUG CLEANING"
+   },
+   "3066-4":{
+      "class_code":3066,
+      "description":"Coppersmithing",
+      "class_sub_code":"4",
+      "sic_code":3444,
+      "sic_code_desc":"SHEET METALWORK"
+   },
+   "4312-null":{
+      "class_code":4312,
+      "description":"Newspaper Delivery",
+      "class_sub_code":null,
+      "sic_code":5994,
+      "sic_code_desc":"NEWS DEALERS AND NEWSSTANDS"
+   },
+   "6251-null":{
+      "class_code":6251,
+      "description":"Tunneling",
+      "class_sub_code":null,
+      "sic_code":1622,
+      "sic_code_desc":"BRIDGE, TUNNEL, AND ELEVATED HIGHWAY CONSTRUCTION"
+   },
+   "3066-1":{
+      "class_code":3066,
+      "description":"Sheet Metal Products Mfg",
+      "class_sub_code":"1",
+      "sic_code":3599,
+      "sic_code_desc":"INDUSTRIAL AND COMMERCIAL MACHINERY AND EQUIPMENT, NOT ELSEWHERE"
+   },
+   "3066-3":{
+      "class_code":3066,
+      "description":"Aluminum Ware Mfg",
+      "class_sub_code":"3",
+      "sic_code":3448,
+      "sic_code_desc":"PREFABRICATED METAL BUILDINGS AND COMPONENTS"
+   },
+   "5470-null":{
+      "class_code":5470,
+      "description":"Glaziers - high wage",
+      "class_sub_code":null,
+      "sic_code":1793,
+      "sic_code_desc":"GLASS INSTALLATION, EXCEPT AUTOMOTIVE-CONTRACTORS"
+   },
+   "4611-null":{
+      "class_code":4611,
+      "description":"Drug/Medicine/Pharm Preparations Mfg",
+      "class_sub_code":null,
+      "sic_code":2836,
+      "sic_code_desc":"BIOLOGICAL PRODUCTS, EXCEPT DIAGNOSTIC SUBSTANCES"
+   },
+   "5507-null":{
+      "class_code":5507,
+      "description":"Street/Road Construction - grading",
+      "class_sub_code":null,
+      "sic_code":1611,
+      "sic_code_desc":"HIGHWAY AND STREET CONSTRUCTION, EXCEPT ELEVATED HIGHWAYS"
+   },
+   "8039-null":{
+      "class_code":8039,
+      "description":"Stores - department stores",
+      "class_sub_code":null,
+      "sic_code":5311,
+      "sic_code_desc":"DEPARTMENT STORES"
+   },
+   "5184-null":{
+      "class_code":5184,
+      "description":"Steam Pipe/Boiler Insulation",
+      "class_sub_code":null,
+      "sic_code":1711,
+      "sic_code_desc":"PLUMBING, HEATING AND AIR-CONDITIONING"
+   },
+   "8709-null":{
+      "class_code":8709,
+      "description":"Steamship line oragency-port employees: talliers, checking clerks and repackingof",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "6364-null":{
+      "class_code":6364,
+      "description":"Irrigation Pipe Installation",
+      "class_sub_code":null,
+      "sic_code":1623,
+      "sic_code_desc":"WATER, SEWER, PIPELINE, AND COMMUNICATIONS AND POWER LINE CONSTRU"
+   },
+   "9015-5":{
+      "class_code":9015,
+      "description":"Libraries - private - all other employees",
+      "class_sub_code":"5",
+      "sic_code":4225,
+      "sic_code_desc":"GENERAL WAREHOUSING AND STORAGE"
+   },
+   "9015-4":{
+      "class_code":9015,
+      "description":"Church/Temple/Mosque/Synagogue - other",
+      "class_sub_code":"4",
+      "sic_code":9999,
+      "sic_code_desc":"NONCLASSIFIABLE ESTABLISHMENTS "
+   },
+   "3815-null":{
+      "class_code":3815,
+      "description":"undefined",
+      "class_sub_code":null,
+      "sic_code":3714,
+      "sic_code_desc":"MOTOR VEHICLE PARTS AND ACCESSORIES"
+   },
+   "7607-1":{
+      "class_code":7607,
+      "description":"Video Post Production",
+      "class_sub_code":"1",
+      "sic_code":7829,
+      "sic_code_desc":"SERVICES ALLIED TO MOTION PICTURE DISTRIBUTION"
+   },
+   "9015-1":{
+      "class_code":9015,
+      "description":"Building Operation - N.O.C. - other employees",
+      "class_sub_code":"1",
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7394-null":{
+      "class_code":7394,
+      "description":"Skin divers innavigable water-Program I",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "7607-2":{
+      "class_code":7607,
+      "description":"Audio Post Production",
+      "class_sub_code":"2",
+      "sic_code":7829,
+      "sic_code_desc":"SERVICES ALLIED TO MOTION PICTURE DISTRIBUTION"
+   },
+   "9066-null":{
+      "class_code":9066,
+      "description":"Homeowners Associations",
+      "class_sub_code":null,
+      "sic_code":6514,
+      "sic_code_desc":"OPERATORS OF DWELLINGS OTHER THAN APARTMENT BUILDINGS"
+   },
+   "9180-1":{
+      "class_code":9180,
+      "description":"Amusement Recreactional Facilities",
+      "class_sub_code":"1",
+      "sic_code":7999,
+      "sic_code_desc":"AMUSEMENT AND RECREATION SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9180-2":{
+      "class_code":9180,
+      "description":"Clubs - shooting",
+      "class_sub_code":"2",
+      "sic_code":7993,
+      "sic_code_desc":"COIN-OPERATED AMUSEMENT DEVICES"
+   },
+   "9180-3":{
+      "class_code":9180,
+      "description":"Shooting Galleries",
+      "class_sub_code":"3",
+      "sic_code":7993,
+      "sic_code_desc":"COIN-OPERATED AMUSEMENT DEVICES"
+   },
+   "8810-E":{
+      "class_code":8810,
+      "description":"CLERICAL OFFICE EMPLOYEES NOC - Sub Code (E)",
+      "class_sub_code":"E",
+      "sic_code":6512,
+      "sic_code_desc":"OPERATORS OF NONRESIDENTIAL BUILDINGS"
+   },
+   "5186-null":{
+      "class_code":5186,
+      "description":"Automatic Sprinkler Install - high wage",
+      "class_sub_code":null,
+      "sic_code":1711,
+      "sic_code_desc":"PLUMBING, HEATING AND AIR-CONDITIONING"
+   },
+   "8810-9":{
+      "class_code":8810,
+      "description":"CLERICAL OFFICE EMPLOYEES NOC - Sub Code (9)",
+      "class_sub_code":"9",
+      "sic_code":8641,
+      "sic_code_desc":"CIVIC, SOCIAL, AND FRATERNAL ASSOCIATIONS"
+   },
+   "3180-null":{
+      "class_code":3180,
+      "description":"Fixtures/Lamp Mfg/Assembly",
+      "class_sub_code":null,
+      "sic_code":3469,
+      "sic_code_desc":"METAL STAMPINGS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8393-A":{
+      "class_code":8393,
+      "description":"Auto/Truck Body Repairing/Painting - Sub Code (A)",
+      "class_sub_code":"A",
+      "sic_code":7538,
+      "sic_code_desc":"GENERAL AUTOMOTIVE REPAIR SHOPS"
+   },
+   "8810-8":{
+      "class_code":8810,
+      "description":"CLERICAL OFFICE EMPLOYEES NOC - Sub Code (8)",
+      "class_sub_code":"8",
+      "sic_code":6512,
+      "sic_code_desc":"OPERATORS OF NONRESIDENTIAL BUILDINGS"
+   },
+   "8393-B":{
+      "class_code":8393,
+      "description":"Auto/Truck Body Repairing/Painting - Sub Code (B)",
+      "class_sub_code":"B",
+      "sic_code":7538,
+      "sic_code_desc":"GENERAL AUTOMOTIVE REPAIR SHOPS"
+   },
+   "8388-null":{
+      "class_code":8388,
+      "description":"Rubber Tire Dealers",
+      "class_sub_code":null,
+      "sic_code":5599,
+      "sic_code_desc":"AUTOMOTIVE DEALERS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9154-null":{
+      "class_code":9154,
+      "description":"Theaters - not motion picture",
+      "class_sub_code":null,
+      "sic_code":7833,
+      "sic_code_desc":"DRIVE-IN MOTION PICTURE THEATERS"
+   },
+   "8810-1":{
+      "class_code":8810,
+      "description":"Clerical Office Employees",
+      "class_sub_code":"1",
+      "sic_code":8641,
+      "sic_code_desc":"CIVIC, SOCIAL, AND FRATERNAL ASSOCIATIONS"
+   },
+   "5485-null":{
+      "class_code":5485,
+      "description":"Plastering/Stucco Work - high wage",
+      "class_sub_code":null,
+      "sic_code":1742,
+      "sic_code_desc":"PLASTERING, DRYWALL, ACOUSTICAL, AND INSULATION WORK"
+   },
+   "8810-4":{
+      "class_code":8810,
+      "description":"Libraries - public",
+      "class_sub_code":"4",
+      "sic_code":8631,
+      "sic_code_desc":"LABOR UNIONS AND SIMILAR LABOR ORGANIZATIONS"
+   },
+   "2117-null":{
+      "class_code":2117,
+      "description":"Fruit/Vegetable Processing - frozen",
+      "class_sub_code":null,
+      "sic_code":2038,
+      "sic_code_desc":"FROZEN SPECIALTIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8810-3":{
+      "class_code":8810,
+      "description":"Libraries - private - professional employees",
+      "class_sub_code":"3",
+      "sic_code":8621,
+      "sic_code_desc":"PROFESSIONAL MEMBERSHIP ORGANIZATIONS"
+   },
+   "8810-2":{
+      "class_code":8810,
+      "description":"Draftspersons",
+      "class_sub_code":"2",
+      "sic_code":5999,
+      "sic_code_desc":"MISCELLANEOUS RETAIL STORES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3682-null":{
+      "class_code":3682,
+      "description":"Instrument Mfg - non-electronic",
+      "class_sub_code":null,
+      "sic_code":3599,
+      "sic_code_desc":"INDUSTRIAL AND COMMERCIAL MACHINERY AND EQUIPMENT, NOT ELSEWHERE"
+   },
+   "8293-null":{
+      "class_code":8293,
+      "description":"Furniture moving & storage, drivers",
+      "class_sub_code":null,
+      "sic_code":4226,
+      "sic_code_desc":"SPECIAL WAREHOUSING AND STORAGE, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9011-null":{
+      "class_code":9011,
+      "description":"Apt/Condo Operation - N.O.C. - other",
+      "class_sub_code":null,
+      "sic_code":6519,
+      "sic_code_desc":"LESSORS OF REAL PROPERTY, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8800-null":{
+      "class_code":8800,
+      "description":"Mailing/Addressing Companies",
+      "class_sub_code":null,
+      "sic_code":7331,
+      "sic_code_desc":"DIRECT MAIL ADVERTISING SERVICES"
+   },
+   "4498-null":{
+      "class_code":4498,
+      "description":"Plastics - injection molded products mfg",
+      "class_sub_code":null,
+      "sic_code":2821,
+      "sic_code_desc":"PLASTICS MATERIALS, SYNTHETIC RESINS, AND NONVULCANIZABLE ELASTOM"
+   },
+   "9182-null":{
+      "class_code":9182,
+      "description":"Athletic Teams/Parks - maintenance",
+      "class_sub_code":null,
+      "sic_code":7941,
+      "sic_code_desc":"PROFESSIONAL SPORTS CLUBS AND PROMOTERS"
+   },
+   "8006-null":{
+      "class_code":8006,
+      "description":"STORE GROCERY-RETAIL",
+      "class_sub_code":null,
+      "sic_code":6512,
+      "sic_code_desc":"OPERATORS OF NONRESIDENTIAL BUILDINGS"
+   },
+   "7580-null":{
+      "class_code":7580,
+      "description":"Sanitary/Sanitation Districts Operation",
+      "class_sub_code":null,
+      "sic_code":4952,
+      "sic_code_desc":"SEWERAGE SYSTEMS"
+   },
+   "6874-null":{
+      "class_code":6874,
+      "description":"Ship scaling",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "4665-2":{
+      "class_code":4665,
+      "description":"Glue Mfg",
+      "class_sub_code":"2",
+      "sic_code":2077,
+      "sic_code_desc":"ANIMAL AND MARINE FATS AND OILS"
+   },
+   "9008-null":{
+      "class_code":9008,
+      "description":"Janitorial Services",
+      "class_sub_code":null,
+      "sic_code":7349,
+      "sic_code_desc":"BUILDING CLEANING AND MAINTENANCE SERVICES, NOT ELSEWHERE CLASSIF"
+   },
+   "7090-M":{
+      "class_code":7090,
+      "description":"Pilot boats-ProgramII-State Act - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "4665-1":{
+      "class_code":4665,
+      "description":"Rendering/Fertilizer Works",
+      "class_sub_code":"1",
+      "sic_code":2077,
+      "sic_code_desc":"ANIMAL AND MARINE FATS AND OILS"
+   },
+   "5128-null":{
+      "class_code":5128,
+      "description":"Instrument - professional - install/repair",
+      "class_sub_code":null,
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3724-2":{
+      "class_code":3724,
+      "description":"Electrical Machinery/Aux Apparatus",
+      "class_sub_code":"2",
+      "sic_code":1796,
+      "sic_code_desc":"INSTALLATION OR ERECTION OF BUILDING EQUIPMENT, NOT ELSEWHERE CLA"
+   },
+   "3724-1":{
+      "class_code":3724,
+      "description":"Millwright Work",
+      "class_sub_code":"1",
+      "sic_code":7629,
+      "sic_code_desc":"ELECTRICAL AND ELECTRONIC REPAIR SHOPS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4983-null":{
+      "class_code":4983,
+      "description":"Gasket Mfg",
+      "class_sub_code":null,
+      "sic_code":3053,
+      "sic_code_desc":"GASKETS, PACKING, AND SEALING DEVICES"
+   },
+   "2102-null":{
+      "class_code":2102,
+      "description":"Fruit/Vegetable Dehydrating",
+      "class_sub_code":null,
+      "sic_code":2034,
+      "sic_code_desc":"DRIED AND DEHYDRATED FRUITS, VEGETABLES, AND SOUP MIXES"
+   },
+   "2660-null":{
+      "class_code":2660,
+      "description":"Boot/Shoe Mfg/Repairing",
+      "class_sub_code":null,
+      "sic_code":3021,
+      "sic_code_desc":"RUBBER AND PLASTICS FOOTWEAR"
+   },
+   "6801-null":{
+      "class_code":6801,
+      "description":"Boatbuilding-wood-NOC-U.S. Act -U.S. Act",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "8601-4":{
+      "class_code":8601,
+      "description":"Forest Engineers",
+      "class_sub_code":"4",
+      "sic_code":8711,
+      "sic_code_desc":"ENGINEERING SERVICES"
+   },
+   "8601-2":{
+      "class_code":8601,
+      "description":"Oil/Gas Geologists/Scouts",
+      "class_sub_code":"2",
+      "sic_code":8713,
+      "sic_code_desc":"SURVEYING SERVICES"
+   },
+   "8601-3":{
+      "class_code":8601,
+      "description":"Geophysical Exploration",
+      "class_sub_code":"3",
+      "sic_code":8713,
+      "sic_code_desc":"SURVEYING SERVICES"
+   },
+   "8601-1":{
+      "class_code":8601,
+      "description":"Engineers - consulting",
+      "class_sub_code":"1",
+      "sic_code":8711,
+      "sic_code_desc":"ENGINEERING SERVICES"
+   },
+   "36-null":{
+      "class_code":36,
+      "description":"Dairy Farms",
+      "class_sub_code":null,
+      "sic_code":241,
+      "sic_code_desc":"DAIRY FARMS"
+   },
+   "7337-null":{
+      "class_code":7337,
+      "description":"Dredging-alltypes-Program II-USL Act",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "4304-null":{
+      "class_code":4304,
+      "description":"Newspaper Publishing - all other employees",
+      "class_sub_code":null,
+      "sic_code":2711,
+      "sic_code_desc":"NEWSPAPERS: PUBLISHING, OR PUBLISHING AND PRINTING"
+   },
+   "2688-null":{
+      "class_code":2688,
+      "description":"Leather Goods Mfg",
+      "class_sub_code":null,
+      "sic_code":3199,
+      "sic_code_desc":"LEATHER GOODS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8740-6":{
+      "class_code":8740,
+      "description":"Apt/Condo - Seniors - prop management supv",
+      "class_sub_code":"6",
+      "sic_code":4225,
+      "sic_code_desc":"GENERAL WAREHOUSING AND STORAGE"
+   },
+   "8748-null":{
+      "class_code":8748,
+      "description":"Auto/Truck Dealers - Salespersons",
+      "class_sub_code":null,
+      "sic_code":5599,
+      "sic_code_desc":"AUTOMOTIVE DEALERS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3085-null":{
+      "class_code":3085,
+      "description":"Foundries - non-ferrous",
+      "class_sub_code":null,
+      "sic_code":3325,
+      "sic_code_desc":"STEEL FOUNDRIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8740-4":{
+      "class_code":8740,
+      "description":"Mobile Home Park - prop management supv",
+      "class_sub_code":"4",
+      "sic_code":4225,
+      "sic_code_desc":"GENERAL WAREHOUSING AND STORAGE"
+   },
+   "3169-null":{
+      "class_code":3169,
+      "description":"Stove Mfg",
+      "class_sub_code":null,
+      "sic_code":3639,
+      "sic_code_desc":"HOUSEHOLD APPLIANCES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4496-null":{
+      "class_code":4496,
+      "description":"Plastics - fabricated products mfg",
+      "class_sub_code":null,
+      "sic_code":2822,
+      "sic_code_desc":"SYNTHETIC RUBBER (VULCANIZABLE ELASTOMERS)"
+   },
+   "8740-5":{
+      "class_code":8740,
+      "description":"Warehouses - self-storage - prop management supv",
+      "class_sub_code":"5",
+      "sic_code":4225,
+      "sic_code_desc":"GENERAL WAREHOUSING AND STORAGE"
+   },
+   "8740-2":{
+      "class_code":8740,
+      "description":"Building - Comm - prop management supervisor",
+      "class_sub_code":"2",
+      "sic_code":4225,
+      "sic_code_desc":"GENERAL WAREHOUSING AND STORAGE"
+   },
+   "8740-3":{
+      "class_code":8740,
+      "description":"Building Op - prop management supervisors",
+      "class_sub_code":"3",
+      "sic_code":4225,
+      "sic_code_desc":"GENERAL WAREHOUSING AND STORAGE"
+   },
+   "4034-null":{
+      "class_code":4034,
+      "description":"Concrete Products Mfg",
+      "class_sub_code":null,
+      "sic_code":3272,
+      "sic_code_desc":"CONCRETE PRODUCTS, EXCEPT BLOCK AND BRICK"
+   },
+   "6011-null":{
+      "class_code":6011,
+      "description":"Dam Construction",
+      "class_sub_code":null,
+      "sic_code":1622,
+      "sic_code_desc":"BRIDGE, TUNNEL, AND ELEVATED HIGHWAY CONSTRUCTION"
+   },
+   "8117-null":{
+      "class_code":8117,
+      "description":"Stores - feed/tack/farm supplies",
+      "class_sub_code":null,
+      "sic_code":5999,
+      "sic_code_desc":"MISCELLANEOUS RETAIL STORES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3241-1":{
+      "class_code":3241,
+      "description":"Wire Rope/Cable Mfg - incl wire drawing",
+      "class_sub_code":"1",
+      "sic_code":3315,
+      "sic_code_desc":"STEEL WIREDRAWING AND STEEL NAILS AND SPIKES"
+   },
+   "3241-2":{
+      "class_code":3241,
+      "description":"Wire Drawing",
+      "class_sub_code":"2",
+      "sic_code":3315,
+      "sic_code_desc":"STEEL WIREDRAWING AND STEEL NAILS AND SPIKES"
+   },
+   "6213-null":{
+      "class_code":6213,
+      "description":"Oil/Gas Wells - specialty tool",
+      "class_sub_code":null,
+      "sic_code":1389,
+      "sic_code_desc":"OIL AND GAS FIELD SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9077-null":{
+      "class_code":9077,
+      "description":"United States armed service risk-all employees",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "8021-null":{
+      "class_code":8021,
+      "description":"Store: fish, meat orpoultry dealer-wholesale",
+      "class_sub_code":null,
+      "sic_code":5147,
+      "sic_code_desc":"MEATS AND MEAT PRODUCTS"
+   },
+   "8740-1":{
+      "class_code":8740,
+      "description":"Apt/Condo - prop management supervisors",
+      "class_sub_code":"1",
+      "sic_code":4225,
+      "sic_code_desc":"GENERAL WAREHOUSING AND STORAGE"
+   },
+   "4558-2":{
+      "class_code":4558,
+      "description":"Resin Mfg",
+      "class_sub_code":"2",
+      "sic_code":2891,
+      "sic_code_desc":"ADHESIVES AND SEALANTS"
+   },
+   "4558-1":{
+      "class_code":4558,
+      "description":"Paint/Varnish/Lacquer Mfg",
+      "class_sub_code":"1",
+      "sic_code":2816,
+      "sic_code_desc":"INORGANIC PIGMENTS"
+   },
+   "3039-null":{
+      "class_code":3039,
+      "description":"Reinforcing Steel Fabrication",
+      "class_sub_code":null,
+      "sic_code":3462,
+      "sic_code_desc":"IRON AND STEEL FORGINGS"
+   },
+   "8631-P":{
+      "class_code":8631,
+      "description":"Racing Stables - operation - all employees - Sub Code (P)",
+      "class_sub_code":"P",
+      "sic_code":272,
+      "sic_code_desc":"HORSES AND OTHER EQUINES"
+   },
+   "4354-null":{
+      "class_code":4354,
+      "description":"Printed Circuit Board Mfg",
+      "class_sub_code":null,
+      "sic_code":3672,
+      "sic_code_desc":"PRINTED CIRCUIT BOARDS"
+   },
+   "6003-1":{
+      "class_code":6003,
+      "description":"Pile Driving",
+      "class_sub_code":"1",
+      "sic_code":1629,
+      "sic_code_desc":"HEAVY CONSTRUCTION, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6003-2":{
+      "class_code":6003,
+      "description":"Wharf Building",
+      "class_sub_code":"2",
+      "sic_code":1629,
+      "sic_code_desc":"HEAVY CONSTRUCTION, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6003-3":{
+      "class_code":6003,
+      "description":"Bridge/Trestle Construction - wood",
+      "class_sub_code":"3",
+      "sic_code":1629,
+      "sic_code_desc":"HEAVY CONSTRUCTION, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2014-1":{
+      "class_code":2014,
+      "description":"Grain/Rice Milling",
+      "class_sub_code":"1",
+      "sic_code":2041,
+      "sic_code_desc":"FLOUR AND OTHER GRAIN MILL PRODUCTS"
+   },
+   "8045-null":{
+      "class_code":8045,
+      "description":"Store: drug-retail",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "2014-2":{
+      "class_code":2014,
+      "description":"Feed Mfg",
+      "class_sub_code":"2",
+      "sic_code":2041,
+      "sic_code_desc":"FLOUR AND OTHER GRAIN MILL PRODUCTS"
+   },
+   "8071-null":{
+      "class_code":8071,
+      "description":"Stores - books - retail",
+      "class_sub_code":null,
+      "sic_code":5942,
+      "sic_code_desc":"BOOK STORES"
+   },
+   "9586-null":{
+      "class_code":9586,
+      "description":"Barber Shops/Hair Styling",
+      "class_sub_code":null,
+      "sic_code":7299,
+      "sic_code_desc":"MISCELLANEOUS PERSONAL SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3647-1":{
+      "class_code":3647,
+      "description":"Battery Mfg",
+      "class_sub_code":"1",
+      "sic_code":3691,
+      "sic_code_desc":"STORAGE BATTERIES"
+   },
+   "3647-2":{
+      "class_code":3647,
+      "description":"Lead Mfg/Reclaiming/Alloying",
+      "class_sub_code":"2",
+      "sic_code":3691,
+      "sic_code_desc":"STORAGE BATTERIES"
+   },
+   "251-null":{
+      "class_code":251,
+      "description":"Irrigation/Drainage/Reclamation Works",
+      "class_sub_code":null,
+      "sic_code":4971,
+      "sic_code_desc":"IRRIGATION SYSTEMS"
+   },
+   "3018-null":{
+      "class_code":3018,
+      "description":"Steel Making",
+      "class_sub_code":null,
+      "sic_code":3339,
+      "sic_code_desc":"PRIMARY SMELTING AND REFINING OF NONFERROUS METALS, EXCEPT COPPER"
+   },
+   "7333-null":{
+      "class_code":7333,
+      "description":"Dredging-alltypes-Program I",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "5542-null":{
+      "class_code":5542,
+      "description":"Sheet Metal Work - high wage",
+      "class_sub_code":null,
+      "sic_code":1761,
+      "sic_code_desc":"ROOFING, SIDING, AND SHEET METAL WORK"
+   },
+   "8389-null":{
+      "class_code":8389,
+      "description":"Auto/Truck Repair Facilities",
+      "class_sub_code":null,
+      "sic_code":7539,
+      "sic_code_desc":"AUTOMOTIVE REPAIR SHOPS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "3683-null":{
+      "class_code":3683,
+      "description":"Speaker Mfg",
+      "class_sub_code":null,
+      "sic_code":3651,
+      "sic_code_desc":"HOUSEHOLD AUDIO AND VIDEO EQUIPMENT"
+   },
+   "7405-null":{
+      "class_code":7405,
+      "description":"Aircraft Operation - scheduled - fly crew",
+      "class_sub_code":null,
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "3569-null":{
+      "class_code":3569,
+      "description":"Electric Motor Mfg/Repair",
+      "class_sub_code":null,
+      "sic_code":3621,
+      "sic_code_desc":"MOTORS AND GENERATORS"
+   },
+   "6824-F":{
+      "class_code":6824,
+      "description":"Boatbuilding orrepair -coverage under the Longshore Act - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "2585-2":{
+      "class_code":2585,
+      "description":"Dyeing",
+      "class_sub_code":"2",
+      "sic_code":7213,
+      "sic_code_desc":"LINEN SUPPLY"
+   },
+   "2585-1":{
+      "class_code":2585,
+      "description":"Laundries",
+      "class_sub_code":"1",
+      "sic_code":7217,
+      "sic_code_desc":"CARPET AND UPHOLSTERY CLEANING"
+   },
+   "7232-null":{
+      "class_code":7232,
+      "description":"Mail Delivery Service Companies",
+      "class_sub_code":null,
+      "sic_code":4215,
+      "sic_code_desc":"COURIER SERVICES, EXCEPT BY AIR"
+   },
+   "7360-1":{
+      "class_code":7360,
+      "description":"Freight Handlers",
+      "class_sub_code":"1",
+      "sic_code":4731,
+      "sic_code_desc":"ARRANGEMENT OF TRANSPORTATION OF FREIGHT AND CARGO"
+   },
+   "7360-2":{
+      "class_code":7360,
+      "description":"Freight Forwarders/Consolidators",
+      "class_sub_code":"2",
+      "sic_code":4731,
+      "sic_code_desc":"ARRANGEMENT OF TRANSPORTATION OF FREIGHT AND CARGO"
+   },
+   "7046-null":{
+      "class_code":7046,
+      "description":"Vessels-notself-propelled-Program I",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "2585-9":{
+      "class_code":2585,
+      "description":"Laundry Services / Carpentry Cleaning - Sub Code (9)",
+      "class_sub_code":"9",
+      "sic_code":7216,
+      "sic_code_desc":"DRYCLEANING PLANTS, EXCEPT RUG CLEANING"
+   },
+   "7395-M":{
+      "class_code":7395,
+      "description":"Demolitionoperations-underwater-Program II-State Act - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "2702-3":{
+      "class_code":2702,
+      "description":"Wood Chopping/Tie Making",
+      "class_sub_code":"3",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "2702-2":{
+      "class_code":2702,
+      "description":"Clearing Land",
+      "class_sub_code":"2",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "2702-1":{
+      "class_code":2702,
+      "description":"Logging/Lumbering",
+      "class_sub_code":"1",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "8742-8":{
+      "class_code":8742,
+      "description":"SALESPERSONS, OR COLLECTORS, OUTSIDE - Sub Code (8)",
+      "class_sub_code":"8",
+      "sic_code":7375,
+      "sic_code_desc":"INFORMATION RETRIEVAL SERVICES"
+   },
+   "8742-9":{
+      "class_code":8742,
+      "description":"SALESPERSONS, OR COLLECTORS, OUTSIDE - Sub Code (9)",
+      "class_sub_code":"9",
+      "sic_code":8748,
+      "sic_code_desc":"BUSINESS CONSULTING SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7429-null":{
+      "class_code":7429,
+      "description":"Airport Operators",
+      "class_sub_code":null,
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "8042-null":{
+      "class_code":8042,
+      "description":"Stores - floor covering",
+      "class_sub_code":null,
+      "sic_code":5713,
+      "sic_code_desc":"FLOOR COVERING STORES"
+   },
+   "8742-4":{
+      "class_code":8742,
+      "description":"Newspaper Publishing - reports/advertise",
+      "class_sub_code":"4",
+      "sic_code":7375,
+      "sic_code_desc":"INFORMATION RETRIEVAL SERVICES"
+   },
+   "8742-5":{
+      "class_code":8742,
+      "description":"Printing - salespersons - outside",
+      "class_sub_code":"5",
+      "sic_code":7361,
+      "sic_code_desc":"EMPLOYMENT AGENCIES"
+   },
+   "7046-M":{
+      "class_code":7046,
+      "description":"Vessels-notself-propelled-Program I - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "8742-2":{
+      "class_code":8742,
+      "description":"Bookbinding - salespersons - outside",
+      "class_sub_code":"2",
+      "sic_code":8748,
+      "sic_code_desc":"BUSINESS CONSULTING SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9101-5":{
+      "class_code":9101,
+      "description":"Colleges/Schools - private - Sub Code (5)",
+      "class_sub_code":"5",
+      "sic_code":8661,
+      "sic_code_desc":"RELIGIOUS ORGANIZATIONS"
+   },
+   "8742-3":{
+      "class_code":8742,
+      "description":"Boy/Girl Scout Councils - exec secretaries",
+      "class_sub_code":"3",
+      "sic_code":6512,
+      "sic_code_desc":"OPERATORS OF NONRESIDENTIAL BUILDINGS"
+   },
+   "8019-1":{
+      "class_code":8019,
+      "description":"Printing - quick printing",
+      "class_sub_code":"1",
+      "sic_code":7334,
+      "sic_code_desc":"PHOTOCOPYING AND DUPLICATING SERVICES"
+   },
+   "8019-2":{
+      "class_code":8019,
+      "description":"Document Duplication/Photocopying",
+      "class_sub_code":"2",
+      "sic_code":7334,
+      "sic_code_desc":"PHOTOCOPYING AND DUPLICATING SERVICES"
+   },
+   "8290-null":{
+      "class_code":8290,
+      "description":"Warehouses - self-storage - other employees",
+      "class_sub_code":null,
+      "sic_code":4226,
+      "sic_code_desc":"SPECIAL WAREHOUSING AND STORAGE, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8742-1":{
+      "class_code":8742,
+      "description":"Salespersons - outside",
+      "class_sub_code":"1",
+      "sic_code":8748,
+      "sic_code_desc":"BUSINESS CONSULTING SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9101-6":{
+      "class_code":9101,
+      "description":"Colleges/Schools - private - Sub Code (6)",
+      "class_sub_code":"6",
+      "sic_code":7299,
+      "sic_code_desc":"MISCELLANEOUS PERSONAL SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4511-null":{
+      "class_code":4511,
+      "description":"Analytical/Testing Laboratories",
+      "class_sub_code":null,
+      "sic_code":8731,
+      "sic_code_desc":"COMMERCIAL PHYSICAL AND BIOLOGICAL RESEARCH"
+   },
+   "8041-null":{
+      "class_code":8041,
+      "description":"Stores - wine/spirits - wholesale",
+      "class_sub_code":null,
+      "sic_code":5182,
+      "sic_code_desc":"WINE AND DISTILLED ALCOHOLIC BEVERAGES"
+   },
+   "9097-null":{
+      "class_code":9097,
+      "description":"Swimming Pool Cleaning/Servicing",
+      "class_sub_code":null,
+      "sic_code":7349,
+      "sic_code_desc":"BUILDING CLEANING AND MAINTENANCE SERVICES, NOT ELSEWHERE CLASSIF"
+   },
+   "2883-null":{
+      "class_code":2883,
+      "description":"Furniture Mfg - wood",
+      "class_sub_code":null,
+      "sic_code":3679,
+      "sic_code_desc":"ELECTRONIC COMPONENTS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8215-2":{
+      "class_code":8215,
+      "description":"Warehouses - grain/bean",
+      "class_sub_code":"2",
+      "sic_code":5191,
+      "sic_code_desc":"FARM SUPPLIES"
+   },
+   "8215-1":{
+      "class_code":8215,
+      "description":"Hay/Grain/Feed Dealers",
+      "class_sub_code":"1",
+      "sic_code":5191,
+      "sic_code_desc":"FARM SUPPLIES"
+   },
+   "4295-2":{
+      "class_code":4295,
+      "description":"Screen Printed Merchandise Dealers - other",
+      "class_sub_code":"2",
+      "sic_code":2759,
+      "sic_code_desc":"COMMERCIAL PRINTING, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4295-1":{
+      "class_code":4295,
+      "description":"Printing - screen - all other employees",
+      "class_sub_code":"1",
+      "sic_code":2759,
+      "sic_code_desc":"COMMERCIAL PRINTING, NOT ELSEWHERE CLASSIFIED"
+   },
+   "1123-null":{
+      "class_code":1123,
+      "description":"Mining - underground",
+      "class_sub_code":null,
+      "sic_code":1222,
+      "sic_code_desc":"BITUMINOUS COAL UNDERGROUND MINING"
+   },
+   "8008-null":{
+      "class_code":8008,
+      "description":"Stores - clothing/dry goods - retail",
+      "class_sub_code":null,
+      "sic_code":5949,
+      "sic_code_desc":"SEWING, NEEDLEWORK, AND PIECE GOODS STORES"
+   },
+   "9519-4":{
+      "class_code":9519,
+      "description":"Water Softening/Conditioning Systems",
+      "class_sub_code":"4",
+      "sic_code":7622,
+      "sic_code_desc":"RADIO AND TELEVISION REPAIR SHOPS"
+   },
+   "4691-null":{
+      "class_code":4691,
+      "description":"Orthotic/Prosthetic Device Mfg",
+      "class_sub_code":null,
+      "sic_code":3842,
+      "sic_code_desc":"ORTHOPEDIC, PROSTHETIC, AND SURGICAL APPLIANCES AND SUPPLIES"
+   },
+   "9519-1":{
+      "class_code":9519,
+      "description":"Household Appliances",
+      "class_sub_code":"1",
+      "sic_code":1731,
+      "sic_code_desc":"ELECTRICAL WORK"
+   },
+   "3110-1":{
+      "class_code":3110,
+      "description":"Forging Works",
+      "class_sub_code":"1",
+      "sic_code":3423,
+      "sic_code_desc":"HAND AND EDGE TOOLS, EXCEPT MACHINE TOOLS AND HANDSAWS"
+   },
+   "3110-2":{
+      "class_code":3110,
+      "description":"Tool Mfg - hot formed tools",
+      "class_sub_code":"2",
+      "sic_code":3423,
+      "sic_code_desc":"HAND AND EDGE TOOLS, EXCEPT MACHINE TOOLS AND HANDSAWS"
+   },
+   "3110-3":{
+      "class_code":3110,
+      "description":"Blacksmithing",
+      "class_sub_code":"3",
+      "sic_code":3423,
+      "sic_code_desc":"HAND AND EDGE TOOLS, EXCEPT MACHINE TOOLS AND HANDSAWS"
+   },
+   "6504-null":{
+      "class_code":6504,
+      "description":"Food Products Mfg/Processing",
+      "class_sub_code":null,
+      "sic_code":2066,
+      "sic_code_desc":"CHOCOLATE AND COCOA PRODUCTS"
+   },
+   "8875-9":{
+      "class_code":8875,
+      "description":"PUBLIC COLLEGGES, OR PUBLIC SCHOOLS - Sub Code (9)",
+      "class_sub_code":"9",
+      "sic_code":8221,
+      "sic_code_desc":"COLLEGES, UNIVERSITIES, AND PROFESSIONAL SCHOOLS"
+   },
+   "8875-1":{
+      "class_code":8875,
+      "description":"Public Colleges/Schools",
+      "class_sub_code":"1",
+      "sic_code":8221,
+      "sic_code_desc":"COLLEGES, UNIVERSITIES, AND PROFESSIONAL SCHOOLS"
+   },
+   "8875-2":{
+      "class_code":8875,
+      "description":"Superintendent of Public Schools Office",
+      "class_sub_code":"2",
+      "sic_code":8221,
+      "sic_code_desc":"COLLEGES, UNIVERSITIES, AND PROFESSIONAL SCHOOLS"
+   },
+   "3501-2":{
+      "class_code":3501,
+      "description":"Machinery Mfg - swimming pool/spa",
+      "class_sub_code":"2",
+      "sic_code":3448,
+      "sic_code_desc":"PREFABRICATED METAL BUILDINGS AND COMPONENTS"
+   },
+   "7409-null":{
+      "class_code":7409,
+      "description":"Aircraft Operation - agri - fly crew",
+      "class_sub_code":null,
+      "sic_code":3721,
+      "sic_code_desc":"AIRCRAFT"
+   },
+   "4240-null":{
+      "class_code":4240,
+      "description":"Box Mfg - rigid paper boxes",
+      "class_sub_code":null,
+      "sic_code":2653,
+      "sic_code_desc":"CORRUGATED AND SOLID FIBER BOXES"
+   },
+   "8389-10":{
+      "class_code":8389,
+      "description":"Auto/Truck Repair Facilities - Sub Code (10)",
+      "class_sub_code":"10",
+      "sic_code":7539,
+      "sic_code_desc":"AUTOMOTIVE REPAIR SHOPS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8204-1":{
+      "class_code":8204,
+      "description":"Building Material Dealers - secondhand",
+      "class_sub_code":"1",
+      "sic_code":5084,
+      "sic_code_desc":"INDUSTRIAL MACHINERY AND EQUIPMENT"
+   },
+   "8204-2":{
+      "class_code":8204,
+      "description":"Pipe Reclaiming",
+      "class_sub_code":"2",
+      "sic_code":5932,
+      "sic_code_desc":"USED MERCHANDISE STORES"
+   },
+   "16-null":{
+      "class_code":16,
+      "description":"Orchards - citrus/deciduous fruits",
+      "class_sub_code":null,
+      "sic_code":2861,
+      "sic_code_desc":"GUM AND WOOD CHEMICALS"
+   },
+   "4922-null":{
+      "class_code":4922,
+      "description":"Magnetic Tape Mfg",
+      "class_sub_code":null,
+      "sic_code":3695,
+      "sic_code_desc":"MAGNETIC AND OPTICAL RECORDING MEDIA"
+   },
+   "3501-1":{
+      "class_code":3501,
+      "description":"Machinery Mfg - portable tools/lawn care",
+      "class_sub_code":"1",
+      "sic_code":3448,
+      "sic_code_desc":"PREFABRICATED METAL BUILDINGS AND COMPONENTS"
+   },
+   "8400-null":{
+      "class_code":8400,
+      "description":"Motorcycle Dealers",
+      "class_sub_code":null,
+      "sic_code":3751,
+      "sic_code_desc":"MOTORCYCLES, BICYCLES, AND PARTS"
+   },
+   "6361-2":{
+      "class_code":6361,
+      "description":"Cross-Country Water Pipeline",
+      "class_sub_code":"2",
+      "sic_code":1622,
+      "sic_code_desc":"BRIDGE, TUNNEL, AND ELEVATED HIGHWAY CONSTRUCTION"
+   },
+   "38-1":{
+      "class_code":38,
+      "description":"Stock Farms",
+      "class_sub_code":"1",
+      "sic_code":211,
+      "sic_code_desc":"BEEF CATTLE FEEDLOTS"
+   },
+   "6361-1":{
+      "class_code":6361,
+      "description":"Canal Construction",
+      "class_sub_code":"1",
+      "sic_code":1622,
+      "sic_code_desc":"BRIDGE, TUNNEL, AND ELEVATED HIGHWAY CONSTRUCTION"
+   },
+   "38-2":{
+      "class_code":38,
+      "description":"Feed Yards",
+      "class_sub_code":"2",
+      "sic_code":211,
+      "sic_code_desc":"CIGARETTES"
+   },
+   "8267-null":{
+      "class_code":8267,
+      "description":"Machinery/Equipment Dealers - secondhand",
+      "class_sub_code":null,
+      "sic_code":3569,
+      "sic_code_desc":"GENERAL INDUSTRIAL MACHINERY AND EQUIPMENT, NOT ELSEWHERE CLASSIF"
+   },
+   "9402-null":{
+      "class_code":9402,
+      "description":"Sewer/Tank Cleaning",
+      "class_sub_code":null,
+      "sic_code":7699,
+      "sic_code_desc":"REPAIR SHOPS AND RELATED SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "6361-3":{
+      "class_code":6361,
+      "description":"Jetty/Breakwater Construction",
+      "class_sub_code":"3",
+      "sic_code":1622,
+      "sic_code_desc":"BRIDGE, TUNNEL, AND ELEVATED HIGHWAY CONSTRUCTION"
+   },
+   "8875-null":{
+      "class_code":8875,
+      "description":"PUBLIC COLLEGGES, OR PUBLIC SCHOOLS",
+      "class_sub_code":null,
+      "sic_code":8221,
+      "sic_code_desc":"COLLEGES, UNIVERSITIES, AND PROFESSIONAL SCHOOLS"
+   },
+   "7309-F":{
+      "class_code":7309,
+      "description":"Stevedoring NOC - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "2222-null":{
+      "class_code":2222,
+      "description":"Spinning/Weaving",
+      "class_sub_code":null,
+      "sic_code":2299,
+      "sic_code_desc":"TEXTILE GOODS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8110-null":{
+      "class_code":8110,
+      "description":"Stores - welding supplies",
+      "class_sub_code":null,
+      "sic_code":5999,
+      "sic_code_desc":"MISCELLANEOUS RETAIL STORES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5610-null":{
+      "class_code":5610,
+      "description":"CONTRACTORS - construction or erection - all construction subcontracted - all other employees",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "7520-null":{
+      "class_code":7520,
+      "description":"Waterworks",
+      "class_sub_code":null,
+      "sic_code":4941,
+      "sic_code_desc":"WATER SUPPLY"
+   },
+   "5102-1":{
+      "class_code":5102,
+      "description":"Iron/Steel Erection - non-structural",
+      "class_sub_code":"1",
+      "sic_code":1751,
+      "sic_code_desc":"CARPENTRY WORK"
+   },
+   "5102-3":{
+      "class_code":5102,
+      "description":"Floor Installation",
+      "class_sub_code":"3",
+      "sic_code":1751,
+      "sic_code_desc":"CARPENTRY WORK"
+   },
+   "1122-null":{
+      "class_code":1122,
+      "description":"Mining - surface",
+      "class_sub_code":null,
+      "sic_code":1099,
+      "sic_code_desc":"MISCELLANEOUS METAL ORES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8017-9":{
+      "class_code":8017,
+      "description":"Product Demonstrators in Stores",
+      "class_sub_code":"9",
+      "sic_code":5921,
+      "sic_code_desc":"LIQUOR STORES"
+   },
+   "4351-null":{
+      "class_code":4351,
+      "description":"Photo Engraving",
+      "class_sub_code":null,
+      "sic_code":2754,
+      "sic_code_desc":"COMMERCIAL PRINTING, GRAVURE"
+   },
+   "8017-7":{
+      "class_code":8017,
+      "description":"Stores - hardware - retail",
+      "class_sub_code":"7",
+      "sic_code":5921,
+      "sic_code_desc":"LIQUOR STORES"
+   },
+   "8065-null":{
+      "class_code":8065,
+      "description":"Stores - paint/paint supplies",
+      "class_sub_code":null,
+      "sic_code":5999,
+      "sic_code_desc":"MISCELLANEOUS RETAIL STORES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8017-8":{
+      "class_code":8017,
+      "description":"Towel/Toilet Supply Companies",
+      "class_sub_code":"8",
+      "sic_code":5921,
+      "sic_code_desc":"LIQUOR STORES"
+   },
+   "4720-null":{
+      "class_code":4720,
+      "description":"Soap/Synthetic Detergent Mfg",
+      "class_sub_code":null,
+      "sic_code":2841,
+      "sic_code_desc":"SOAP AND OTHER DETERGENTS, EXCEPT SPECIALTY CLEANERS"
+   },
+   "8017-1":{
+      "class_code":8017,
+      "description":"Stores - retail",
+      "class_sub_code":"1",
+      "sic_code":5921,
+      "sic_code_desc":"LIQUOR STORES"
+   },
+   "4717-null":{
+      "class_code":4717,
+      "description":"Butter Substitutes Mfg",
+      "class_sub_code":null,
+      "sic_code":2077,
+      "sic_code_desc":"ANIMAL AND MARINE FATS AND OILS"
+   },
+   "6325-null":{
+      "class_code":6325,
+      "description":"Conduit Construction",
+      "class_sub_code":null,
+      "sic_code":1731,
+      "sic_code_desc":"ELECTRICAL WORK"
+   },
+   "8827-1":{
+      "class_code":8827,
+      "description":"Home Care Services",
+      "class_sub_code":"1",
+      "sic_code":8059,
+      "sic_code_desc":"NURSING AND PERSONAL CARE FACILITIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8827-2":{
+      "class_code":8827,
+      "description":"Nursing Care",
+      "class_sub_code":"2",
+      "sic_code":8059,
+      "sic_code_desc":"NURSING AND PERSONAL CARE FACILITIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7722-null":{
+      "class_code":7722,
+      "description":"Police/Sheriffs - volunteers",
+      "class_sub_code":null,
+      "sic_code":9221,
+      "sic_code_desc":"POLICE PROTECTION"
+   },
+   "1701-null":{
+      "class_code":1701,
+      "description":"Cement Mfg",
+      "class_sub_code":null,
+      "sic_code":3272,
+      "sic_code_desc":"CONCRETE PRODUCTS, EXCEPT BLOCK AND BRICK"
+   },
+   "4495-null":{
+      "class_code":4495,
+      "description":"Plastics - extrusion molded products mfg",
+      "class_sub_code":null,
+      "sic_code":2821,
+      "sic_code_desc":"PLASTICS MATERIALS, SYNTHETIC RESINS, AND NONVULCANIZABLE ELASTOM"
+   },
+   "3568-null":{
+      "class_code":3568,
+      "description":"Electrical Connector Mfg",
+      "class_sub_code":null,
+      "sic_code":3629,
+      "sic_code_desc":"ELECTRICAL INDUSTRIAL APPARATUS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5029-null":{
+      "class_code":5029,
+      "description":"Concrete Sawing/Drilling",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "3022-null":{
+      "class_code":3022,
+      "description":"Pipe/Tube Mfg",
+      "class_sub_code":null,
+      "sic_code":3498,
+      "sic_code_desc":"FABRICATED PIPE AND PIPE FITTINGS"
+   },
+   "4283-null":{
+      "class_code":4283,
+      "description":"Building/Roofing Paper/Felt Preparation",
+      "class_sub_code":null,
+      "sic_code":2679,
+      "sic_code_desc":"CONVERTED PAPER AND PAPERBOARD PRODUCTS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8028-2":{
+      "class_code":8028,
+      "description":"Machinery/Equipment Rental Yards",
+      "class_sub_code":"2",
+      "sic_code":7359,
+      "sic_code_desc":"EQUIPMENT RENTAL AND LEASING, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8028-1":{
+      "class_code":8028,
+      "description":"Equipment/Machinery Rental Yards",
+      "class_sub_code":"1",
+      "sic_code":7359,
+      "sic_code_desc":"EQUIPMENT RENTAL AND LEASING, NOT ELSEWHERE CLASSIFIED"
+   },
+   "9426-null":{
+      "class_code":9426,
+      "description":"Sanitary Companies",
+      "class_sub_code":null,
+      "sic_code":4959,
+      "sic_code_desc":"SANITARY SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4635-null":{
+      "class_code":4635,
+      "description":"Oxygen/Hydrogen Mfg",
+      "class_sub_code":null,
+      "sic_code":7389,
+      "sic_code_desc":"BUSINESS SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7099-null":{
+      "class_code":7099,
+      "description":"Vessels-notself-propelled-Program II-USL Act",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "5183-2":{
+      "class_code":5183,
+      "description":"Refrigeration Equip - low wage",
+      "class_sub_code":"2",
+      "sic_code":1711,
+      "sic_code_desc":"PLUMBING, HEATING AND AIR-CONDITIONING"
+   },
+   "2063-null":{
+      "class_code":2063,
+      "description":"Creameries/Dairy Products Mfg",
+      "class_sub_code":null,
+      "sic_code":2021,
+      "sic_code_desc":"CREAMERY BUTTER"
+   },
+   "1803-2":{
+      "class_code":1803,
+      "description":"Marble Cutting/Polishing",
+      "class_sub_code":"2",
+      "sic_code":1499,
+      "sic_code_desc":"MISCELLANEOUS NONMETALLIC MINERALS, EXCEPT FUELS"
+   },
+   "5183-1":{
+      "class_code":5183,
+      "description":"Plumbing - low wage",
+      "class_sub_code":"1",
+      "sic_code":1711,
+      "sic_code_desc":"PLUMBING, HEATING AND AIR-CONDITIONING"
+   },
+   "1803-1":{
+      "class_code":1803,
+      "description":"Stone Cutting/Polishing",
+      "class_sub_code":"1",
+      "sic_code":1499,
+      "sic_code_desc":"MISCELLANEOUS NONMETALLIC MINERALS, EXCEPT FUELS"
+   },
+   "9151-null":{
+      "class_code":9151,
+      "description":"Theaters - music ensembles",
+      "class_sub_code":null,
+      "sic_code":7929,
+      "sic_code_desc":"BANDS, ORCHESTRAS, ACTORS, AND OTHER ENTERTAINERS AND ENTERTAINME"
+   },
+   "4499-null":{
+      "class_code":4499,
+      "description":"Plastics - thermoformed products mfg",
+      "class_sub_code":null,
+      "sic_code":2821,
+      "sic_code_desc":"PLASTICS MATERIALS, SYNTHETIC RESINS, AND NONVULCANIZABLE ELASTOM"
+   },
+   "2576-null":{
+      "class_code":2576,
+      "description":"Awning/Tarp/Canvas Goods Mfg",
+      "class_sub_code":null,
+      "sic_code":2394,
+      "sic_code_desc":"CANVAS AND RELATED PRODUCTS"
+   },
+   "4000-3":{
+      "class_code":4000,
+      "description":"Salt Production",
+      "class_sub_code":"3",
+      "sic_code":1459,
+      "sic_code_desc":"CLAY, CERAMIC, AND REFRACTORY MINERALS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4000-4":{
+      "class_code":4000,
+      "description":"Dredging",
+      "class_sub_code":"4",
+      "sic_code":1459,
+      "sic_code_desc":"CLAY, CERAMIC, AND REFRACTORY MINERALS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4000-1":{
+      "class_code":4000,
+      "description":"Sand/Gravel Digging",
+      "class_sub_code":"1",
+      "sic_code":1442,
+      "sic_code_desc":"CONSTRUCTION SAND AND GRAVEL"
+   },
+   "4297-2":{
+      "class_code":4297,
+      "description":"Graphic Design - all operations",
+      "class_sub_code":"2",
+      "sic_code":2741,
+      "sic_code_desc":"MISCELLANEOUS PUBLISHING"
+   },
+   "4000-2":{
+      "class_code":4000,
+      "description":"Clay Digging",
+      "class_sub_code":"2",
+      "sic_code":1459,
+      "sic_code_desc":"CLAY, CERAMIC, AND REFRACTORY MINERALS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4297-1":{
+      "class_code":4297,
+      "description":"Electronic Prepress - all operations",
+      "class_sub_code":"1",
+      "sic_code":2741,
+      "sic_code_desc":"MISCELLANEOUS PUBLISHING"
+   },
+   "6400-null":{
+      "class_code":6400,
+      "description":"Fence Construction",
+      "class_sub_code":null,
+      "sic_code":1799,
+      "sic_code_desc":"SPECIAL TRADE CONTRACTORS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7327-F":{
+      "class_code":7327,
+      "description":"Stevedoring-containerized freight - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "7317-null":{
+      "class_code":7317,
+      "description":"Automobile haulawayor driveaway-driving cars on or off vessels",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "3643-1":{
+      "class_code":3643,
+      "description":"Electric Power/Transmission Equip Mfg",
+      "class_sub_code":"1",
+      "sic_code":3621,
+      "sic_code_desc":"MOTORS AND GENERATORS"
+   },
+   "3643-2":{
+      "class_code":3643,
+      "description":"Electric Control Panel/Switchgear Mfg",
+      "class_sub_code":"2",
+      "sic_code":3621,
+      "sic_code_desc":"MOTORS AND GENERATORS"
+   },
+   "9060-null":{
+      "class_code":9060,
+      "description":"Clubs - country/golf",
+      "class_sub_code":null,
+      "sic_code":7997,
+      "sic_code_desc":"MEMBERSHIP SPORTS AND RECREATION CLUBS"
+   },
+   "9010-null":{
+      "class_code":9010,
+      "description":"Mobile Home Park Operation - other",
+      "class_sub_code":null,
+      "sic_code":6515,
+      "sic_code_desc":"OPERATORS OF RESIDENTIAL MOBILE HOME SITES"
+   },
+   "3339-null":{
+      "class_code":3339,
+      "description":"Foundries - investment casting",
+      "class_sub_code":null,
+      "sic_code":3313,
+      "sic_code_desc":"ELECTROMETALLURGICAL PRODUCTS, EXCEPT STEEL"
+   },
+   "5552-null":{
+      "class_code":5552,
+      "description":"Roofing - low wage",
+      "class_sub_code":null,
+      "sic_code":1761,
+      "sic_code_desc":"ROOFING, SIDING, AND SHEET METAL WORK"
+   },
+   "2003-null":{
+      "class_code":2003,
+      "description":"Bakeries and Cracker Mfg",
+      "class_sub_code":null,
+      "sic_code":5149,
+      "sic_code_desc":"GROCERIES AND RELATED PRODUCTS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8006-1":{
+      "class_code":8006,
+      "description":"Stores - groceries - retail",
+      "class_sub_code":"1",
+      "sic_code":5431,
+      "sic_code_desc":"FRUIT AND VEGETABLE MARKETS"
+   },
+   "8006-2":{
+      "class_code":8006,
+      "description":"Stores - fruit/vegetables - retail",
+      "class_sub_code":"2",
+      "sic_code":5431,
+      "sic_code_desc":"FRUIT AND VEGETABLE MARKETS"
+   },
+   "8061-null":{
+      "class_code":8061,
+      "description":"Stores - groceries - convenience - retail",
+      "class_sub_code":null,
+      "sic_code":5921,
+      "sic_code_desc":"LIQUOR STORES"
+   },
+   "2759-null":{
+      "class_code":2759,
+      "description":"Box/Box Shook/Container Mfg",
+      "class_sub_code":null,
+      "sic_code":2441,
+      "sic_code_desc":"NAILED AND LOCK CORNER WOOD BOXES AND SHOOK"
+   },
+   "8006-A":{
+      "class_code":8006,
+      "description":"STORE GROCERY-RETAIL - Sub Code (A)",
+      "class_sub_code":"A",
+      "sic_code":5441,
+      "sic_code_desc":"CANDY, NUT, AND CONFECTIONERY STORES"
+   },
+   "8006-B":{
+      "class_code":8006,
+      "description":"STORE GROCERY-RETAIL - Sub Code (B)",
+      "class_sub_code":"B",
+      "sic_code":5411,
+      "sic_code_desc":"GROCERY STORES"
+   },
+   "1322-null":{
+      "class_code":1322,
+      "description":"Oil/Gas Well Servicing",
+      "class_sub_code":null,
+      "sic_code":1389,
+      "sic_code_desc":"OIL AND GAS FIELD SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "1699-null":{
+      "class_code":1699,
+      "description":"Rock Wool Mfg",
+      "class_sub_code":null,
+      "sic_code":3296,
+      "sic_code_desc":"MINERAL WOOL"
+   },
+   "5140-null":{
+      "class_code":5140,
+      "description":"Electrical Wiring - high wage",
+      "class_sub_code":null,
+      "sic_code":1731,
+      "sic_code_desc":"ELECTRICAL WORK"
+   },
+   "8839-null":{
+      "class_code":8839,
+      "description":"Dentists/Dental Surgeons",
+      "class_sub_code":null,
+      "sic_code":8021,
+      "sic_code_desc":"OFFICES AND CLINICS OF DENTISTS"
+   },
+   "106-null":{
+      "class_code":106,
+      "description":"Tree Pruning/Repairing/Trimming",
+      "class_sub_code":null,
+      "sic_code":783,
+      "sic_code_desc":"MOTION PICTURE THEATERS"
+   },
+   "4557-null":{
+      "class_code":4557,
+      "description":"Ink/Mucilage/Polish Mfg",
+      "class_sub_code":null,
+      "sic_code":2899,
+      "sic_code_desc":"CHEMICALS AND CHEMICAL PREPARATIONS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "5506-null":{
+      "class_code":5506,
+      "description":"Street/Road Construction - paving",
+      "class_sub_code":null,
+      "sic_code":1611,
+      "sic_code_desc":"HIGHWAY AND STREET CONSTRUCTION, EXCEPT ELEVATED HIGHWAYS"
+   },
+   "6204-null":{
+      "class_code":6204,
+      "description":"Drilling",
+      "class_sub_code":null,
+      "sic_code":1081,
+      "sic_code_desc":"METAL MINING SERVICES"
+   },
+   "2121-null":{
+      "class_code":2121,
+      "description":"Breweries/Malt Houses",
+      "class_sub_code":null,
+      "sic_code":2082,
+      "sic_code_desc":"MALT BEVERAGES"
+   },
+   "4243-null":{
+      "class_code":4243,
+      "description":"Box Mfg - folding paper boxes",
+      "class_sub_code":null,
+      "sic_code":2653,
+      "sic_code_desc":"CORRUGATED AND SOLID FIBER BOXES"
+   },
+   "8741-null":{
+      "class_code":8741,
+      "description":"Real Estate Agencies",
+      "class_sub_code":null,
+      "sic_code":6531,
+      "sic_code_desc":"REAL ESTATE AGENTS AND MANAGERS"
+   },
+   "8829-2":{
+      "class_code":8829,
+      "description":"Convalescent Homes/Hospitals",
+      "class_sub_code":"2",
+      "sic_code":8051,
+      "sic_code_desc":"SKILLED NURSING CARE FACILITIES"
+   },
+   "8829-4":{
+      "class_code":8829,
+      "description":"Rest Homes",
+      "class_sub_code":"4",
+      "sic_code":8059,
+      "sic_code_desc":"NURSING AND PERSONAL CARE FACILITIES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8829-5":{
+      "class_code":8829,
+      "description":"Sanitariums",
+      "class_sub_code":"5",
+      "sic_code":8051,
+      "sic_code_desc":"SKILLED NURSING CARE FACILITIES"
+   },
+   "5484-null":{
+      "class_code":5484,
+      "description":"Plastering/Stucco Work - low wage",
+      "class_sub_code":null,
+      "sic_code":1742,
+      "sic_code_desc":"PLASTERING, DRYWALL, ACOUSTICAL, AND INSULATION WORK"
+   },
+   "8829-1":{
+      "class_code":8829,
+      "description":"Nursing Homes",
+      "class_sub_code":"1",
+      "sic_code":8051,
+      "sic_code_desc":"SKILLED NURSING CARE FACILITIES"
+   },
+   "7099-M":{
+      "class_code":7099,
+      "description":"Vessels-notself-propelled-Program II-USL Act - Sub Code (M)",
+      "class_sub_code":"M",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "5225-null":{
+      "class_code":5225,
+      "description":"Reinforcing Steel Installation",
+      "class_sub_code":null,
+      "sic_code":1629,
+      "sic_code_desc":"HEAVY CONSTRUCTION, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4286-null":{
+      "class_code":4286,
+      "description":"Bag Mfg - plastic",
+      "class_sub_code":null,
+      "sic_code":2671,
+      "sic_code_desc":"PACKAGING PAPER AND PLASTICS FILM, COATED AND LAMINATED"
+   },
+   "8709-F":{
+      "class_code":8709,
+      "description":"Steamship line oragency-port employees: talliers, checking clerks and repackingof - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "2402-null":{
+      "class_code":2402,
+      "description":"Carpet/Rug Mfg",
+      "class_sub_code":null,
+      "sic_code":2273,
+      "sic_code_desc":"CARPETS AND RUGS"
+   },
+   "5951-null":{
+      "class_code":5951,
+      "description":"Serum/Antitoxin/Virus Mfg",
+      "class_sub_code":null,
+      "sic_code":2836,
+      "sic_code_desc":"BIOLOGICAL PRODUCTS, EXCEPT DIAGNOSTIC SUBSTANCES"
+   },
+   "7327-null":{
+      "class_code":7327,
+      "description":"Stevedoring-containerized freight",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "7601-null":{
+      "class_code":7601,
+      "description":"Aerial Line Construction",
+      "class_sub_code":null,
+      "sic_code":1731,
+      "sic_code_desc":"ELECTRICAL WORK"
+   },
+   "9007-null":{
+      "class_code":9007,
+      "description":"Apt/Condo Operation - seniors - other",
+      "class_sub_code":null,
+      "sic_code":6513,
+      "sic_code_desc":"OPERATORS OF APARTMENT BUILDINGS"
+   },
+   "9067-1":{
+      "class_code":9067,
+      "description":"YMCA/YWCA Institutions",
+      "class_sub_code":"1",
+      "sic_code":7997,
+      "sic_code_desc":"MEMBERSHIP SPORTS AND RECREATION CLUBS"
+   },
+   "9067-2":{
+      "class_code":9067,
+      "description":"Clubs - boys and girls",
+      "class_sub_code":"2",
+      "sic_code":7997,
+      "sic_code_desc":"MEMBERSHIP SPORTS AND RECREATION CLUBS"
+   },
+   "7382-9":{
+      "class_code":7382,
+      "description":"Bus/Limousine Operations - Sub Code (9)",
+      "class_sub_code":"9",
+      "sic_code":4173,
+      "sic_code_desc":"TERMINAL AND SERVICE FACILITIES FOR MOTOR VEHICLE PASSENGER TRANS"
+   },
+   "4831-null":{
+      "class_code":4831,
+      "description":"Vitamin/Food Supplement Mfg",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "7350-null":{
+      "class_code":7350,
+      "description":"Freight handlingNOC-coverage under Longshore Act",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "34-2":{
+      "class_code":34,
+      "description":"Sheep Raising/Hog Farms",
+      "class_sub_code":"2",
+      "sic_code":259,
+      "sic_code_desc":"MISCELLANEOUS FURNITURE AND FIXTURES"
+   },
+   "34-1":{
+      "class_code":34,
+      "description":"Poultry Raising",
+      "class_sub_code":"1",
+      "sic_code":259,
+      "sic_code_desc":"POULTRY AND EGGS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2108-null":{
+      "class_code":2108,
+      "description":"Fruit - citrus fruit packing/handling",
+      "class_sub_code":null,
+      "sic_code":2037,
+      "sic_code_desc":"FROZEN FRUITS, FRUIT JUICES, AND VEGETABLES"
+   },
+   "4299-2":{
+      "class_code":4299,
+      "description":"Bookbinding - all other employees",
+      "class_sub_code":"2",
+      "sic_code":3069,
+      "sic_code_desc":"FABRICATED RUBBER PRODUCTS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "4299-1":{
+      "class_code":4299,
+      "description":"Printing - all other employees",
+      "class_sub_code":"1",
+      "sic_code":3069,
+      "sic_code_desc":"FABRICATED RUBBER PRODUCTS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "8806-null":{
+      "class_code":8806,
+      "description":"Sheltered Workshops",
+      "class_sub_code":null,
+      "sic_code":8399,
+      "sic_code_desc":"SOCIAL SERVICES, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7272-null":{
+      "class_code":7272,
+      "description":"Water Truck Service Companies",
+      "class_sub_code":null,
+      "sic_code":4212,
+      "sic_code_desc":"LOCAL TRUCKING WITHOUT STORAGE"
+   },
+   "4492-null":{
+      "class_code":4492,
+      "description":"Sign Mfg - metal/plastic/wood",
+      "class_sub_code":null,
+      "sic_code":3993,
+      "sic_code_desc":"SIGNS AND ADVERTISING SPECIALTIES"
+   },
+   "8113-null":{
+      "class_code":8113,
+      "description":"Oil/Gas Well Supplies/Equip Dealers - used",
+      "class_sub_code":null,
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "7360-null":{
+      "class_code":7360,
+      "description":"Freight Forwarders/Consolidators",
+      "class_sub_code":null,
+      "sic_code":4731,
+      "sic_code_desc":"ARRANGEMENT OF TRANSPORTATION OF FREIGHT AND CARGO"
+   },
+   "5059-null":{
+      "class_code":5059,
+      "description":"Iron/Steel Erection - buildings <3 stories",
+      "class_sub_code":null,
+      "sic_code":1791,
+      "sic_code_desc":"STRUCTURAL STEEL ERECTION"
+   },
+   "7393-F":{
+      "class_code":7393,
+      "description":"Diving-marine-ProgramII-State Act - Sub Code (F)",
+      "class_sub_code":"F",
+      "sic_code":null,
+      "sic_code_desc":null
+   },
+   "5160-null":{
+      "class_code":5160,
+      "description":"Elevator Erection/Repair",
+      "class_sub_code":null,
+      "sic_code":1796,
+      "sic_code_desc":"INSTALLATION OR ERECTION OF BUILDING EQUIPMENT, NOT ELSEWHERE CLA"
+   },
+   "7207-2":{
+      "class_code":7207,
+      "description":"Clubs - riding",
+      "class_sub_code":"2",
+      "sic_code":272,
+      "sic_code_desc":"HORSES AND OTHER EQUINES"
+   },
+   "4828-null":{
+      "class_code":4828,
+      "description":"Chemical Mixing/Blending/Repackaging",
+      "class_sub_code":null,
+      "sic_code":2899,
+      "sic_code_desc":"CHEMICALS AND CHEMICAL PREPARATIONS, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7207-1":{
+      "class_code":7207,
+      "description":"Stables",
+      "class_sub_code":"1",
+      "sic_code":272,
+      "sic_code_desc":"PERIODICALS: PUBLISHING, OR PUBLISHING AND PRINTING"
+   },
+   "7207-4":{
+      "class_code":7207,
+      "description":"Pack Trains",
+      "class_sub_code":"4",
+      "sic_code":272,
+      "sic_code_desc":"HORSES AND OTHER EQUINES"
+   },
+   "8015-null":{
+      "class_code":8015,
+      "description":"Stores - furniture",
+      "class_sub_code":null,
+      "sic_code":7334,
+      "sic_code_desc":"PHOTOCOPYING AND DUPLICATING SERVICES"
+   },
+   "2757-1":{
+      "class_code":2757,
+      "description":"Pallet Mfg/Repair/Reconditioning",
+      "class_sub_code":"1",
+      "sic_code":2448,
+      "sic_code_desc":"WOOD PALLETS AND SKIDS"
+   },
+   "7207-3":{
+      "class_code":7207,
+      "description":"Horse Shows - stable employees",
+      "class_sub_code":"3",
+      "sic_code":272,
+      "sic_code_desc":"PERIODICALS: PUBLISHING, OR PUBLISHING AND PRINTING"
+   },
+   "7721-1":{
+      "class_code":7721,
+      "description":"Detective/Private Investigative Agencies",
+      "class_sub_code":"1",
+      "sic_code":9229,
+      "sic_code_desc":"PUBLIC ORDER AND SAFETY, NOT ELSEWHERE CLASSIFIED"
+   },
+   "7721-2":{
+      "class_code":7721,
+      "description":"Security Guard/Patrol Services",
+      "class_sub_code":"2",
+      "sic_code":9229,
+      "sic_code_desc":"PUBLIC ORDER AND SAFETY, NOT ELSEWHERE CLASSIFIED"
+   },
+   "2757-2":{
+      "class_code":2757,
+      "description":"Pallet Dealers",
+      "class_sub_code":"2",
+      "sic_code":2448,
+      "sic_code_desc":"WOOD PALLETS AND SKIDS"
+   }
+}

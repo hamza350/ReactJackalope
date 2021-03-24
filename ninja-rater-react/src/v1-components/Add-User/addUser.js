@@ -8,19 +8,44 @@ import ReactDOM from "react-dom";
 import "../../../src/App.css";
 
 class AddUser extends React.Component {
+    referComp = null;
+
     constructor(props) {
-        super(props);   
+        super(props); 
+        this.state = {
+            userValues: []
+        }  
+        // this.settingValues = this.settingValues.bind(this);
+        this.referComp = this;
+    }
+
+    componentDidMount() {
+        debugger
+        this.props.ninjaRaterApp.state.ninjaStore.userInfo.masterUserId = 1233;
+        if(this.props.ninjaRaterApp.state.ninjaStore.userInfo.masterUserId == null){
+            $("add_user_id").prop('disabled', true)
+        }else{
+            
+        }
     }
     
+    settingValues(uservalues) {
+        this.setState({userValues: uservalues});
+    }
+
     render() {
-        $(function () {
+        debugger;
+        let refer_first = this;
+        $(function (refer_first) {
+            debugger;
             var actions = $("table td:last-child").html();
             // Append table with add row form on add new button click
             $(document).on("click", ".add-new", function () {
-                if($(".add-user tr").length>3){
+                if($(".add-user tr").length > 3){
                     alert("You can add upto 3 users only");
                     return false;
                 }
+                $("table tr:last-child")[1].remove();
                 $(this).attr("disabled", "disabled");
                 var index = $("table.add-user tbody tr:last-child").index();
                 var row = '<tr>' +
@@ -31,6 +56,7 @@ class AddUser extends React.Component {
                     '<td><input type="text" class="form-control" name="email" id="email"></td>' +
                     '<td>' + actions + '</td>' +
                     '</tr>';
+                debugger;    
                 $("table.add-user").append(row);
                 $("table.add-user tbody tr").eq(index + 1).find(".add, .edit").toggle();
             });
@@ -48,11 +74,15 @@ class AddUser extends React.Component {
                 });
                 $(this).parents("tr").find(".error").first().focus();
                 if (!empty) {
+                    let uservalues =[] ;
                     input.each(function () {
-                        $(this).parent("td").html($(this).val());
+                        uservalues.push($(this).val()); 
                     });
+                    debugger
+                    // this.settingValues(uservalues);
                     $(this).parents("tr").find(".add, .edit").toggle();
                     $(".add-new").removeAttr("disabled");
+                    debugger
                 }
             });
             // Edit row on edit button click
@@ -87,7 +117,8 @@ class AddUser extends React.Component {
                                     float: "right",
                                     marginBottom: "15px"
                                 }}
-                                label="Add User"></Button>
+                                label="Add User"
+                                id="add_user_id"></Button>
                             </div>
                             <div className="table-responsive">
                                 <table className="table table-bordered add-user">
@@ -103,35 +134,11 @@ class AddUser extends React.Component {
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>thiru</td>
-                                            <td>olive@123</td>
-                                            <td>Thiru</td>
-                                            <td>Basani</td>
-                                            <td>thirumalesh@olivetech.net</td>
-                                            <td>
-                                                <a className="add" title="Add" ><i className="material-icons">&#xE03B;</i></a>
-                                                <a className="edit" title="Edit" ><i className="material-icons">&#xE254;</i></a>
-                                                <a className="delete" title="Delete" ><i className="material-icons">&#xE872;</i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>vijaya</td>
-                                            <td>vijaya@123</td>
-                                            <td>Vijaya</td>
-                                            <td>Nemala</td>
-                                            <td>vijaya@olivetech.net</td>
-                                            <td>
-                                                <a className="add" title="Add" ><i className="material-icons">&#xE03B;</i></a>
-                                                <a className="edit" title="Edit" ><i className="material-icons">&#xE254;</i></a>
-                                                <a className="delete" title="Delete" ><i className="material-icons">&#xE872;</i></a>
-                                            </td>
-                                        </tr>
-                                        <tr>
-                                            <td>vishva</td>
-                                            <td>prasad@123</td>
-                                            <td>Vishva</td>
-                                            <td>Peddi</td>
-                                            <td>vishvaprasad@olivetech.net</td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
+                                            <td></td>
                                             <td>
                                                 <a className="add" title="Add" ><i className="material-icons">&#xE03B;</i></a>
                                                 <a className="edit" title="Edit" ><i className="material-icons">&#xE254;</i></a>
