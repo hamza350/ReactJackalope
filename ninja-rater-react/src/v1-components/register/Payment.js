@@ -1,72 +1,55 @@
 import React, { Component } from "react";
-import "./payment.css"
+import "./payment.css";
 import {
   CardElement,
   Elements,
   useStripe,
   useElements,
-} from '@stripe/react-stripe-js';
-import {loadStripe} from '@stripe/stripe-js';
+} from "@stripe/react-stripe-js";
+import { loadStripe } from "@stripe/stripe-js";
 import { StripeProvider } from "react-stripe-elements";
-
+import { Link } from "react-router-dom";
+import { toAbsoluteUrl } from "../../_metronic/_helpers";
 
 const StripePayment = (props) => {
-  const chosenPlan  = props.chosenPlan;
-  const styles  = props.styles;
-  let stripe="pk_test_51HGD7HEdu9JfEzPrFMgNkpRpqxvvApxA2wfwIxwHzxaGIbpKDRsBf6WpbN4f071KovBx7eGzoj2dd2WKHmH4DYW500wyNEUkg2";
+  const chosenPlan = props.chosenPlan;
+  const styles = props.styles;
+  let stripe =
+    "pk_test_51HGD7HEdu9JfEzPrFMgNkpRpqxvvApxA2wfwIxwHzxaGIbpKDRsBf6WpbN4f071KovBx7eGzoj2dd2WKHmH4DYW500wyNEUkg2";
+  const buttonStyle = {
+    background: "linear-gradient(135deg, #8426b0 3%, #bd0283 47%, #ec4b3c 98%)",
+  };
   return (
-      <div className="container" style={{backgroundColor: 'white', height: 'auto'}}>
-        <div className={styles.desc_selected_pln}>
-         {chosenPlan.planPrice == null ? (
-            <span>Monthly installments </span>
-          ) : (
-            <span>{chosenPlan.planName} installments </span>
-          )}
-          {/* <span>{chosenPlan.duration}</span> */}
-          {chosenPlan.planPrice != null ? (
-            <span>${chosenPlan.planPrice}</span>
-          ) : (
-            <span>$19.99</span>
-          )}
-        </div>
-        <p className={styles.bank_acc_desc}>Bank Account Information:</p>
-        <span className={styles.desclaimer_desc}>
-          Disclaimer: The subscription can be cancelled at anytime and is billed
-          on a monthly basis, unless the annual option has been selected.
-        </span>
-      <div id="DIV_1">
+    <div
+      className="container"
+      style={{ backgroundColor: "white", height: "auto" }}
+    >
+      <div id="DIV_1" style={{ height: "580px" }}>
         <div id="DIV_2">
           <header id="HEADER_3">
             <div id="DIV_4">
               <div id="DIV_5">
-                <a href="http://localhost:3000/checkout?canceled=true" title="Testing Account" id="A_6"></a>
+                <a
+                  href="http://localhost:3000/checkout?canceled=true"
+                  title="Testing Account"
+                  id="A_6"
+                ></a>
                 <div id="DIV_7">
                   <div id="DIV_8">
                     <div id="DIV_9">
                       <svg id="svg_10">
-                        <path id="path_11">
-                        </path>
+                        <path id="path_16"></path>
                       </svg>
                     </div>
                     <div id="DIV_12">
                       <div id="DIV_13">
-                        <div id="DIV_14">
-                          <svg id="svg_15">
-                            <path id="path_16">
-                            </path>
-                          </svg>
-                        </div><span id="SPAN_17">Back</span>
-                        <h1 id="H1_18">
-                          Testing Account
-                        </h1>
+                        <span id="SPAN_17">Back</span>
+                        <h1 id="H1_18">Testing Account</h1>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div id="DIV_19">
-                  <div id="DIV_20">
-                    <span id="SPAN_21">Test Mode</span>
-                  </div>
                   <div id="DIV_22">
                     <span id="SPAN_23">Test</span>
                   </div>
@@ -78,29 +61,39 @@ const StripePayment = (props) => {
             <div id="DIV_25">
               <div id="DIV_26">
                 <div id="DIV_27">
-                  <img src="https://d1wqzb5bdbcre6.cloudfront.net/52398e185dc774e1b3c0090e3bd35d6af24b6b05/68747470733a2f2f692e696d6775722e636f6d2f45487952326e502e706e67" alt="Product" id="IMG_28" />
+                  <Link to="/" className="mt-5" style={{ marginLeft: "130px" }}>
+                    <img
+                      alt="Logo"
+                      style={{ height: "150px" }}
+                      className="max-h-200px mb-10"
+                      src={toAbsoluteUrl("/media/logos/jlop.png")}
+                    />
+                  </Link>
+                  {/* <img
+                    src="https://d1wqzb5bdbcre6.cloudfront.net/52398e185dc774e1b3c0090e3bd35d6af24b6b05/68747470733a2f2f692e696d6775722e636f6d2f45487952326e502e706e67"
+                    alt="Product"
+                    id="IMG_28"
+                  /> */}
                 </div>
               </div>
               <div id="DIV_29">
-                <span id="SPAN_30">Stubborn Attachments</span><span id="SPAN_31">$20.00</span><span id="SPAN_32"></span>
-                <div id="DIV_33">
-                </div>
+                <span id="SPAN_30">Monthly Installment</span>
+                <span id="SPAN_31">$19.99</span>
+                <span id="SPAN_32"></span>
+                <div id="DIV_33"></div>
               </div>
             </div>
           </div>
         </div>
-        <div id="DIV_34">
+        <div id="DIV_34" style={{ marginRight: "145px" }}>
           <div id="DIV_35">
             <div id="DIV_36">
               <div id="DIV_37">
                 <div id="DIV_38">
-                  <div id="DIV_39">
-                    Pay with card
-                  </div>
+                  <div id="DIV_39">Pay with card</div>
                 </div>
               </div>
-              <div id="DIV_40">
-              </div>
+              <div id="DIV_40"></div>
             </div>
             <form id="FORM_41">
               <div id="DIV_42">
@@ -115,11 +108,15 @@ const StripePayment = (props) => {
                       <div id="DIV_49">
                         <div id="DIV_50">
                           <div id="DIV_51">
-                            <span id="SPAN_52"><input id="INPUT_53" name="email" type="text" /></span>
+                            <span id="SPAN_52">
+                              <input id="INPUT_53" name="email" type="text" />
+                            </span>
                           </div>
                         </div>
                         <div id="DIV_54">
-                          <span id="SPAN_55"><span id="SPAN_56"></span></span>
+                          <span id="SPAN_55">
+                            <span id="SPAN_56"></span>
+                          </span>
                         </div>
                       </div>
                     </div>
@@ -139,47 +136,111 @@ const StripePayment = (props) => {
                         <div id="DIV_65">
                           <div id="DIV_66">
                             <span id="SPAN_67">
-                                <Elements stripe={loadStripe(stripe)}>
-                                  <CardElement />
-                                </Elements>
+                              <Elements stripe={loadStripe(stripe)}>
+                                <CardElement />
+                              </Elements>
                             </span>
                             <div id="DIV_69">
                               <div id="DIV_70">
-                                <span id="SPAN_71"><img src="https://js.stripe.com/v3/fingerprinted/img/visa-365725566f9578a9589553aa9296d178.svg" alt="visa" id="IMG_72" /></span>
+                                <span id="SPAN_71">
+                                  <img
+                                    src="https://js.stripe.com/v3/fingerprinted/img/visa-365725566f9578a9589553aa9296d178.svg"
+                                    alt="visa"
+                                    id="IMG_72"
+                                  />
+                                </span>
                               </div>
                               <div id="DIV_73">
-                                <span id="SPAN_74"><img src="https://js.stripe.com/v3/fingerprinted/img/mastercard-4d8844094130711885b5e41b28c9848f.svg" alt="mastercard" id="IMG_75" /></span>
+                                <span id="SPAN_74">
+                                  <img
+                                    src="https://js.stripe.com/v3/fingerprinted/img/mastercard-4d8844094130711885b5e41b28c9848f.svg"
+                                    alt="mastercard"
+                                    id="IMG_75"
+                                  />
+                                </span>
                               </div>
                               <div id="DIV_76">
-                                <span id="SPAN_77"><img src="https://js.stripe.com/v3/fingerprinted/img/amex-a49b82f46c5cd6a96a6e418a6ca1717c.svg" alt="amex" id="IMG_78" /></span>
+                                <span id="SPAN_77">
+                                  <img
+                                    src="https://js.stripe.com/v3/fingerprinted/img/amex-a49b82f46c5cd6a96a6e418a6ca1717c.svg"
+                                    alt="amex"
+                                    id="IMG_78"
+                                  />
+                                </span>
                               </div>
                               <div id="DIV_79">
-                                <span id="SPAN_80"><span id="SPAN_81"><img src="https://js.stripe.com/v3/fingerprinted/img/unionpay-8a10aefc7295216c338ba4e1224627a1.svg" alt="unionpay" id="IMG_82" /></span></span><span id="SPAN_83"><span id="SPAN_84"><img src="https://js.stripe.com/v3/fingerprinted/img/jcb-271fd06e6e7a2c52692ffa91a95fb64f.svg" alt="jcb" id="IMG_85" /></span></span><span id="SPAN_86"><span id="SPAN_87"><img src="https://js.stripe.com/v3/fingerprinted/img/discover-ac52cd46f89fa40a29a0bfb954e33173.svg" alt="discover" id="IMG_88" /></span></span><span id="SPAN_89"><span id="SPAN_90"><img src="https://js.stripe.com/v3/fingerprinted/img/diners-fbcbd3360f8e3f629cdaa80e93abdb8b.svg" alt="diners" id="IMG_91" /></span></span>
+                                <span id="SPAN_80">
+                                  <span id="SPAN_81">
+                                    <img
+                                      src="https://js.stripe.com/v3/fingerprinted/img/unionpay-8a10aefc7295216c338ba4e1224627a1.svg"
+                                      alt="unionpay"
+                                      id="IMG_82"
+                                    />
+                                  </span>
+                                </span>
+                                <span id="SPAN_83">
+                                  <span id="SPAN_84">
+                                    <img
+                                      src="https://js.stripe.com/v3/fingerprinted/img/jcb-271fd06e6e7a2c52692ffa91a95fb64f.svg"
+                                      alt="jcb"
+                                      id="IMG_85"
+                                    />
+                                  </span>
+                                </span>
+                                <span id="SPAN_86">
+                                  <span id="SPAN_87">
+                                    <img
+                                      src="https://js.stripe.com/v3/fingerprinted/img/discover-ac52cd46f89fa40a29a0bfb954e33173.svg"
+                                      alt="discover"
+                                      id="IMG_88"
+                                    />
+                                  </span>
+                                </span>
+                                <span id="SPAN_89">
+                                  <span id="SPAN_90">
+                                    <img
+                                      src="https://js.stripe.com/v3/fingerprinted/img/diners-fbcbd3360f8e3f629cdaa80e93abdb8b.svg"
+                                      alt="diners"
+                                      id="IMG_91"
+                                    />
+                                  </span>
+                                </span>
                               </div>
                             </div>
                           </div>
                         </div>
                         <div id="DIV_92">
                           <div id="DIV_93">
-                            <span id="SPAN_94"><input id="INPUT_95" name="cardExpiry" type="text" placeholder="MM / YY" /></span>
+                            <span id="SPAN_94" style={{ marginTop: "20px" }}>
+                              <input
+                                id="INPUT_95"
+                                name="cardExpiry"
+                                type="text"
+                                placeholder="MM / YY"
+                              />
+                            </span>
                           </div>
                         </div>
                         <div id="DIV_96">
                           <div id="DIV_97">
-                            <span id="SPAN_98"><input id="INPUT_99" name="cardCvc" type="text" placeholder="CVC" /></span>
+                            <span id="SPAN_98" style={{ marginTop: "20px" }}>
+                              <input
+                                id="INPUT_99"
+                                name="cardCvc"
+                                type="text"
+                                placeholder="CVC"
+                              />
+                            </span>
                             <div id="DIV_100">
                               <svg id="svg_101">
                                 <g id="g_102">
                                   <g id="g_103">
                                     <g id="g_104">
-                                      <path id="path_105">
-                                      </path>
-                                      <path id="path_106">
-                                      </path>
+                                      <path id="path_105"></path>
+                                      <path id="path_106"></path>
                                     </g>
                                     <g id="g_107">
-                                      <path id="path_108">
-                                      </path>
+                                      <path id="path_108"></path>
                                     </g>
                                   </g>
                                 </g>
@@ -188,14 +249,16 @@ const StripePayment = (props) => {
                           </div>
                         </div>
                         <div id="DIV_109">
-                          <span id="SPAN_110"><span id="SPAN_111"></span></span>
+                          <span id="SPAN_110">
+                            <span id="SPAN_111"></span>
+                          </span>
                         </div>
                       </div>
                     </fieldset>
                   </div>
                 </div>
                 <div id="DIV_112">
-                  <div id="DIV_113">
+                  <div id="DIV_113" style={{ marginTop: "10px" }}>
                     <div id="DIV_114">
                       <div id="DIV_115">
                         <div id="DIV_116">
@@ -208,11 +271,19 @@ const StripePayment = (props) => {
                             <div id="DIV_121">
                               <div id="DIV_122">
                                 <div id="DIV_123">
-                                  <span id="SPAN_124"><input id="INPUT_125" name="billingName" type="text" /></span>
+                                  <span id="SPAN_124">
+                                    <input
+                                      id="INPUT_125"
+                                      name="billingName"
+                                      type="text"
+                                    />
+                                  </span>
                                 </div>
                               </div>
                               <div id="DIV_126">
-                                <span id="SPAN_127"><span id="SPAN_128"></span></span>
+                                <span id="SPAN_127">
+                                  <span id="SPAN_128"></span>
+                                </span>
                               </div>
                             </div>
                           </div>
@@ -231,9 +302,11 @@ const StripePayment = (props) => {
                                 <div id="DIV_137">
                                   <div id="DIV_138">
                                     <div id="DIV_139">
-                                      <select id="SELECT_140" name="billingCountry">
-                                        <option id="OPTION_141">
-                                        </option>
+                                      <select
+                                        id="SELECT_140"
+                                        name="billingCountry"
+                                      >
+                                        <option id="OPTION_141"></option>
                                         <option value="AF" id="OPTION_142">
                                           Afghanistan
                                         </option>
@@ -805,7 +878,8 @@ const StripePayment = (props) => {
                                           South Africa
                                         </option>
                                         <option value="GS" id="OPTION_332">
-                                          South Georgia &amp; South Sandwich Islands
+                                          South Georgia &amp; South Sandwich
+                                          Islands
                                         </option>
                                         <option value="SS" id="OPTION_333">
                                           South Sudan
@@ -944,15 +1018,16 @@ const StripePayment = (props) => {
                                         </option>
                                       </select>
                                       <svg id="svg_378">
-                                        <path id="path_379">
-                                        </path>
+                                        <path id="path_379"></path>
                                       </svg>
                                     </div>
                                   </div>
                                 </div>
                               </div>
                               <div id="DIV_380">
-                                <span id="SPAN_381"><span id="SPAN_382"></span></span>
+                                <span id="SPAN_381">
+                                  <span id="SPAN_382"></span>
+                                </span>
                               </div>
                             </div>
                           </div>
@@ -961,30 +1036,34 @@ const StripePayment = (props) => {
                     </div>
                   </div>
                 </div>
-                <div id="DIV_383">
-                </div>
+                <div id="DIV_383"></div>
                 <div id="DIV_384">
-                  <button type="submit" id="BUTTON_385">
+                  <button
+                    id="BUTTON_385"
+                    type="submit"
+                    className="btn btn-primary font-weight-bold px-9 py-4 my-3  border border-left-0 "
+                    style={buttonStyle}
+                  >
+                    <span>Pay Now</span>
                   </button>
-                  <div id="DIV_386">
-                  </div>
+                  {/* <button type="submit" id="BUTTON_385">Pay Now</button> */}
+                  <div id="DIV_386"></div>
                   <div id="DIV_387">
-                    <span id="SPAN_388">Pay $20.00</span><span id="SPAN_389">Processing...</span>
+                    <span id="SPAN_388">Pay $20.00</span>
+                    <span id="SPAN_389">Processing...</span>
                   </div>
                   <div id="DIV_390">
                     <div id="DIV_391">
                       <div id="DIV_392">
                         <svg id="svg_393">
-                          <path id="path_394">
-                          </path>
+                          <path id="path_394"></path>
                         </svg>
                       </div>
                     </div>
                     <div id="DIV_395">
                       <div id="DIV_396">
                         <svg id="svg_397">
-                          <ellipse id="ellipse_398">
-                          </ellipse>
+                          <ellipse id="ellipse_398"></ellipse>
                         </svg>
                       </div>
                     </div>
@@ -992,41 +1071,51 @@ const StripePayment = (props) => {
                   <div id="DIV_399">
                     <div id="DIV_400">
                       <svg id="svg_401">
-                        <path id="path_402">
-                        </path>
+                        <path id="path_402"></path>
                       </svg>
                     </div>
                   </div>
                   <div id="DIV_403">
-                    <div id="DIV_404">
-                    </div>
+                    <div id="DIV_404"></div>
                   </div>
                 </div>
               </div>
             </form>
           </div>
+          <span className={styles.desclaimer_desc}>
+            Disclaimer: The subscription can be cancelled at anytime and is
+            billed on a monthly basis, unless the annual option has been
+            selected.
+          </span>
         </div>
-        <footer id="FOOTER_405" style={{alignContent: 'center'}}>
+
+        <footer id="FOOTER_405" style={{ alignContent: "center" }}>
           <div id="DIV_406">
-            <a href="https://stripe.com/" rel="noopener" id="A_407"><span id="SPAN_408">Powered by</span></a>
+            <a href="https://stripe.com/" rel="noopener" id="A_407">
+              <span id="SPAN_408">Powered by</span>
+            </a>
             <svg id="svg_409">
               <g id="g_410">
-                <path id="path_411">
-                </path>
+                <path id="path_411"></path>
               </g>
             </svg>
           </div>
           <div id="DIV_412">
-            <a href="https://stripe.com/checkout/terms" rel="noopener" id="A_413"><span id="SPAN_414">Terms</span></a><a href="https://stripe.com/privacy" rel="noopener" id="A_415"><span id="SPAN_416">Privacy</span></a>
+            <a
+              href="https://stripe.com/checkout/terms"
+              rel="noopener"
+              id="A_413"
+            >
+              <span id="SPAN_414">Terms</span>
+            </a>
+            <a href="https://stripe.com/privacy" rel="noopener" id="A_415">
+              <span id="SPAN_416">Privacy</span>
+            </a>
           </div>
         </footer>
       </div>
     </div>
   );
-}
-
-
-
-
+};
 
 export default StripePayment;
