@@ -1122,8 +1122,8 @@
   column-rule-color: rgba(26, 26, 26, 0.9);
   cursor: pointer;
   text-decoration: none solid rgba(26, 26, 26, 0.9);
-  text-size-adjust: 100%;
-  white-space: nowrap;
+  /* text-size-adjust: 100%; */
+  /* white-space: nowrap; */
   border: 0px none rgba(26, 26, 26, 0.9);
   font: 500 14px / 18.2px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   outline: rgba(26, 26, 26, 0.9) none 0px;
@@ -1139,8 +1139,8 @@
   column-rule-color: rgba(26, 26, 26, 0.9);
   cursor: pointer;
   text-decoration: none solid rgba(26, 26, 26, 0.9);
-  text-size-adjust: 100%;
-  white-space: nowrap;
+  /* text-size-adjust: 100%; */
+  /* white-space: nowrap; */
   border: 0px none rgba(26, 26, 26, 0.9);
   font: 500 14px / 18.2px -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Ubuntu, sans-serif;
   outline: rgba(26, 26, 26, 0.9) none 0px;

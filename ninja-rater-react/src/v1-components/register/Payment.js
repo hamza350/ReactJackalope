@@ -28,27 +28,8 @@ const StripePayment = (props) => {
         <div id="DIV_2">
           <header id="HEADER_3">
             <div id="DIV_4">
-              <div id="DIV_5">
-                <a
-                  href="http://localhost:3000/checkout?canceled=true"
-                  title="Testing Account"
-                  id="A_6"
-                ></a>
-                <div id="DIV_7">
-                  <div id="DIV_8">
-                    <div id="DIV_9">
-                      <svg id="svg_10">
-                        <path id="path_16"></path>
-                      </svg>
-                    </div>
-                    <div id="DIV_12">
-                      <div id="DIV_13">
-                        <span id="SPAN_17">Back</span>
-                        <h1 id="H1_18">Testing Account</h1>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+              <div id="DIV_5" style={{ paddingLeft: "110px" }}>
+                <p className={styles.bank_acc_desc}>Bank Account Information</p>
                 <div id="DIV_19">
                   <div id="DIV_22">
                     <span id="SPAN_23">Test</span>
@@ -64,7 +45,6 @@ const StripePayment = (props) => {
                   <Link to="/" className="mt-5" style={{ marginLeft: "130px" }}>
                     <img
                       alt="Logo"
-                      style={{ height: "150px" }}
                       className="max-h-200px mb-10"
                       src={toAbsoluteUrl("/media/logos/jlop.png")}
                     />
