@@ -15,12 +15,10 @@ class AddUser extends React.Component {
         this.state = {
             userValues: []
         }  
-        // this.settingValues = this.settingValues.bind(this);
-        this.referComp = this;
+        this.settingValues = this.settingValues.bind(this);
     }
 
     componentDidMount() {
-        debugger
         this.props.ninjaRaterApp.state.ninjaStore.userInfo.masterUserId = 1233;
         if(this.props.ninjaRaterApp.state.ninjaStore.userInfo.masterUserId == null){
             $("add_user_id").prop('disabled', true)
@@ -29,22 +27,18 @@ class AddUser extends React.Component {
         }
     }
     
-    settingValues(uservalues) {
-        this.setState({userValues: uservalues});
-    }
-
-    render() {
-        debugger;
-        let refer_first = this;
-        $(function (refer_first) {
-            debugger;
-            var actions = $("table td:last-child").html();
+    settingValues() {
+        debugger;   
+        let _this = this; 
+        // this.setState({userValues: uservalues});'
+        var actions = $("table td:last-child").html();
             // Append table with add row form on add new button click
-            $(document).on("click", ".add-new", function () {
+            $(document).on("click", ".add-new", function (_this) {
                 if($(".add-user tr").length > 3){
                     alert("You can add upto 3 users only");
                     return false;
                 }
+                debugger
                 $("table tr:last-child")[1].remove();
                 $(this).attr("disabled", "disabled");
                 var index = $("table.add-user tbody tr:last-child").index();
@@ -56,7 +50,6 @@ class AddUser extends React.Component {
                     '<td><input type="text" class="form-control" name="email" id="email"></td>' +
                     '<td>' + actions + '</td>' +
                     '</tr>';
-                debugger;    
                 $("table.add-user").append(row);
                 $("table.add-user tbody tr").eq(index + 1).find(".add, .edit").toggle();
             });
@@ -98,7 +91,11 @@ class AddUser extends React.Component {
                 $(this).parents("tr").remove();
                 $(".add-new").removeAttr("disabled");
             });
-        });
+
+    }
+
+    render() {
+        this.settingValues();
         return (
             <div className="ui-g-12 no-padding">
                 <p className={["previous_head", "commonButtonClass"].join(" ")}>

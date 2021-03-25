@@ -44,7 +44,8 @@ class Register extends Component {
   }
   render() {
     const { tabs, classes } = this.props;
-    let { style, tabSelected, tabLabels } = tabs;
+    let { style, tabLabels } = tabs;
+    let tabSelected = 2;
 
     return (
       <React.Fragment>

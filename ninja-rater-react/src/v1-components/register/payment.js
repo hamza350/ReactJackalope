@@ -17,9 +17,18 @@ import {
   resetFormValidations,
   updateFormValidations,
 } from "../../shared/components/commonValidations";
-import { Elements, StripeProvider } from "react-stripe-elements";
+// import { Elements, StripeProvider } from "react-stripe-elements";
+import {loadStripe} from '@stripe/stripe-js';
+import {
+  CardElement,
+  Elements,
+  useStripe,
+  useElements,
+} from '@stripe/react-stripe-js';
 import * as Constants from "../../Constants";
 import SplitForm from "./StripeElemetsForCreditCard";
+import StripePayment from "./Payment"
+
 class Payment extends Component {
   constructor(props) {
     super(props);
@@ -143,42 +152,46 @@ class Payment extends Component {
     const { chosenPlan } = this.props.createAccountObject;
     console.log("chosenPlan.planPrice", chosenPlan.planPrice);
     return (
-      <div className={styles.payment_sec}>
-        <div className={styles.desc_selected_pln}>
-          {chosenPlan.planPrice == null ? (
-            <span>Monthly installments </span>
-          ) : (
-            <span>{chosenPlan.planName} installments </span>
-          )}
-          {/* <span>{chosenPlan.duration}</span> */}
-          {chosenPlan.planPrice != null ? (
-            <span>${chosenPlan.planPrice}</span>
-          ) : (
-            <span>$19.99</span>
-          )}
-        </div>
-        <p className={styles.bank_acc_desc}>Bank Account Information:</p>
-        <span className={styles.desclaimer_desc}>
-          Disclaimer: The subscription can be cancelled at anytime and is billed
-          on a monthly basis, unless the annual option has been selected.
-        </span>
-        <section className={styles.card_main_sec}>
-          <div className={styles.Checkout}>
-            <StripeProvider stripe={stripe}>
-              <Elements>
-                <SplitForm nextPage={this.Next.bind(this)} />
-              </Elements>
-            </StripeProvider>
-          </div>
-          {/* <div className={styles.each_label_sec_button}>
-            <Customisedbutton
-              name="Next"
-              className={styles.custom_button}
-              onClick={this.Next.bind(this)}
-            />
-          </div> */}
-        </section>
-      </div>
+      <StripePayment />
+      // <div className={styles.payment_sec}>
+      //   <div className={styles.desc_selected_pln}>
+      //     {chosenPlan.planPrice == null ? (
+      //       <span>Monthly installments </span>
+      //     ) : (
+      //       <span>{chosenPlan.planName} installments </span>
+      //     )}
+      //     {/* <span>{chosenPlan.duration}</span> */}
+      //     {chosenPlan.planPrice != null ? (
+      //       <span>${chosenPlan.planPrice}</span>
+      //     ) : (
+      //       <span>$19.99</span>
+      //     )}
+      //   </div>
+      //   <p className={styles.bank_acc_desc}>Bank Account Information:</p>
+      //   <span className={styles.desclaimer_desc}>
+      //     Disclaimer: The subscription can be cancelled at anytime and is billed
+      //     on a monthly basis, unless the annual option has been selected.
+      //   </span>
+      //   <section className={styles.card_main_sec}>
+      //     <Elements stripe={loadStripe("pk_test_51HGD7HEdu9JfEzPrFMgNkpRpqxvvApxA2wfwIxwHzxaGIbpKDRsBf6WpbN4f071KovBx7eGzoj2dd2WKHmH4DYW500wyNEUkg2")}>
+      //       <SplitForm nextPage={this.Next.bind(this)} />
+      //     </Elements>
+      //     {/* <div className={styles.Checkout}>
+      //       <StripeProvider stripe={stripe}>
+      //         <Elements>
+      //           <SplitForm nextPage={this.Next.bind(this)} />
+      //         </Elements>
+      //       </StripeProvider>
+      //     </div>
+      //     {/* <div className={styles.each_label_sec_button}>
+      //       <Customisedbutton
+      //         name="Next"
+      //         className={styles.custom_button}
+      //         onClick={this.Next.bind(this)}
+      //       />
+      //     </div> */} 
+      //   </section>
+      // </div>
     );
   }
 }
