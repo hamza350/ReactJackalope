@@ -152,7 +152,7 @@ class Payment extends Component {
     const { chosenPlan } = this.props.createAccountObject;
     console.log("chosenPlan.planPrice", chosenPlan.planPrice);
     return (
-      <StripePayment />
+      <StripePayment chosenPlan={chosenPlan} styles={styles}/>
       // <div className={styles.payment_sec}>
       //   <div className={styles.desc_selected_pln}>
       //     {chosenPlan.planPrice == null ? (
