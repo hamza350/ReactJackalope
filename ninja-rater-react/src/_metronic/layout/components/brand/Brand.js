@@ -9,14 +9,11 @@ import {toAbsoluteUrl} from "../../../_helpers";
 const headingStyle = {
 	color: 'white',
 	fontWeight: 'normal',
-	fontFamily: 'Ultra sans-serif',   
-	fontSize: '30px',
+	fontFamily: 'sans-serif',   
+	fontSize: '25px',
 	lineHeight: '42px',
 	textTransform: 'uppercase',
 }
-
-
-
 
 
 export function Brand() {
