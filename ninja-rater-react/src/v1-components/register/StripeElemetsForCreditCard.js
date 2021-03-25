@@ -123,6 +123,7 @@ class SplitForm extends React.Component {
         } else {
           const { actions } = this.props;
           const { token } = payload;
+          console.log(createUserData,token.id,'getdatahere')
           actions.createAccount.createUser({
             ...createUserData,
             stripe_token: token.id,

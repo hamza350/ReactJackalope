@@ -94,7 +94,7 @@ function Login(props) {
     <>
       <UserHelper ref={textInputRef} parentComponent={loginInProgress} />
       <div className="container-fluid p-5" id="main1">
-        <div class="row no-gutter">
+        <div class="row no-gutter" style={{marginTop: "80px"}}>
           <div class="col-sm-7 d-none d-sm-flex bg-image">
             <div
               className="login-aside d-flex flex-row-auto bgi-size-cover bgi-no-repeat p-10 p-lg-10"
