@@ -85,6 +85,11 @@ function Login(props) {
   const mystyle = {
     background: "linear-gradient(135deg, #8426b0 3%, #bd0283 47%, #ec4b3c 98%)",
   };
+
+  const pStyle = {
+    fontSize: '20px'
+  }
+
   const buttonStyle = {
     background: "linear-gradient(135deg, #8426b0 3%, #bd0283 47%, #ec4b3c 98%)",
     marginRight: "85px",
@@ -108,8 +113,7 @@ function Login(props) {
                     Welcome to Jackalope!
                   </h3>
                   <p
-                    className="font-weight-lighter text-white opacity-80"
-                    style={{ fontSize: "20px" }}
+                    className={styles.p_font}
                   >
                     The best Insurance carrier providers in your area.
                   </p>

@@ -17,7 +17,7 @@ import {
   resetFormValidations,
   updateFormValidations,
 } from "../../shared/components/commonValidations";
-// import { Elements, StripeProvider } from "react-stripe-elements";
+// import { StripeProvider } from "react-stripe-elements";
 import {loadStripe} from '@stripe/stripe-js';
 import {
   CardElement,

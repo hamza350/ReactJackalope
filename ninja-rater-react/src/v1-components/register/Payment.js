@@ -1089,30 +1089,6 @@ const StripePayment = (props) => {
           </span>
         </div>
 
-        <footer id="FOOTER_405" style={{ alignContent: "center" }}>
-          <div id="DIV_406">
-            <a href="https://stripe.com/" rel="noopener" id="A_407">
-              <span id="SPAN_408">Powered by</span>
-            </a>
-            <svg id="svg_409">
-              <g id="g_410">
-                <path id="path_411"></path>
-              </g>
-            </svg>
-          </div>
-          <div id="DIV_412">
-            <a
-              href="https://stripe.com/checkout/terms"
-              rel="noopener"
-              id="A_413"
-            >
-              <span id="SPAN_414">Terms</span>
-            </a>
-            <a href="https://stripe.com/privacy" rel="noopener" id="A_415">
-              <span id="SPAN_416">Privacy</span>
-            </a>
-          </div>
-        </footer>
       </div>
     </div>
   );

@@ -445,9 +445,9 @@ Stripe Css
   transform: translate(-50%, -50%);
 }
 .coverimage {
-  background: url("https://myjackalope.com/wp-content/uploads/2020/10/OPTtrade10-1024x683-3_9b55709b4e367dcddc125ff35fa99b50.jpg")
+  background: url("/images/header-image.jpg")
     no-repeat center center fixed;
-  height: 50vh;
+  height: 80vh;
   width: 100%;
   background-size: cover;
   position: relative;
@@ -969,7 +969,7 @@ Stripe Css
   }
 }
 .banner_buttons {
-  bottom: 10%;
+  bottom: 30%;
   position: absolute;
   text-align: center;
   width: 100%;
